@@ -15,7 +15,7 @@ export default class BuildButton extends Component {
     let params = {
       headers: {"Access-Control-Allow-Credentials": true}
     }
-    axios.get("http://dnd5eapi.co/api/races/").then((data) => {
+    axios.get('/testProxy').then((data) => {
       console.log(data)
       var nameResult = data.data.results;
       for (var i = 0; i < nameResult.length; i++) {
