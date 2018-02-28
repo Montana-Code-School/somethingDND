@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const User = require('../generator/src/User.js');
 const router = express.Router();
+const request = require('request');
 const PORT = process.env.PORT || 5000;
 mongoose.connect('mongodb://localhost/users');
 
@@ -36,10 +37,9 @@ if (cluster.isMaster) {
     });
   });
 
-  router.get('/test', (req, res) => {
-    res.json({
-      message: 'I did it!'
-    });
+  router.get('/testProxy', (req, res) => {
+      let url = "http://dnd5eapi.co/api/races/";
+      res.json(req.pipe(request(url)).pipe(res));
   });
 
   router.route('/users')
