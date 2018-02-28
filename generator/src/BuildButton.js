@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import random from '../src/random.js';
 
-let ourApi = "https://dnd5eapi.co/api/";
+let ourApi = "http://dnd5eapi.co/api/";
 let races = "races/";
 export default class BuildButton extends Component {
   constructor() {
@@ -12,7 +12,11 @@ export default class BuildButton extends Component {
     };
   }
   buttonClick() {
-    axios.get(ourApi + races).then((data) => {
+    let params = {
+      headers: {"Access-Control-Allow-Credentials": true}
+    }
+    axios.get("http://dnd5eapi.co/api/races/").then((data) => {
+      console.log(data)
       var nameResult = data.data.results;
       for (var i = 0; i < nameResult.length; i++) {
         console.log(nameResult[i].name);

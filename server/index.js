@@ -36,6 +36,12 @@ if (cluster.isMaster) {
     });
   });
 
+  router.get('/test', (req, res) => {
+    res.json({
+      message: 'I did it!'
+    });
+  });
+
   router.route('/users')
     .post(({
       body
