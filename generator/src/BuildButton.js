@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import random from '../src/random.js';
 
-let ourApi = "http://dnd5eapi.co/api/";
+let ourApi = "https://dnd5eapi.co/api/";
 let races = "races/";
 export default class BuildButton extends Component {
   constructor() {
