@@ -4,11 +4,11 @@ const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const User = require('../generator/src/User.js');
+const Database = require('../generator/src/Database.js');
 const router = express.Router();
 const request = require('request');
 const PORT = process.env.PORT || 5000;
-mongoose.connect('mongodb://localhost/users');
+mongoose.connect('mongodb://heroku_fw6bf6l1:kpl68f0vcqgnn6vjo0on0c0jg1@ds151528.mlab.com:51528/heroku_fw6bf6l1');
 
 // Multi-process to utilize all CPU cores.
 if (cluster.isMaster) {
@@ -31,40 +31,37 @@ if (cluster.isMaster) {
     extended: true
   }));
 
-  router.get('/', (req, res) => {
+  router.get('/db', (req, res) => {
     res.json({
       message: 'I did it!'
     });
   });
 
-  router.get('/testProxy', (req, res) => {
-      let url = "http://dnd5eapi.co/api/races/";
-      res.json(req.pipe(request(url)).pipe(res));
-  });
-
-  router.route('/users')
-    .post(({
-      body
-    }, res) => {
-      const user = new User();
-      user.name = body.name;
-      user.save(err => {
-        if (err)
-          res.send(err);
-        res.json({
-          message: 'User created!'
-        });
-      })
-    })
+  router.route('/db')
+    // .post(({
+    //   body
+    // }, res) => {
+    //   const user = new User();
+    //   user.name = body.name;
+    //   user.save(err => {
+    //     if (err)
+    //       res.send(err);
+    //     res.json({
+    //       message: 'User created!'
+    //     });
+    //   })
+    // })
     .get((req, res) => {
       console.log("it works");
-      User.find((err, users) => {
-        console.log(err);
-        if (err)
-          res.send(err);
-
-        res.json(users);
-      });
+      res.set('Content-Type', 'application/json');
+      res.send('{"message":"got sumthin"}');
+      // User.find((err, users) => {
+      //   console.log(err);
+      //   if (err)
+      //     res.send(err);
+      //
+      //   res.json(users);
+      // });
     });
   // Priority serve any static files.
   app.use(express.static(path.resolve(__dirname, '../generator/build')));
