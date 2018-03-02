@@ -21,6 +21,7 @@ class App extends Component {
         return response.json();
       })
       .then(json => {
+        console.log(json)
         this.setState({
           abilityscore: json,
           fetching: false

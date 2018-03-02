@@ -67,7 +67,7 @@ if (cluster.isMaster) {
       })
 
   // Priority serve any static files.
-  // app.use(express.static(path.resolve(__dirname, '../generator/build')));
+   app.use(express.static(path.resolve(__dirname, '../generator/build')));
   //
   // // Answer API requests.
   app.get('/api', function (req, res) {
