@@ -54,7 +54,7 @@ This deployment will automatically:
 If an app was previously deployed with [create-react-app-buildpack](https://github.com/mars/create-react-app-buildpack), then a few steps are required to migrate the app to this architecture:
 
 1. Remove **create-react-app-buildpack** from the app; [heroku/nodejs buildpack](https://devcenter.heroku.com/articles/nodejs-support#activation) will be automatically activated
-  
+
     ```bash
     heroku buildpacks:clear
     ```
@@ -68,13 +68,13 @@ If an app was previously deployed with [create-react-app-buildpack](https://gith
     ```
 1. Create a root [`package.json`](package.json), [`server/`](server/), & [`.gitignore`](.gitignore) modeled after the code in this repo
 1. Commit and deploy ♻️
-  
+
     ```bash
     git add -A
     git commit -m 'Migrate from create-react-app-buildpack to Node server'
     git push heroku master
     ```
-  
+
 
 ## Local Development
 
@@ -107,3 +107,29 @@ npm install
 # Start the server
 npm start
 ```
+router.route('/db')
+  // .post(({
+  //   body
+  // }, res) => {
+  //   const user = new User();
+  //   user.name = body.name;
+  //   user.save(err => {
+  //     if (err)
+  //       res.send(err);
+  //     res.json({
+  //       message: 'User created!'
+  //     });
+  //   })
+  // })
+  .get((req, res) => {
+    console.log("it works");
+    res.set('Content-Type', 'application/json');
+    res.send('{"message":"got sumthin"}');
+    // User.find((err, users) => {
+    //   console.log(err);
+    //   if (err)
+    //     res.send(err);
+    //
+    //   res.json(users);
+    // });
+  });
