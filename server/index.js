@@ -32,12 +32,6 @@ if (cluster.isMaster) {
     extended: true
   }));
 
-  // router.get('/db', (req, res) => {
-  //   res.json({
-  //     message: 'I did it!'
-  //   });
-  // });
-  //
   router.route("/abilityscore")
     .get((req, res) => {
       console.log('Its Alive!');
