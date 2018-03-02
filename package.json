@@ -7,7 +7,8 @@
   },
   "scripts": {
     "start": "node server",
-    "heroku-postbuild": "cd generator/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+    "heroku-postbuild": "cd generator/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "devstart": "./node_modules/nodemon/bin/nodemon.js server"
   },
   "cacheDirectories": [
     "node_modules",
@@ -19,6 +20,7 @@
     "express": "^4.14.1",
     "mongodb": "^3.0.3",
     "mongoose": "^5.0.7",
+    "nodemon": "^1.17.1",
     "request": "^2.83.0"
   },
   "repository": {

@@ -4,11 +4,12 @@ const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const AbilityScores = require('../generator/src/AbilityScores.js');
+const AbilityScore = require('../generator/src/models/AbilityScore.js');
 const router = express.Router();
 const request = require('request');
 const PORT = process.env.PORT || 5000;
-const ourConnect = mongoose.createConnection('mongodb://heroku_fw6bf6l1:kpl68f0vcqgnn6vjo0on0c0jg1@ds151528.mlab.com:51528/heroku_fw6bf6l1');
+mongoose.connection.openUri('mongodb://localhost/DnD');
+// const ourConnect = mongoose.createConnection('mongodb://heroku_fw6bf6l1:kpl68f0vcqgnn6vjo0on0c0jg1@ds151528.mlab.com:51528/heroku_fw6bf6l1');
 
 // Multi-process to utilize all CPU cores.
 if (cluster.isMaster) {
@@ -31,23 +32,44 @@ if (cluster.isMaster) {
     extended: true
   }));
 
-  router.get('/db', (req, res) => {
-    res.json({
-      message: 'I did it!'
-    });
-  });
-
+  // router.get('/db', (req, res) => {
+  //   res.json({
+  //     message: 'I did it!'
+  //   });
+  // });
+  //
   router.route("/abilityscore")
     .get((req, res) => {
       console.log('Its Alive!');
-      AbilityScores.find((err, abilityscores) => {
+      AbilityScore.find((err, abilityscores) => {
         console.log(abilityscores)
       if (err)
         res.send(err);
 
         res.json(abilityscores);
+        })
+    })
+    .post(({body}, res) => {
+      const abilityscore = new AbilityScore();
+      abilityscore.full_name = "puffer fish yall";
+      abilityscore.save(err => {
+        if (err)
+          res.send(err);
+
+        res.json({
+          message: "Ability Score Made MoFo!!"
+        });
       })
     })
+
+    router.route("/abilityscore/:index")
+      .get(({params}, res) => {
+        AbilityScore.find({index: params.index}, (err, abilityscore) => {
+          if(err)
+            res.send(err);
+          res.json(abilityscore);
+        });
+      })
 
   // Priority serve any static files.
   // app.use(express.static(path.resolve(__dirname, '../generator/build')));
