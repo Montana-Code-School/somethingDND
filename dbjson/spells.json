@@ -6163,18 +6163,18 @@
   "casting_time": "1 action",
   "level": 9,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/192"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/192"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c89"
@@ -6191,18 +6191,18 @@
   "casting_time": "1 action",
   "level": 8,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/193"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/193"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c8a"
@@ -6220,27 +6220,27 @@
   "casting_time": "1 action",
   "level": 0,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/194"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/194"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c8b"
@@ -6257,21 +6257,21 @@
   "casting_time": "10 minutes",
   "level": 7,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/195"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/195"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c8c"
@@ -6290,23 +6290,23 @@
   "level": 0,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/191"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/191"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c8d"
@@ -6354,27 +6354,27 @@
   "casting_time": "1 action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/196"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/196"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c8f"
@@ -6391,18 +6391,18 @@
   "casting_time": "1 action",
   "level": 5,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/197"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/197"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c90"
@@ -6419,27 +6419,27 @@
   "casting_time": "1 bonus action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/198"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/198"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c91"
@@ -6458,18 +6458,18 @@
   "casting_time": "1 action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/200"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/200"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c92"
@@ -6488,17 +6488,17 @@
   "level": 5,
   "school": {
     "name": "Enchantment",
-    "url": "http://dnd5eapi.co/api/magic-schools/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/4"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/199"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/199"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c93"
@@ -6558,20 +6558,20 @@
   "level": 6,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/201"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/201"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c95"
@@ -6589,15 +6589,15 @@
   "casting_time": "1 action",
   "level": 4,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/205"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/205"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c96"
@@ -6614,18 +6614,18 @@
   "casting_time": "1 minute",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/206"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/206"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c97"
@@ -6643,24 +6643,24 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/202"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/202"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c98"
@@ -6677,15 +6677,15 @@
   "casting_time": "10 minutes",
   "level": 6,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/207"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/207"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c99"
@@ -6704,24 +6704,24 @@
   "casting_time": "1 hour",
   "level": 5,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/208"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/208"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c9a"
@@ -6740,17 +6740,17 @@
   "level": 5,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/204"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/204"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c9b"
@@ -6768,26 +6768,26 @@
   "level": 3,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/210"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/210"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c9c"
@@ -6805,27 +6805,27 @@
   "casting_time": "1 action",
   "level": 7,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/209"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/209"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c9d"
@@ -6844,23 +6844,23 @@
   "level": 4,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/211"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/211"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c9e"
@@ -6878,23 +6878,23 @@
   "level": 9,
   "school": {
     "name": "Enchantment",
-    "url": "http://dnd5eapi.co/api/magic-schools/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/4"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/212"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/212"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104c9f"
@@ -6912,23 +6912,23 @@
   "level": 8,
   "school": {
     "name": "Enchantment",
-    "url": "http://dnd5eapi.co/api/magic-schools/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/4"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/213"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/213"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ca0"
@@ -6946,24 +6946,24 @@
   "casting_time": "1 action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/203"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/203"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ca1"
@@ -6981,18 +6981,18 @@
   "casting_time": "10 minutes",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/214"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/214"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ca2"
@@ -7010,26 +7010,26 @@
   "level": 0,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/215"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/215"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ca3"
@@ -7046,18 +7046,18 @@
   "casting_time": "1 action",
   "level": 7,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/216"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/216"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ca4"
@@ -7074,15 +7074,15 @@
   "casting_time": "1 action",
   "level": 9,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/217"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/217"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ca5"
@@ -7100,18 +7100,18 @@
   "casting_time": "1 action",
   "level": 6,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/220"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/220"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ca6"
@@ -7129,18 +7129,18 @@
   "casting_time": "1 action",
   "level": 7,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/221"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/221"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ca7"
@@ -7157,18 +7157,18 @@
   "casting_time": "1 action",
   "level": 0,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/219"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/219"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ca8"
@@ -7185,33 +7185,33 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/222"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/222"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ca9"
@@ -7229,30 +7229,30 @@
   "casting_time": "1 action",
   "level": 1,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
     "name": "Paladin"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Devotion",
-    "url": "http://dnd5eapi.co/api/subclasses/7"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/7"
   }],
-  "url": "http://dnd5eapi.co/api/spells/223"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/223"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104caa"
@@ -7270,23 +7270,23 @@
   "level": 1,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
     "name": "Paladin"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/225"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/225"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cab"
@@ -7303,27 +7303,27 @@
   "casting_time": "1 action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
     "name": "Paladin"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/224"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/224"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cac"
@@ -7341,24 +7341,24 @@
   "casting_time": "1 hour",
   "level": 5,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/7",
     "name": "Necromancy"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
     "name": "Paladin"
   }],
   "subclasses": [{
     "name": "Life",
-    "url": "http://dnd5eapi.co/api/subclasses/3"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/3"
   }],
-  "url": "http://dnd5eapi.co/api/spells/226"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/226"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cad"
@@ -7377,15 +7377,15 @@
   "casting_time": "10 minutes",
   "level": 4,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/218"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/218"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cae"
@@ -7402,21 +7402,21 @@
   "casting_time": "1 action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/7",
     "name": "Necromancy"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/227"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/227"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104caf"
@@ -7433,27 +7433,27 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
     "name": "Paladin"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/231"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/231"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cb0"
@@ -7471,15 +7471,15 @@
   "casting_time": "1 action",
   "level": 4,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/232"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/232"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cb1"
@@ -7497,21 +7497,21 @@
   "casting_time": "1 action",
   "level": 0,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/233"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/233"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cb2"
@@ -7530,14 +7530,14 @@
   "level": 5,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/230"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/230"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cb3"
@@ -7555,18 +7555,18 @@
   "casting_time": "1 hour",
   "level": 7,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/7",
     "name": "Necromancy"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/234"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/234"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cb4"
@@ -7585,20 +7585,20 @@
   "level": 7,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/235"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/235"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cb5"
@@ -7616,24 +7616,24 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
     "name": "Paladin"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Life",
-    "url": "http://dnd5eapi.co/api/subclasses/3"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/3"
   }],
-  "url": "http://dnd5eapi.co/api/spells/236"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/236"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cb6"
@@ -7652,17 +7652,17 @@
   "level": 2,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/237"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/237"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cb7"
@@ -7679,21 +7679,21 @@
   "casting_time": "1 action",
   "level": 0,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/228"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/228"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cb8"
@@ -7711,24 +7711,24 @@
   "casting_time": "1 action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Fiend",
-    "url": "http://dnd5eapi.co/api/subclasses/11"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/11"
   }],
-  "url": "http://dnd5eapi.co/api/spells/240"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/240"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cb9"
@@ -7745,18 +7745,18 @@
   "casting_time": "1 action",
   "level": 0,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/238"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/238"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cba"
@@ -7774,15 +7774,15 @@
   "casting_time": "1 action",
   "level": 4,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/242"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/242"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cbb"
@@ -7800,30 +7800,30 @@
   "casting_time": "10 minutes",
   "level": 5,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/3",
     "name": "Divination"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/241"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/241"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cbc"
@@ -7841,24 +7841,24 @@
   "casting_time": "1 action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/3",
     "name": "Divination"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/243"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/243"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cbd"
@@ -7875,21 +7875,21 @@
   "casting_time": "1 action",
   "level": 5,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/244"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/244"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cbe"
@@ -7907,24 +7907,24 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/245"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/245"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cbf"
@@ -7942,21 +7942,21 @@
   "casting_time": "1 bonus action",
   "level": 1,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Devotion",
-    "url": "http://dnd5eapi.co/api/subclasses/7"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/7"
   }],
-  "url": "http://dnd5eapi.co/api/spells/239"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/239"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cc0"
@@ -7975,14 +7975,14 @@
   "level": 7,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/246"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/246"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cc1"
@@ -7999,21 +7999,21 @@
   "casting_time": "1 reaction",
   "level": 1,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/249"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/249"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cc2"
@@ -8032,27 +8032,27 @@
   "casting_time": "1 action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/248"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/248"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cc3"
@@ -8071,17 +8071,17 @@
   "level": 9,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/247"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/247"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cc4"
@@ -8099,21 +8099,21 @@
   "casting_time": "1 bonus action",
   "level": 1,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
     "name": "Paladin"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/250"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/250"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cc5"
@@ -8132,20 +8132,20 @@
   "level": 7,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/229"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/229"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cc6"
@@ -8164,17 +8164,17 @@
   "level": 0,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/251"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/251"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cc7"
@@ -8191,21 +8191,21 @@
   "casting_time": "1 action",
   "level": 0,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/252"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/252"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cc8"
@@ -8225,23 +8225,23 @@
   "level": 1,
   "school": {
     "name": "Enchantment",
-    "url": "http://dnd5eapi.co/api/magic-schools/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/4"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/256"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/256"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cc9"
@@ -8259,27 +8259,27 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/257"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/257"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cca"
@@ -8296,27 +8296,27 @@
   "casting_time": "1 action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/253"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/253"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ccb"
@@ -8334,15 +8334,15 @@
   "casting_time": "12 hours",
   "level": 7,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/255"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/255"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ccc"
@@ -8361,23 +8361,23 @@
   "level": 3,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/258"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/258"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ccd"
@@ -8394,24 +8394,24 @@
   "casting_time": "1 action",
   "level": 1,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/3",
     "name": "Divination"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/259"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/259"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cce"
@@ -8429,21 +8429,21 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/7",
     "name": "Necromancy"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/260"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/260"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ccf"
@@ -8461,23 +8461,23 @@
   "level": 3,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/261"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/261"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cd0"
@@ -8496,26 +8496,26 @@
   "level": 2,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/262"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/262"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cd1"
@@ -8533,24 +8533,24 @@
   "casting_time": "1 action",
   "level": 1,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/254"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/254"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cd2"
@@ -8569,23 +8569,23 @@
   "level": 2,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/263"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/263"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cd3"
@@ -8604,18 +8604,18 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/264"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/264"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cd4"
@@ -8633,27 +8633,27 @@
   "casting_time": "1 action",
   "level": 4,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/268"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/268"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cd5"
@@ -8670,15 +8670,15 @@
   "casting_time": "1 action",
   "level": 9,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/269"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/269"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cd6"
@@ -8696,21 +8696,21 @@
   "casting_time": "1 bonus action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Life",
-    "url": "http://dnd5eapi.co/api/subclasses/3"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/3"
   }],
-  "url": "http://dnd5eapi.co/api/spells/265"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/265"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cd7"
@@ -8729,26 +8729,26 @@
   "level": 2,
   "school": {
     "name": "Enchantment",
-    "url": "http://dnd5eapi.co/api/magic-schools/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/4"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/270"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/270"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cd8"
@@ -8766,21 +8766,21 @@
   "casting_time": "1 action",
   "level": 6,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/271"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/271"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cd9"
@@ -8798,21 +8798,21 @@
   "casting_time": "1 action",
   "level": 8,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/272"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/272"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cda"
@@ -8830,17 +8830,17 @@
   "level": 5,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/274"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/274"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cdb"
@@ -8858,21 +8858,21 @@
   "casting_time": "1 minute",
   "level": 7,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/273"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/273"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cdc"
@@ -8891,23 +8891,23 @@
   "level": 4,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/267"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/267"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cdd"
@@ -8925,15 +8925,15 @@
   "casting_time": "1 action",
   "level": 5,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/3",
     "name": "Divination"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/275"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/275"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cde"
@@ -8950,21 +8950,21 @@
   "casting_time": "1 action",
   "level": 7,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/276"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/276"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cdf"
@@ -8982,21 +8982,21 @@
   "casting_time": "1 minute",
   "level": 5,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/277"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/277"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ce0"
@@ -9014,17 +9014,17 @@
   "level": 0,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/278"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/278"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ce1"
@@ -9042,27 +9042,27 @@
   "casting_time": "1 action",
   "level": 1,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/279"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/279"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ce2"
@@ -9080,30 +9080,30 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }, {
     "name": "Fiend",
-    "url": "http://dnd5eapi.co/api/subclasses/11"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/11"
   }],
-  "url": "http://dnd5eapi.co/api/spells/266"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/266"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ce3"
@@ -9120,15 +9120,15 @@
   "casting_time": "1 action",
   "level": 6,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/283"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/283"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ce4"
@@ -9145,21 +9145,21 @@
   "casting_time": "1 action",
   "level": 5,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }],
   "subclasses": [{
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/284"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/284"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ce5"
@@ -9178,20 +9178,20 @@
   "level": 9,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/285"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/285"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ce6"
@@ -9209,30 +9209,30 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/3",
     "name": "Divination"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/282"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/282"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ce7"
@@ -9250,18 +9250,18 @@
   "casting_time": "1 hour",
   "level": 9,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/7",
     "name": "Necromancy"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/286"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/286"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ce8"
@@ -9279,27 +9279,27 @@
   "casting_time": "1 action",
   "level": 6,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/3",
     "name": "Divination"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/287"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/287"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ce9"
@@ -9316,27 +9316,27 @@
   "casting_time": "1 action",
   "level": 0,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/3",
     "name": "Divination"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/288"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/288"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cea"
@@ -9354,24 +9354,24 @@
   "casting_time": "1 action",
   "level": 1,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/289"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/289"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ceb"
@@ -9389,21 +9389,21 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/7",
     "name": "Necromancy"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
     "name": "Warlock"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/290"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/290"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cec"
@@ -9421,17 +9421,17 @@
   "level": 9,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/280"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/280"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104ced"
@@ -9449,15 +9449,15 @@
   "casting_time": "1 action",
   "level": 5,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/292"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/292"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cee"
@@ -9476,24 +9476,24 @@
   "casting_time": "1 action",
   "level": 4,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Fiend",
-    "url": "http://dnd5eapi.co/api/subclasses/11"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/11"
   }],
-  "url": "http://dnd5eapi.co/api/spells/291"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/291"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cef"
@@ -9512,15 +9512,15 @@
   "casting_time": "1 action",
   "level": 6,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/295"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/295"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cf0"
@@ -9538,24 +9538,24 @@
   "casting_time": "1 action",
   "level": 5,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/294"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/294"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cf1"
@@ -9573,18 +9573,18 @@
   "casting_time": "1 action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/1",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/1",
     "name": "Abjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/296"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/296"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cf2"
@@ -9603,15 +9603,15 @@
   "casting_time": "1 action",
   "level": 6,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/293"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/293"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cf3"
@@ -9630,29 +9630,29 @@
   "level": 3,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/297"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/297"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cf4"
@@ -9670,29 +9670,29 @@
   "level": 3,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/298"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/298"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cf5"
@@ -9709,15 +9709,15 @@
   "casting_time": "1 action",
   "level": 9,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/6",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/6",
     "name": "Illusion"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/300"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/300"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cf6"
@@ -9736,14 +9736,14 @@
   "level": 6,
   "school": {
     "name": "Transmutation",
-    "url": "http://dnd5eapi.co/api/magic-schools/8"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/8"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/301"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/301"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cf7"
@@ -9761,24 +9761,24 @@
   "casting_time": "1 action",
   "level": 2,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Land",
-    "url": "http://dnd5eapi.co/api/subclasses/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/4"
   }],
-  "url": "http://dnd5eapi.co/api/spells/299"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/299"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cf8"
@@ -9795,15 +9795,15 @@
   "casting_time": "1 action",
   "level": 6,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/304"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/304"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cf9"
@@ -9821,26 +9821,26 @@
   "level": 2,
   "school": {
     "name": "Enchantment",
-    "url": "http://dnd5eapi.co/api/magic-schools/4"
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/4"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/3",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
     "name": "Cleric"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/7",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
     "name": "Paladin"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }, {
     "name": "Devotion",
-    "url": "http://dnd5eapi.co/api/subclasses/7"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/7"
   }],
-  "url": "http://dnd5eapi.co/api/spells/305"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/305"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cfa"
@@ -9857,18 +9857,18 @@
   "casting_time": "1 action",
   "level": 9,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/2",
     "name": "Conjuration"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/10",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
     "name": "Sorcerer"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [],
-  "url": "http://dnd5eapi.co/api/spells/303"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/303"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cfb"
@@ -9886,21 +9886,21 @@
   "casting_time": "1 minute",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/2",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
     "name": "Bard"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
     "name": "Wizard"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/281"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/281"
 } {
   "_id": {
     "$oid": "5a9ce10e26c967cff4104cfc"
@@ -9918,19 +9918,19 @@
   "casting_time": "1 action",
   "level": 3,
   "school": {
-    "url": "http://dnd5eapi.co/api/magic-schools/5",
+    "url": "https://dndcharcreator.herokuapp.com/api/magic-schools/5",
     "name": "Evocation"
   },
   "classes": [{
-    "url": "http://dnd5eapi.co/api/classes/4",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
     "name": "Druid"
   }, {
-    "url": "http://dnd5eapi.co/api/classes/8",
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
     "name": "Ranger"
   }],
   "subclasses": [{
     "name": "Lore",
-    "url": "http://dnd5eapi.co/api/subclasses/2"
+    "url": "https://dndcharcreator.herokuapp.com/api/subclasses/2"
   }],
-  "url": "http://dnd5eapi.co/api/spells/302"
+  "url": "https://dndcharcreator.herokuapp.com/api/spells/302"
 }
