@@ -1,0 +1,1773 @@
+{
+  "_id": {
+    "$oid": "5a9cdbb126c967cff410458b"
+  },
+  "index": 2,
+  "name": "Armor",
+  "equipment": [{
+    "name": "Padded",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/38"
+  }, {
+    "name": "Leather",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/39"
+  }, {
+    "name": "Studded Leather",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/40"
+  }, {
+    "name": "Hide",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/41"
+  }, {
+    "name": "Chain Shirt",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/42"
+  }, {
+    "name": "Scale Mail",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/43"
+  }, {
+    "name": "Breastplate",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/44"
+  }, {
+    "name": "Half Plate",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/45"
+  }, {
+    "name": "Ring Mail",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/46"
+  }, {
+    "name": "Chain Mail",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/47"
+  }, {
+    "name": "Splint",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/48"
+  }, {
+    "name": "Plate",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/49"
+  }, {
+    "name": "Shield",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/50"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/2"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff410458c"
+  },
+  "index": 1,
+  "name": "Weapon",
+  "equipment": [{
+    "name": "Club",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/1"
+  }, {
+    "name": "Dagger",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/2"
+  }, {
+    "name": "Greatclub",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/3"
+  }, {
+    "name": "Handaxe",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/4"
+  }, {
+    "name": "Javelin",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/5"
+  }, {
+    "name": "Light hammer",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/6"
+  }, {
+    "name": "Mace",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/7"
+  }, {
+    "name": "Quarterstaff",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/8"
+  }, {
+    "name": "Sickle",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/9"
+  }, {
+    "name": "Spear",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/10"
+  }, {
+    "name": "Crossbow, light",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/11"
+  }, {
+    "name": "Dart",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/12"
+  }, {
+    "name": "Shortbow",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/13"
+  }, {
+    "name": "Sling",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/14"
+  }, {
+    "name": "Battleaxe",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/15"
+  }, {
+    "name": "Flail",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/16"
+  }, {
+    "name": "Glaive",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/17"
+  }, {
+    "name": "Greataxe",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/18"
+  }, {
+    "name": "Greatsword",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/19"
+  }, {
+    "name": "Halberd",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/20"
+  }, {
+    "name": "Lance",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/21"
+  }, {
+    "name": "Longsword",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/22"
+  }, {
+    "name": "Maul",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/23"
+  }, {
+    "name": "Morningstar",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/24"
+  }, {
+    "name": "Pike",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/25"
+  }, {
+    "name": "Rapier",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/26"
+  }, {
+    "name": "Scimitar",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/27"
+  }, {
+    "name": "Shortsword",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/28"
+  }, {
+    "name": "Trident",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/29"
+  }, {
+    "name": "War pick",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/30"
+  }, {
+    "name": "Warhammer",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/31"
+  }, {
+    "name": "Whip",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/32"
+  }, {
+    "name": "Blowgun",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/33"
+  }, {
+    "name": "Crossbow, hand",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/34"
+  }, {
+    "name": "Crossbow, heavy",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/35"
+  }, {
+    "name": "Longbow",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/36"
+  }, {
+    "name": "Net",
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/37"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/1"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff410458d"
+  },
+  "index": 4,
+  "name": "Tools",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/161",
+    "name": "Alchemist’s supplies"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/162",
+    "name": "Brewer’s supplies"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/163",
+    "name": "Calligrapher’s supplies"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/164",
+    "name": "Carpenter’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/165",
+    "name": "Cartographer’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/166",
+    "name": "Cobbler’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/167",
+    "name": "Cook’s utensils"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/168",
+    "name": "Glassblower’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/169",
+    "name": "Jeweler’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/170",
+    "name": "Leatherworker’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/171",
+    "name": "Mason’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/172",
+    "name": "Painter’s supplies"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/173",
+    "name": "Potter’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/174",
+    "name": "Smith’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/175",
+    "name": "Tinker’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/176",
+    "name": "Weaver’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/177",
+    "name": "Woodcarver’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/178",
+    "name": "Dice set"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/179",
+    "name": "Playing card set"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/180",
+    "name": "Bagpipes"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/181",
+    "name": "Drum"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/182",
+    "name": "Dulcimer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/183",
+    "name": "Flute"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/184",
+    "name": "Lute"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/185",
+    "name": "Lyre"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/186",
+    "name": "Horn"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/187",
+    "name": "Pan flute"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/188",
+    "name": "Shawm"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/189",
+    "name": "Viol"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/190",
+    "name": "Navigator’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/191",
+    "name": "Thieves’ tools"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/4"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff410458e"
+  },
+  "index": 6,
+  "name": "Simple Weapons",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
+    "name": "Club"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
+    "name": "Dagger"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/3",
+    "name": "Greatclub"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/4",
+    "name": "Handaxe"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/5",
+    "name": "Javelin"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/6",
+    "name": "Light hammer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/7",
+    "name": "Mace"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
+    "name": "Quarterstaff"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/9",
+    "name": "Sickle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/10",
+    "name": "Spear"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/6"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff410458f"
+  },
+  "index": 7,
+  "name": "Martial Weapons",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/15",
+    "name": "Battleaxe"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/16",
+    "name": "Flail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/17",
+    "name": "Glaive"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/18",
+    "name": "Greataxe"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/19",
+    "name": "Greatsword"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/20",
+    "name": "Halberd"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/21",
+    "name": "Lance"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/22",
+    "name": "Longsword"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/23",
+    "name": "Maul"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/24",
+    "name": "Morningstar"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/25",
+    "name": "Pike"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/26",
+    "name": "Rapier"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/27",
+    "name": "Scimitar"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/28",
+    "name": "Shortsword"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/29",
+    "name": "Trident"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/30",
+    "name": "War pick"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/31",
+    "name": "Warhammer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/32",
+    "name": "Whip"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/33",
+    "name": "Blowgun"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/34",
+    "name": "Crossbow, hand"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/35",
+    "name": "Crossbow, heavy"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/36",
+    "name": "Longbow"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/37",
+    "name": "Net"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/7"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff4104590"
+  },
+  "index": 8,
+  "name": "Simple Melee Weapons",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
+    "name": "Club"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
+    "name": "Dagger"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/3",
+    "name": "Greatclub"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/4",
+    "name": "Handaxe"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/5",
+    "name": "Javelin"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/6",
+    "name": "Light hammer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/7",
+    "name": "Mace"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
+    "name": "Quarterstaff"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/9",
+    "name": "Sickle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/10",
+    "name": "Spear"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/8"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff4104591"
+  },
+  "index": 9,
+  "name": "Simple Ranged Weapons",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/11",
+    "name": "Crossbow, light"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/12",
+    "name": "Dart"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/13",
+    "name": "Shortbow"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/14",
+    "name": "Sling"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/9"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff4104592"
+  },
+  "index": 11,
+  "name": "Martial Ranged Weapons",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/33",
+    "name": "Blowgun"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/34",
+    "name": "Crossbow, hand"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/35",
+    "name": "Crossbow, heavy"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/36",
+    "name": "Longbow"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/37",
+    "name": "Net"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/11"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff4104593"
+  },
+  "index": 12,
+  "name": "Light Armor",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/38",
+    "name": "Padded"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/39",
+    "name": "Leather"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/40",
+    "name": "Studded Leather"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/12"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff4104594"
+  },
+  "index": 10,
+  "name": "Martial Melee Weapons",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/15",
+    "name": "Battleaxe"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/16",
+    "name": "Flail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/17",
+    "name": "Glaive"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/18",
+    "name": "Greataxe"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/19",
+    "name": "Greatsword"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/20",
+    "name": "Halberd"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/21",
+    "name": "Lance"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/22",
+    "name": "Longsword"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/23",
+    "name": "Maul"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/24",
+    "name": "Morningstar"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/25",
+    "name": "Pike"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/26",
+    "name": "Rapier"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/27",
+    "name": "Scimitar"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/28",
+    "name": "Shortsword"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/29",
+    "name": "Trident"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/30",
+    "name": "War pick"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/31",
+    "name": "Warhammer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/32",
+    "name": "Whip"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/10"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff4104595"
+  },
+  "index": 5,
+  "name": "Mounts and Vehicles",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/194",
+    "name": "Mule"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/195",
+    "name": "Elephant"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/196",
+    "name": "Horse, draft"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/197",
+    "name": "Horse, riding"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/198",
+    "name": "Mastiff"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/199",
+    "name": "Pony"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/200",
+    "name": "Warhorse"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/201",
+    "name": "Barding: Padded"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/202",
+    "name": "Barding: Leather"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/203",
+    "name": "Barding: Studded Leather"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/204",
+    "name": "Barding: Hide"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/205",
+    "name": "Barding: Chain shirt"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/206",
+    "name": "Barding: Scale mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/207",
+    "name": "Barding: Breastplate"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/208",
+    "name": "Barding: Half plate"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/209",
+    "name": "Barding: Ring mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/210",
+    "name": "Barding: Chain mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/211",
+    "name": "Barding: Splint"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/212",
+    "name": "Barding: Plate"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/213",
+    "name": "Bit and bridle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/214",
+    "name": "Carriage"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/215",
+    "name": "Cart"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/216",
+    "name": "Chariot"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/217",
+    "name": "Animal Feed (1 day)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/218",
+    "name": "Saddle, Exotic"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/219",
+    "name": "Saddle, Military"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/220",
+    "name": "Saddle, Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/221",
+    "name": "Riding"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/222",
+    "name": "Saddlebags"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/223",
+    "name": "Sled"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/224",
+    "name": "Stabling (1 day)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/225",
+    "name": "Wagon"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/226",
+    "name": "Barding: Padded"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/227",
+    "name": "Barding: Leather"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/228",
+    "name": "Barding: Studded Leather"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/229",
+    "name": "Barding: Hide"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/230",
+    "name": "Barding: Chain shirt"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/231",
+    "name": "Barding: Scale mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/232",
+    "name": "Barding: Breastplate"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/233",
+    "name": "Barding: Half plate"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/234",
+    "name": "Barding: Ring mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/235",
+    "name": "Barding: Chain mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/236",
+    "name": "Barding: Splint"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/237",
+    "name": "Barding: Plate"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/238",
+    "name": "Bit and bridle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/239",
+    "name": "Carriage"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/240",
+    "name": "Cart"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/241",
+    "name": "Chariot"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/242",
+    "name": "Animal Feed (1 day)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/243",
+    "name": "Saddle, Exotic"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/244",
+    "name": "Saddle, Military"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/245",
+    "name": "Saddle, Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/246",
+    "name": "Riding"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/247",
+    "name": "Saddlebags"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/248",
+    "name": "Sled"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/249",
+    "name": "Stabling (1 day)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/250",
+    "name": "Wagon"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/251",
+    "name": "Galley"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/252",
+    "name": "Keelboat"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/253",
+    "name": "Longship"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/254",
+    "name": "Rowboat"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/255",
+    "name": "Sailing ship"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/256",
+    "name": "Warship"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/5"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff4104596"
+  },
+  "index": 13,
+  "name": "Medium Armor",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/41",
+    "name": "Hide"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/42",
+    "name": "Chain Shirt"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/43",
+    "name": "Scale Mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/44",
+    "name": "Breastplate"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/45",
+    "name": "Half Plate"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/13"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff4104597"
+  },
+  "index": 14,
+  "name": "Heavy Armor",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/46",
+    "name": "Ring Mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/47",
+    "name": "Chain Mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/48",
+    "name": "Splint"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/49",
+    "name": "Plate"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/14"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff4104598"
+  },
+  "index": 15,
+  "name": "Shields",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/50",
+    "name": "Shield"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/15"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff4104599"
+  },
+  "index": 3,
+  "name": "Adventuring Gear",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/51",
+    "name": "Abacus"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/52",
+    "name": "Acid (vial)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/53",
+    "name": "Alchemist’s fire (flask)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/54",
+    "name": "Arrow"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/55",
+    "name": "Blowgun needle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/56",
+    "name": "Crossbow bolt"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/57",
+    "name": "Sling bullet"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/58",
+    "name": "Amulet"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/59",
+    "name": "Antitoxin (vial)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/60",
+    "name": "Crystal"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/61",
+    "name": "Orb"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/62",
+    "name": "Rod"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/63",
+    "name": "Staff"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/64",
+    "name": "Wand"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/65",
+    "name": "Backpack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/66",
+    "name": "Ball bearings (bag of 1,000)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/67",
+    "name": "Barrel"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/68",
+    "name": "Basket"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/69",
+    "name": "Bedroll"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/70",
+    "name": "Bell"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/71",
+    "name": "Blanket"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/72",
+    "name": "Block and tackle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/73",
+    "name": "Book"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/74",
+    "name": "Bottle, glass"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/75",
+    "name": "Bucket"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/76",
+    "name": "Caltrops"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/77",
+    "name": "Candle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/78",
+    "name": "Case, crossbow bolt"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/79",
+    "name": "Case, map or scroll"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/80",
+    "name": "Chain (10 feet)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/81",
+    "name": "Chalk (1 piece)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/82",
+    "name": "Chest"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/83",
+    "name": "Clothes, common"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/84",
+    "name": "Clothes, costume"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/85",
+    "name": "Clothes, fine"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/86",
+    "name": "Clothes, traveler’s"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/87",
+    "name": "Component pouch"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/88",
+    "name": "Crowbar"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/89",
+    "name": "Sprig of mistletoe"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/90",
+    "name": "Totem"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/91",
+    "name": "Wooden staff"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/92",
+    "name": "Yew wand"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/93",
+    "name": "Emblem"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/94",
+    "name": "Fishing tackle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/95",
+    "name": "Flask or tankard"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/96",
+    "name": "Grappling hook"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/97",
+    "name": "Hammer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/98",
+    "name": "Hammer, sledge"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/99",
+    "name": "Holy water (flask)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/100",
+    "name": "Hourglass"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/101",
+    "name": "Hunting trap"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/102",
+    "name": "Ink (1 ounce bottle)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/103",
+    "name": "Ink pen"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/100",
+    "name": "Hourglass"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/101",
+    "name": "Hunting trap"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/102",
+    "name": "Ink (1 ounce bottle)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/103",
+    "name": "Ink pen"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/104",
+    "name": "Jug or pitcher"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/105",
+    "name": "Climber’s Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/106",
+    "name": "Disguise Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/107",
+    "name": "Forgery Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/108",
+    "name": "Herbalism Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/109",
+    "name": "Healer’s Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/110",
+    "name": "Mess Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/111",
+    "name": "Poisoner’s Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/112",
+    "name": "Ladder (10-foot)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/113",
+    "name": "Lamp"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/114",
+    "name": "Lantern, bullseye"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/115",
+    "name": "Lantern, hooded"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/116",
+    "name": "Lock"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/117",
+    "name": "Magnifying glass"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/118",
+    "name": "Manacles"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/119",
+    "name": "Mirror, steel"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/120",
+    "name": "Oil (flask)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/121",
+    "name": "Paper (one sheet)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/122",
+    "name": "Parchment (one sheet)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/123",
+    "name": "Perfume (vial)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/124",
+    "name": "Pick, miner’s"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/125",
+    "name": "Piton"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/126",
+    "name": "Poison, basic (vial)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/127",
+    "name": "Pole (10-foot)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/128",
+    "name": "Pot, iron"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/129",
+    "name": "Potion of healing"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/130",
+    "name": "Pouch"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/131",
+    "name": "Quiver"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/132",
+    "name": "Ram, portable"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/133",
+    "name": "Rations (1 day)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/134",
+    "name": "Reliquary"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/135",
+    "name": "Robes"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/136",
+    "name": "Rope, hempen (50 feet)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/137",
+    "name": "Rope, silk (50 feet)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/138",
+    "name": "Sack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/139",
+    "name": "Scale, merchant’s"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/140",
+    "name": "Sealing wax"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/141",
+    "name": "Shovel"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/142",
+    "name": "Signal whistle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/143",
+    "name": "Signet ring"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/144",
+    "name": "Soap"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/145",
+    "name": "Spellbook"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/146",
+    "name": "Spike, iron"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/147",
+    "name": "Spyglass"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/148",
+    "name": "Tent, two-person"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/149",
+    "name": "Tinderbox"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/150",
+    "name": "Torch"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/151",
+    "name": "Vial"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/152",
+    "name": "Waterskin"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/153",
+    "name": "Whetstone"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/154",
+    "name": "Burglar's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/155",
+    "name": "Diplomat's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/156",
+    "name": "Dungeoneer's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/157",
+    "name": "Entertainer's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/158",
+    "name": "Explorer's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/159",
+    "name": "Priest's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/160",
+    "name": "Scholar's Pack"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/3"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff410459a"
+  },
+  "index": 17,
+  "name": "Kits",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/105",
+    "name": "Climber’s Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/106",
+    "name": "Disguise Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/107",
+    "name": "Forgery Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/108",
+    "name": "Herbalism Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/109",
+    "name": "Healer’s Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/110",
+    "name": "Mess Kit"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/111",
+    "name": "Poisoner’s Kit"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/17"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff410459b"
+  },
+  "index": 20,
+  "name": "Gaming Sets",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/178",
+    "name": "Dice set"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/179",
+    "name": "Playing card set"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/20"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff410459c"
+  },
+  "index": 21,
+  "name": "Musical Instruments",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/180",
+    "name": "Bagpipes"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/181",
+    "name": "Drum"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/182",
+    "name": "Dulcimer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/183",
+    "name": "Flute"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/184",
+    "name": "Lute"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/185",
+    "name": "Lyre"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/186",
+    "name": "Horn"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/187",
+    "name": "Pan flute"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/188",
+    "name": "Shawm"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/189",
+    "name": "Viol"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/21"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff410459d"
+  },
+  "index": 22,
+  "name": "Other Tools",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/190",
+    "name": "Navigator’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/191",
+    "name": "Thieves’ tools"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/22"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff410459e"
+  },
+  "index": 18,
+  "name": "Equipment Packs",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/154",
+    "name": "Burglar's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/155",
+    "name": "Diplomat's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/156",
+    "name": "Dungeoneer's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/157",
+    "name": "Entertainer's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/158",
+    "name": "Explorer's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/159",
+    "name": "Priest's Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/160",
+    "name": "Scholar's Pack"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/18"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff410459f"
+  },
+  "index": 23,
+  "name": "Mounts and Other Anumals",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/194",
+    "name": "Mule"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/195",
+    "name": "Elephant"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/196",
+    "name": "Horse, draft"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/197",
+    "name": "Horse, riding"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/198",
+    "name": "Mastiff"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/199",
+    "name": "Pony"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/200",
+    "name": "Warhorse"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/23"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff41045a0"
+  },
+  "index": 25,
+  "name": "Waterborne Vehicles",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/251",
+    "name": "Galley"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/252",
+    "name": "Keelboat"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/253",
+    "name": "Longship"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/254",
+    "name": "Rowboat"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/255",
+    "name": "Sailing ship"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/256",
+    "name": "Warship"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/25"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff41045a1"
+  },
+  "index": 24,
+  "name": "Tack, Harness, and Drawn Vehicles",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/226",
+    "name": "Barding: Padded"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/227",
+    "name": "Barding: Leather"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/228",
+    "name": "Barding: Studded Leather"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/229",
+    "name": "Barding: Hide"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/230",
+    "name": "Barding: Chain shirt"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/231",
+    "name": "Barding: Scale mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/232",
+    "name": "Barding: Breastplate"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/233",
+    "name": "Barding: Half plate"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/234",
+    "name": "Barding: Ring mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/235",
+    "name": "Barding: Chain mail"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/236",
+    "name": "Barding: Splint"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/237",
+    "name": "Barding: Plate"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/238",
+    "name": "Bit and bridle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/239",
+    "name": "Carriage"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/240",
+    "name": "Cart"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/241",
+    "name": "Chariot"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/242",
+    "name": "Animal Feed (1 day)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/243",
+    "name": "Saddle, Exotic"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/244",
+    "name": "Saddle, Military"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/245",
+    "name": "Saddle, Pack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/246",
+    "name": "Riding"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/247",
+    "name": "Saddlebags"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/248",
+    "name": "Sled"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/249",
+    "name": "Stabling (1 day)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/250",
+    "name": "Wagon"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/24"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff41045a2"
+  },
+  "index": 19,
+  "name": "Artisan's Tools",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/161",
+    "name": "Alchemist’s supplies"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/162",
+    "name": "Brewer’s supplies"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/163",
+    "name": "Calligrapher’s supplies"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/164",
+    "name": "Carpenter’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/165",
+    "name": "Cartographer’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/166",
+    "name": "Cobbler’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/167",
+    "name": "Cook’s utensils"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/168",
+    "name": "Glassblower’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/169",
+    "name": "Jeweler’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/170",
+    "name": "Leatherworker’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/171",
+    "name": "Mason’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/172",
+    "name": "Painter’s supplies"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/173",
+    "name": "Potter’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/174",
+    "name": "Smith’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/175",
+    "name": "Tinker’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/176",
+    "name": "Weaver’s tools"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/177",
+    "name": "Woodcarver’s tools"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/19"
+} {
+  "_id": {
+    "$oid": "5a9cdbb126c967cff41045a3"
+  },
+  "index": 16,
+  "name": "Standard Gear",
+  "equipment": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/51",
+    "name": "Abacus"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/52",
+    "name": "Acid (vial)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/53",
+    "name": "Alchemist’s fire (flask)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/54",
+    "name": "Arrow"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/55",
+    "name": "Blowgun needle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/56",
+    "name": "Crossbow bolt"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/57",
+    "name": "Sling bullet"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/58",
+    "name": "Amulet"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/59",
+    "name": "Antitoxin (vial)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/60",
+    "name": "Crystal"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/61",
+    "name": "Orb"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/62",
+    "name": "Rod"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/63",
+    "name": "Staff"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/64",
+    "name": "Wand"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/65",
+    "name": "Backpack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/66",
+    "name": "Ball bearings (bag of 1,000)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/67",
+    "name": "Barrel"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/68",
+    "name": "Basket"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/69",
+    "name": "Bedroll"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/70",
+    "name": "Bell"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/71",
+    "name": "Blanket"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/72",
+    "name": "Block and tackle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/73",
+    "name": "Book"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/74",
+    "name": "Bottle, glass"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/75",
+    "name": "Bucket"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/76",
+    "name": "Caltrops"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/77",
+    "name": "Candle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/78",
+    "name": "Case, crossbow bolt"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/79",
+    "name": "Case, map or scroll"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/80",
+    "name": "Chain (10 feet)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/81",
+    "name": "Chalk (1 piece)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/82",
+    "name": "Chest"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/83",
+    "name": "Clothes, common"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/84",
+    "name": "Clothes, costume"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/85",
+    "name": "Clothes, fine"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/86",
+    "name": "Clothes, traveler’s"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/87",
+    "name": "Component pouch"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/88",
+    "name": "Crowbar"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/89",
+    "name": "Sprig of mistletoe"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/90",
+    "name": "Totem"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/91",
+    "name": "Wooden staff"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/92",
+    "name": "Yew wand"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/93",
+    "name": "Emblem"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/94",
+    "name": "Fishing tackle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/95",
+    "name": "Flask or tankard"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/96",
+    "name": "Grappling hook"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/97",
+    "name": "Hammer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/98",
+    "name": "Hammer, sledge"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/99",
+    "name": "Holy water (flask)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/100",
+    "name": "Hourglass"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/101",
+    "name": "Hunting trap"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/102",
+    "name": "Ink (1 ounce bottle)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/103",
+    "name": "Ink pen"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/100",
+    "name": "Hourglass"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/101",
+    "name": "Hunting trap"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/102",
+    "name": "Ink (1 ounce bottle)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/103",
+    "name": "Ink pen"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/104",
+    "name": "Jug or pitcher"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/112",
+    "name": "Ladder (10-foot)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/113",
+    "name": "Lamp"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/114",
+    "name": "Lantern, bullseye"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/115",
+    "name": "Lantern, hooded"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/116",
+    "name": "Lock"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/117",
+    "name": "Magnifying glass"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/118",
+    "name": "Manacles"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/119",
+    "name": "Mirror, steel"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/120",
+    "name": "Oil (flask)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/121",
+    "name": "Paper (one sheet)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/122",
+    "name": "Parchment (one sheet)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/123",
+    "name": "Perfume (vial)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/124",
+    "name": "Pick, miner’s"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/125",
+    "name": "Piton"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/126",
+    "name": "Poison, basic (vial)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/127",
+    "name": "Pole (10-foot)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/128",
+    "name": "Pot, iron"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/129",
+    "name": "Potion of healing"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/130",
+    "name": "Pouch"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/131",
+    "name": "Quiver"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/132",
+    "name": "Ram, portable"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/133",
+    "name": "Rations (1 day)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/134",
+    "name": "Reliquary"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/135",
+    "name": "Robes"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/136",
+    "name": "Rope, hempen (50 feet)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/137",
+    "name": "Rope, silk (50 feet)"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/138",
+    "name": "Sack"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/139",
+    "name": "Scale, merchant’s"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/140",
+    "name": "Sealing wax"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/141",
+    "name": "Shovel"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/142",
+    "name": "Signal whistle"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/143",
+    "name": "Signet ring"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/144",
+    "name": "Soap"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/145",
+    "name": "Spellbook"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/146",
+    "name": "Spike, iron"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/147",
+    "name": "Spyglass"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/148",
+    "name": "Tent, two-person"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/149",
+    "name": "Tinderbox"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/150",
+    "name": "Torch"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/151",
+    "name": "Vial"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/152",
+    "name": "Waterskin"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/equipment/153",
+    "name": "Whetstone"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/equipment-categories/16"
+}

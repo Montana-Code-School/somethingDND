@@ -1,0 +1,1503 @@
+{
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104af8"
+  },
+  "index": 3,
+  "type": "Armor",
+  "name": "Heavy armor",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/3"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104af9"
+  },
+  "index": 5,
+  "type": "Armor",
+  "name": "Padded",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/5"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104afa"
+  },
+  "index": 6,
+  "type": "Armor",
+  "name": "Leather",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/6"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104afb"
+  },
+  "index": 7,
+  "type": "Armor",
+  "name": "Studded Leather",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/7"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104afc"
+  },
+  "index": 8,
+  "type": "Armor",
+  "name": "Hide",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/8"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104afd"
+  },
+  "index": 9,
+  "type": "Armor",
+  "name": "Chain Shirt",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/9"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104afe"
+  },
+  "index": 1,
+  "type": "Armor",
+  "name": "Light armor",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/1",
+    "name": "Barbarian"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
+    "name": "Bard"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
+    "name": "Cleric"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
+    "name": "Ranger"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/9",
+    "name": "Rogue"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
+    "name": "Warlock"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/1"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104aff"
+  },
+  "index": 4,
+  "type": "Armor",
+  "name": "All armor",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/5",
+    "name": "Fighter"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
+    "name": "Paladin"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/4"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b00"
+  },
+  "index": 11,
+  "type": "Armor",
+  "name": "Breastplate",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/11"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b01"
+  },
+  "index": 12,
+  "type": "Armor",
+  "name": "Half Plate",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/12"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b02"
+  },
+  "index": 13,
+  "type": "Armor",
+  "name": "Ring Mail",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/13"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b03"
+  },
+  "index": 2,
+  "type": "Armor",
+  "name": "Medium armor",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/1",
+    "name": "Barbarian"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
+    "name": "Cleric"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
+    "name": "Ranger"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/2"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b04"
+  },
+  "index": 14,
+  "type": "Armor",
+  "name": "Chain Mail",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/14"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b05"
+  },
+  "index": 15,
+  "type": "Armor",
+  "name": "Splint",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/15"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b06"
+  },
+  "index": 16,
+  "type": "Armor",
+  "name": "Plate",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/16"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b07"
+  },
+  "index": 17,
+  "type": "Armor",
+  "name": "Shield",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/17"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b08"
+  },
+  "index": 10,
+  "type": "Armor",
+  "name": "Scale Mail",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/10"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b09"
+  },
+  "index": 18,
+  "type": "Armor",
+  "name": "Shields",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/1",
+    "name": "Barbarian"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
+    "name": "Cleric"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/5",
+    "name": "Fighter"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
+    "name": "Paladin"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
+    "name": "Ranger"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/18"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b0a"
+  },
+  "index": 22,
+  "type": "Weapons",
+  "name": "Daggers",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
+    "name": "Sorcerer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
+    "name": "Wizard"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/22"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b0b"
+  },
+  "index": 20,
+  "type": "Weapons",
+  "name": "Martial weapons",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/1",
+    "name": "Barbarian"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/5",
+    "name": "Fighter"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
+    "name": "Paladin"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
+    "name": "Ranger"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/20"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b0c"
+  },
+  "index": 23,
+  "type": "Weapons",
+  "name": "Greatclubs",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/23"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b0d"
+  },
+  "index": 24,
+  "type": "Weapons",
+  "name": "Handaxes",
+  "classes": [],
+  "races": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/races/1",
+    "name": "Dwarf"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/24"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b0e"
+  },
+  "index": 19,
+  "type": "Weapons",
+  "name": "Simple weapons",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/1",
+    "name": "Barbarian"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
+    "name": "Bard"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
+    "name": "Cleric"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/5",
+    "name": "Fighter"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/6",
+    "name": "Monk"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
+    "name": "Paladin"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
+    "name": "Ranger"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/9",
+    "name": "Rogue"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
+    "name": "Warlock"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/19"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b0f"
+  },
+  "index": 27,
+  "type": "Weapons",
+  "name": "Maces",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/27"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b10"
+  },
+  "index": 26,
+  "type": "Weapons",
+  "name": "Light hammers",
+  "classes": [],
+  "races": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/races/1",
+    "name": "Dwarf"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/26"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b11"
+  },
+  "index": 25,
+  "type": "Weapons",
+  "name": "Javelins",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/25"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b12"
+  },
+  "index": 21,
+  "type": "Weapons",
+  "name": "Clubs",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/21"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b13"
+  },
+  "index": 28,
+  "type": "Weapons",
+  "name": "Quarterstaffs",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
+    "name": "Sorcerer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
+    "name": "Wizard"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/28"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b14"
+  },
+  "index": 32,
+  "type": "Weapons",
+  "name": "Darts",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
+    "name": "Sorcerer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
+    "name": "Wizard"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/32"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b15"
+  },
+  "index": 29,
+  "type": "Weapons",
+  "name": "Sickles",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/29"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b16"
+  },
+  "index": 30,
+  "type": "Weapons",
+  "name": "Spears",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/30"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b17"
+  },
+  "index": 31,
+  "type": "Weapons",
+  "name": "Crossbows, light",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/31"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b18"
+  },
+  "index": 36,
+  "type": "Weapons",
+  "name": "Flails",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/36"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b19"
+  },
+  "index": 35,
+  "type": "Weapons",
+  "name": "Battleaxes",
+  "classes": [],
+  "races": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/races/1",
+    "name": "Dwarf"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/35"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b1a"
+  },
+  "index": 37,
+  "type": "Weapons",
+  "name": "Glaives",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/37"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b1b"
+  },
+  "index": 38,
+  "type": "Weapons",
+  "name": "Greataxes",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/38"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b1c"
+  },
+  "index": 40,
+  "type": "Weapons",
+  "name": "Halberds",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/40"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b1d"
+  },
+  "index": 39,
+  "type": "Weapons",
+  "name": "Greatswords",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/39"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b1e"
+  },
+  "index": 33,
+  "type": "Weapons",
+  "name": "Shortbows",
+  "classes": [],
+  "races": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/subraces/2",
+    "name": "High Elf"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/33"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b1f"
+  },
+  "index": 34,
+  "type": "Weapons",
+  "name": "Slings",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
+    "name": "Sorcerer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
+    "name": "Wizard"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/34"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b20"
+  },
+  "index": 41,
+  "type": "Weapons",
+  "name": "Lances",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/41"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b21"
+  },
+  "index": 45,
+  "type": "Weapons",
+  "name": "Pikes",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/45"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b22"
+  },
+  "index": 46,
+  "type": "Weapons",
+  "name": "Rapiers",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
+    "name": "Bard"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/9",
+    "name": "Rogue"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/46"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b23"
+  },
+  "index": 44,
+  "type": "Weapons",
+  "name": "Morningstars",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/44"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b24"
+  },
+  "index": 42,
+  "type": "Weapons",
+  "name": "Longswords",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
+    "name": "Bard"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/9",
+    "name": "Rogue"
+  }],
+  "races": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/subraces/2",
+    "name": "High Elf"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/42"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b25"
+  },
+  "index": 47,
+  "type": "Weapons",
+  "name": "Scimitars",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/47"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b26"
+  },
+  "index": 49,
+  "type": "Weapons",
+  "name": "Tridents",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/49"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b27"
+  },
+  "index": 50,
+  "type": "Weapons",
+  "name": "War picks",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/50"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b28"
+  },
+  "index": 51,
+  "type": "Weapons",
+  "name": "Warhammers",
+  "classes": [],
+  "races": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/races/1",
+    "name": "Dwarf"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/51"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b29"
+  },
+  "index": 48,
+  "type": "Weapons",
+  "name": "Shortswords",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
+    "name": "Bard"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/6",
+    "name": "Monk"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/9",
+    "name": "Rogue"
+  }],
+  "races": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/subraces/2",
+    "name": "High Elf"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/48"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b2a"
+  },
+  "index": 53,
+  "type": "Weapons",
+  "name": "Blowguns",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/53"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b2b"
+  },
+  "index": 43,
+  "type": "Weapons",
+  "name": "Mauls",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/43"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b2c"
+  },
+  "index": 52,
+  "type": "Weapons",
+  "name": "Whips",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/52"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b2d"
+  },
+  "index": 55,
+  "type": "Weapons",
+  "name": "Crossbows, heavy",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/55"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b2e"
+  },
+  "index": 56,
+  "type": "Weapons",
+  "name": "Longbows",
+  "classes": [],
+  "races": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/subraces/2",
+    "name": "High Elf"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/56"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b2f"
+  },
+  "index": 58,
+  "type": "Artisan's Tools",
+  "name": "Alchemist's supplies",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/58"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b30"
+  },
+  "index": 57,
+  "type": "Weapons",
+  "name": "Nets",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/57"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b31"
+  },
+  "index": 54,
+  "type": "Weapons",
+  "name": "Crossbows, hand",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
+    "name": "Bard"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/9",
+    "name": "Rogue"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/54"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b32"
+  },
+  "index": 60,
+  "type": "Artisan's Tools",
+  "name": "Calligrapher's supplies",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/60"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b33"
+  },
+  "index": 59,
+  "type": "Artisan's Tools",
+  "name": "Brewer's supplies",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/59"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b34"
+  },
+  "index": 62,
+  "type": "Artisan's Tools",
+  "name": "Cartographer's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/62"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b35"
+  },
+  "index": 61,
+  "type": "Artisan's Tools",
+  "name": "Carpenter's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/61"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b36"
+  },
+  "index": 63,
+  "type": "Artisan's Tools",
+  "name": "Cobbler's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/63"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b37"
+  },
+  "index": 64,
+  "type": "Artisan's Tools",
+  "name": "Cook's utensils",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/64"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b38"
+  },
+  "index": 65,
+  "type": "Artisan's Tools",
+  "name": "Glassblower's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/65"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b39"
+  },
+  "index": 69,
+  "type": "Artisan's Tools",
+  "name": "Painter's supplies",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/69"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b3a"
+  },
+  "index": 67,
+  "type": "Artisan's Tools",
+  "name": "Leatherworker's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/67"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b3b"
+  },
+  "index": 71,
+  "type": "Artisan's Tools",
+  "name": "Smith's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/71"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b3c"
+  },
+  "index": 70,
+  "type": "Artisan's Tools",
+  "name": "Potter's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/70"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b3d"
+  },
+  "index": 72,
+  "type": "Artisan's Tools",
+  "name": "Tinker's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/72"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b3e"
+  },
+  "index": 66,
+  "type": "Artisan's Tools",
+  "name": "Jeweler's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/66"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b3f"
+  },
+  "index": 68,
+  "type": "Artisan's Tools",
+  "name": "Mason's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/68"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b40"
+  },
+  "index": 73,
+  "type": "Artisan's Tools",
+  "name": "Weaver's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/73"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b41"
+  },
+  "index": 74,
+  "type": "Artisan's Tools",
+  "name": "Woodcarver's tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/74"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b42"
+  },
+  "index": 78,
+  "type": "Gaming Sets",
+  "name": "Dragonchess set",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/78"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b43"
+  },
+  "index": 76,
+  "type": "Artisan's Tools",
+  "name": "Forgery kit",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/76"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b44"
+  },
+  "index": 75,
+  "type": "Artisan's Tools",
+  "name": "Disguise kit",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/75"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b45"
+  },
+  "index": 77,
+  "type": "Gaming Sets",
+  "name": "Dice Set",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/77"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b46"
+  },
+  "index": 79,
+  "type": "Gaming Sets",
+  "name": "Playing card set",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/79"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b47"
+  },
+  "index": 80,
+  "type": "Gaming Sets",
+  "name": "Three-Dragon Ante set",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/80"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b48"
+  },
+  "index": 82,
+  "type": "Musical Instruments",
+  "name": "Drum",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/82"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b49"
+  },
+  "index": 83,
+  "type": "Musical Instruments",
+  "name": "Dulcimer",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/83"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b4a"
+  },
+  "index": 85,
+  "type": "Musical Instruments",
+  "name": "Lute",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/85"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b4b"
+  },
+  "index": 84,
+  "type": "Musical Instruments",
+  "name": "Flute",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/84"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b4c"
+  },
+  "index": 88,
+  "type": "Musical Instruments",
+  "name": "Pan flute",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/88"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b4d"
+  },
+  "index": 86,
+  "type": "Musical Instruments",
+  "name": "Lyre",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/86"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b4e"
+  },
+  "index": 87,
+  "type": "Musical Instruments",
+  "name": "Horn",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/87"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b4f"
+  },
+  "index": 89,
+  "type": "Musical Instruments",
+  "name": "Shawm",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/89"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b50"
+  },
+  "index": 90,
+  "type": "Musical Instruments",
+  "name": "Viol",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/90"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b51"
+  },
+  "index": 91,
+  "type": "Other",
+  "name": "Disguise Kit",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/91"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b52"
+  },
+  "index": 92,
+  "type": "Other",
+  "name": "Forgery Kit",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/92"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b53"
+  },
+  "index": 94,
+  "type": "Other",
+  "name": "Navigator's Tools",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/94"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b54"
+  },
+  "index": 95,
+  "type": "Other",
+  "name": "Poisoner's Kit",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/95"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b55"
+  },
+  "index": 93,
+  "type": "Other",
+  "name": "Herbalism Kit",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/93"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b56"
+  },
+  "index": 96,
+  "type": "Other",
+  "name": "Thieves' Tools",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/9",
+    "name": "Rogue"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/96"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b57"
+  },
+  "index": 97,
+  "type": "Vehicles",
+  "name": "Land Vehicles",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/97"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b58"
+  },
+  "index": 98,
+  "type": "Vehicles",
+  "name": "Water Vehicles",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/98"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b59"
+  },
+  "index": 81,
+  "type": "Musical Instruments",
+  "name": "Bagpipes",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/81"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b5a"
+  },
+  "index": 99,
+  "type": "Saving Throws",
+  "name": "Saving Throw: STR",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/1",
+    "name": "Barbarian"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/5",
+    "name": "Fighter"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/6",
+    "name": "Monk"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
+    "name": "Ranger"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/99"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b5b"
+  },
+  "index": 100,
+  "type": "Saving Throws",
+  "name": "Saving Throw: DEX",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
+    "name": "Bard"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/6",
+    "name": "Monk"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
+    "name": "Ranger"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/9",
+    "name": "Rogue"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/100"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b5c"
+  },
+  "index": 101,
+  "type": "Saving Throws",
+  "name": "Saving Throw: CON",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/1",
+    "name": "Barbarian"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/5",
+    "name": "Fighter"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
+    "name": "Sorcerer"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/101"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b5d"
+  },
+  "index": 105,
+  "type": "Skills",
+  "name": "Skill: Acrobatics",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/105"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b5e"
+  },
+  "index": 106,
+  "type": "Skills",
+  "name": "Skill: Animal Handling",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/106"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b5f"
+  },
+  "index": 107,
+  "type": "Skills",
+  "name": "Skill: Arcana",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/107"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b60"
+  },
+  "index": 104,
+  "type": "Saving Throws",
+  "name": "Saving Throw: CHA",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/2",
+    "name": "Bard"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
+    "name": "Cleric"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
+    "name": "Paladin"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
+    "name": "Sorcerer"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
+    "name": "Warlock"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/104"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b61"
+  },
+  "index": 108,
+  "type": "Skills",
+  "name": "Skill: Athletics",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/108"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b62"
+  },
+  "index": 109,
+  "type": "Skills",
+  "name": "Skill: Deception",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/109"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b63"
+  },
+  "index": 102,
+  "type": "Saving Throws",
+  "name": "Saving Throw: INT",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/9",
+    "name": "Rogue"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
+    "name": "Wizard"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/102"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b64"
+  },
+  "index": 112,
+  "type": "Skills",
+  "name": "Skill: Intimidation",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/112"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b65"
+  },
+  "index": 113,
+  "type": "Skills",
+  "name": "Skill: Investigation",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/113"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b66"
+  },
+  "index": 103,
+  "type": "Saving Throws",
+  "name": "Saving Throw: WIS",
+  "classes": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/3",
+    "name": "Cleric"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/7",
+    "name": "Paladin"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/11",
+    "name": "Warlock"
+  }, {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
+    "name": "Wizard"
+  }],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/103"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b67"
+  },
+  "index": 114,
+  "type": "Skills",
+  "name": "Skill: Medicine",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/114"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b68"
+  },
+  "index": 115,
+  "type": "Skills",
+  "name": "Skill: Nature",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/115"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b69"
+  },
+  "index": 116,
+  "type": "Skills",
+  "name": "Skill: Perception",
+  "classes": [],
+  "races": [{
+    "url": "https://dndcharcreator.herokuapp.com/api/races/2",
+    "name": "Elf"
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/116"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b6a"
+  },
+  "index": 117,
+  "type": "Skills",
+  "name": "Skill: Performance",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/117"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b6b"
+  },
+  "index": 111,
+  "type": "Skills",
+  "name": "Skill: Insight",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/111"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b6c"
+  },
+  "index": 119,
+  "type": "Skills",
+  "name": "Skill: Religion",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/119"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b6d"
+  },
+  "index": 120,
+  "type": "Skills",
+  "name": "Skill: Sleight of Hand",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/120"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b6e"
+  },
+  "index": 118,
+  "type": "Skills",
+  "name": "Skill: Persuasion",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/118"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b6f"
+  },
+  "index": 121,
+  "type": "Skills",
+  "name": "Skill: Stealth",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/121"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b70"
+  },
+  "index": 110,
+  "type": "Skills",
+  "name": "Skill: History",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/110"
+} {
+  "_id": {
+    "$oid": "5a9cdf2526c967cff4104b71"
+  },
+  "index": 122,
+  "type": "Skills",
+  "name": "Skill: Survival",
+  "classes": [],
+  "races": [],
+  "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/122"
+}

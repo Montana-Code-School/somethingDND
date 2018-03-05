@@ -1,0 +1,161 @@
+{
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff410486d"
+  },
+  "index": 4,
+  "name": "Giant",
+  "type": "Standard",
+  "typical_speakers": ["Ogres", "Giants"],
+  "script": "Dwarvish",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/4"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff410486e"
+  },
+  "index": 1,
+  "name": "Common",
+  "type": "Standard",
+  "typical_speakers": ["Humans"],
+  "script": "Common",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/1"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff410486f"
+  },
+  "index": 5,
+  "name": "Gnomish",
+  "type": "Standard",
+  "typical_speakers": ["Gnomes"],
+  "script": "Dwarvish",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/5"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff4104870"
+  },
+  "index": 7,
+  "name": "Halfling",
+  "type": "Standard",
+  "typical_speakers": ["Halflings"],
+  "script": "Common",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/7"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff4104871"
+  },
+  "index": 6,
+  "name": "Goblin",
+  "type": "Standard",
+  "typical_speakers": ["Goblinoids"],
+  "script": "Dwarvish",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/6"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff4104872"
+  },
+  "index": 8,
+  "name": "Orc",
+  "type": "Standard",
+  "typical_speakers": ["Orcs"],
+  "script": "Dwarvish",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/8"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff4104873"
+  },
+  "index": 9,
+  "name": "Abyssal",
+  "type": "Exotic",
+  "typical_speakers": ["Demons"],
+  "script": "Infernal",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/9"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff4104874"
+  },
+  "index": 3,
+  "name": "Elvish",
+  "type": "Standard",
+  "typical_speakers": ["Elves"],
+  "script": "Elvish",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/3"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff4104875"
+  },
+  "index": 12,
+  "name": "Deep Speech",
+  "type": "Exotic",
+  "typical_speakers": ["Mindflayers", "Beholders"],
+  "script": "none",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/12"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff4104876"
+  },
+  "index": 13,
+  "name": "Infernal",
+  "type": "Exotic",
+  "typical_speakers": ["Devils", "Tieflings"],
+  "script": "Infernal",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/13"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff4104877"
+  },
+  "index": 14,
+  "name": "Primordial",
+  "type": "Exotic",
+  "typical_speakers": ["Elementa;s"],
+  "script": "Dwarvish",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/14"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff4104878"
+  },
+  "index": 15,
+  "name": "Sylvan",
+  "type": "Exotic",
+  "typical_speakers": ["Fey Creatures"],
+  "script": "Elvish",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/15"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff4104879"
+  },
+  "index": 16,
+  "name": "Undercommon",
+  "type": "Exotic",
+  "typical_speakers": ["Underdark Traders"],
+  "script": "Elvish",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/16"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff410487a"
+  },
+  "index": 10,
+  "name": "Celestial",
+  "type": "Exotic",
+  "typical_speakers": ["Celestials"],
+  "script": "Celestial",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/10"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff410487b"
+  },
+  "index": 11,
+  "name": "Draconic",
+  "type": "Exotic",
+  "typical_speakers": ["Dragons", "Dragonborn"],
+  "script": "Draconic",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/11"
+} {
+  "_id": {
+    "$oid": "5a9cdd7f26c967cff410487c"
+  },
+  "index": 2,
+  "name": "Dwarvish",
+  "type": "Standard",
+  "typical_speakers": ["Dwarves"],
+  "script": "Dwarvish",
+  "url": "https://dndcharcreator.herokuapp.com/api/languages/2"
+}
