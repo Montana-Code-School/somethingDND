@@ -7,13 +7,13 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      abilityscore: [],
+      race: [],
       fetching: true
     };
   }
 
   componentDidMount() {
-    fetch('/api/abilityscore')
+    fetch('/api/race')
       .then(response => {
         if (!response.ok) {
           throw new Error(`status ${response.status}`);
@@ -23,12 +23,12 @@ class App extends Component {
       .then(json => {
         console.log(json)
         this.setState({
-          abilityscore: json,
+          race: json,
           fetching: false
         });
       }).catch(e => {
         this.setState({
-          abilityscore: `API call failed: ${e}`,
+          race: `API call failed: ${e}`,
           fetching: false
         });
       })
@@ -37,8 +37,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {this.state.abilityscore.map((abilityscore) =>
-          <p> {abilityscore.full_name} </p>
+        {this.state.race.map((race) =>
+          <p> {race.name} </p>
         )}
       </div>
     );
