@@ -5947,14 +5947,14 @@
   "prerequisites": [],
   "desc": ["You can cast silent image at will, without expending a spell slot or material components."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/356"
+  "url": "https://dndcharcreator.herokuapp/api/features/356"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104823"
   },
   "index": 358,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -5963,14 +5963,14 @@
   "prerequisites": [],
   "desc": ["You can cast bane once using a warlock spell slot. You can’t do so again until you finish a long rest."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/358"
+  "url": "https://dndcharcreator.herokuapp/api/features/358"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104824"
   },
   "index": 357,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -5978,18 +5978,18 @@
   "level": 2,
   "prerequisites": [{
     "type": "Spell",
-    "spell": "http://dnd5eapi.co/api/spells/91"
+    "spell": "https://dndcharcreator.herokuapp/api/spells/91"
   }],
   "desc": ["When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/357"
+  "url": "https://dndcharcreator.herokuapp/api/features/357"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104825"
   },
   "index": 360,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6001,14 +6001,14 @@
   }],
   "desc": ["You can cast slow once using a warlock spell slot. You can’t do so again until you finish a long rest."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/360"
+  "url": "https://dndcharcreator.herokuapp/api/features/360"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104826"
   },
   "index": 361,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6020,14 +6020,14 @@
   }],
   "desc": ["When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/361"
+  "url": "https://dndcharcreator.herokuapp/api/features/361"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104827"
   },
   "index": 362,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6039,14 +6039,14 @@
   }],
   "desc": ["You can cast bestow curse once using a warlock spell slot. You can’t do so again until you finish a long rest."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/362"
+  "url": "https://dndcharcreator.herokuapp/api/features/362"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104828"
   },
   "index": 363,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6057,18 +6057,18 @@
     "level": 5
   }, {
     "type": "feature",
-    "feature": "http://dnd5eapi.co/api/features/269"
+    "feature": "https://dndcharcreator.herokuapp/api/features/269"
   }],
   "desc": ["You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/363"
+  "url": "https://dndcharcreator.herokuapp/api/features/363"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104829"
   },
   "index": 364,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6080,7 +6080,7 @@
   }],
   "desc": ["You can cast compulsion once using a warlock spell slot. You can’t do so again until you finish a long rest."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/364"
+  "url": "https://dndcharcreator.herokuapp/api/features/364"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410482a"
@@ -6154,7 +6154,7 @@
   },
   "index": 365,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6166,14 +6166,14 @@
   }],
   "desc": ["You can cast confusion once using a warlock spell slot. You can’t do so again until you finish a long rest."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/365"
+  "url": "https://dndcharcreator.herokuapp/api/features/365"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410482c"
   },
   "index": 359,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6181,18 +6181,18 @@
   "level": 2,
   "prerequisites": [{
     "type": "feature",
-    "feature": "http://dnd5eapi.co/api/features/268"
+    "feature": "https://dndcharcreator.herokuapp/api/features/268"
   }],
   "desc": ["You can communicate telepathically with your familiar and perceive through your familiar’s senses as long as you are on the same plane of existence.", "Additionally, while perceiving through your familiar’s senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/359"
+  "url": "https://dndcharcreator.herokuapp/api/features/359"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410482d"
   },
   "index": 368,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6204,14 +6204,14 @@
   }],
   "desc": ["You can cast conjure elemental once using a warlock spell slot. You can’t do so again until you finish a long rest."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/368"
+  "url": "https://dndcharcreator.herokuapp/api/features/368"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410482e"
   },
   "index": 369,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6223,14 +6223,14 @@
   }],
   "desc": ["You can cast jump on yourself at will, without expending a spell slot or material components."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/369"
+  "url": "https://dndcharcreator.herokuapp/api/features/369"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410482f"
   },
   "index": 370,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6242,14 +6242,14 @@
   }],
   "desc": ["You can cast speak with dead at will, without expending a spell slot."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/370"
+  "url": "https://dndcharcreator.herokuapp/api/features/370"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104830"
   },
   "index": 367,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6261,14 +6261,14 @@
   }],
   "desc": ["You can cast levitate on yourself at will, without expending a spell slot or material components."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/367"
+  "url": "https://dndcharcreator.herokuapp/api/features/367"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104831"
   },
   "index": 371,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6279,18 +6279,18 @@
     "level": 12
   }, {
     "type": "feature",
-    "feature": "http://dnd5eapi.co/api/features/269"
+    "feature": "https://dndcharcreator.herokuapp/api/features/269"
   }],
   "desc": ["When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1)."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/371"
+  "url": "https://dndcharcreator.herokuapp/api/features/371"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104832"
   },
   "index": 372,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6301,18 +6301,18 @@
     "level": 15
   }, {
     "type": "feature",
-    "feature": "http://dnd5eapi.co/api/features/268"
+    "feature": "https://dndcharcreator.herokuapp/api/features/268"
   }],
   "desc": ["You can cast hold monster at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/372"
+  "url": "https://dndcharcreator.herokuapp/api/features/372"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104833"
   },
   "index": 373,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6324,14 +6324,14 @@
   }],
   "desc": ["You can cast alter self at will, without expending a spell slot."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/373"
+  "url": "https://dndcharcreator.herokuapp/api/features/373"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104834"
   },
   "index": 374,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6343,14 +6343,14 @@
   }],
   "desc": ["You can cast arcane eye at will, without expending a spell slot."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/374"
+  "url": "https://dndcharcreator.herokuapp/api/features/374"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104835"
   },
   "index": 375,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6362,14 +6362,14 @@
   }],
   "desc": ["You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/375"
+  "url": "https://dndcharcreator.herokuapp/api/features/375"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104836"
   },
   "index": 366,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6381,14 +6381,14 @@
   }],
   "desc": ["You can cast polymorph once using a warlock spell slot. You can’t do so again until you finish a long rest."],
   "group": "Eldritch Invocations",
-  "url": "http://dnd5eapi.co/api/features/366"
+  "url": "https://dndcharcreator.herokuapp/api/features/366"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104837"
   },
   "index": 376,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6399,24 +6399,24 @@
     "choose": 1,
     "type": "feature",
     "from": [{
-      "url": "http://dnd5eapi.co/api/features/377",
+      "url": "https://dndcharcreator.herokuapp/api/features/377",
       "name": "Pact of the Chain"
     }, {
-      "url": "http://dnd5eapi.co/api/features/378",
+      "url": "https://dndcharcreator.herokuapp/api/features/378",
       "name": "Pact of the Blade"
     }, {
-      "url": "http://dnd5eapi.co/api/features/379",
+      "url": "https://dndcharcreator.herokuapp/api/features/379",
       "name": "Pact of the Tome"
     }]
   },
-  "url": "http://dnd5eapi.co/api/features/376"
+  "url": "https://dndcharcreator.herokuapp/api/features/376"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104838"
   },
   "index": 377,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6424,28 +6424,28 @@
   "level": 3,
   "desc": ["You learn the find familiar spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.", "When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.", "Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its reaction.", "Your familiar is more cunning than a typical familiar. Its default form can be a reflection of your patron, with sprites and pseudodragons tied to the Archfey and imps and quasits tied to the Fiend. Because the Great Old One’s nature is inscrutable, any familiar form is suitable for it."],
   "group": "Warlock Pact",
-  "url": "http://dnd5eapi.co/api/features/377"
+  "url": "https://dndcharcreator.herokuapp/api/features/377"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104839"
   },
   "index": 380,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
   "name": "Ability Score Improvement 1",
   "level": 4,
   "desc": ["When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."],
-  "url": "http://dnd5eapi.co/api/features/380"
+  "url": "https://dndcharcreator.herokuapp/api/features/380"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410483a"
   },
   "index": 379,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6453,31 +6453,31 @@
   "level": 3,
   "desc": ["Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class’s spell list (the three needn’t be from the same list). While the book is on your person, you can cast those cantrips at will. They don’t count against your number of cantrips known. If they don’t appear on the warlock spell list, they are nonetheless warlock spells for you.", "If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.", "Your Book of Shadows might be a fine, gilt-­edged tome with spells of enchantment and illusion, gifted to you by the lordly Archfey. It could be a weighty tome bound in demon hide studded with iron, holding spells of conjuration and a wealth of forbidden lore about the sinister regions of the cosmos, a gift of the Fiend. Or it could be the tattered diary of a lunatic driven mad by contact with the Great Old One, holding scraps of spells that only your own burgeoning insanity allows you to understand and cast."],
   "group": "Warlock Pact",
-  "url": "http://dnd5eapi.co/api/features/379"
+  "url": "https://dndcharcreator.herokuapp/api/features/379"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410483b"
   },
   "index": 382,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {
-    "url": "http://dnd5eapi.co/api/subclasses/11",
+    "url": "https://dndcharcreator.herokuapp/api/subclasses/11",
     "name": "Fiend"
   },
   "name": "Dark One's Own Luck",
   "level": 6,
   "desc": ["Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll’s effects occur.", "Once you use this feature, you can’t use it again until you finish a short or long rest."],
-  "url": "http://dnd5eapi.co/api/features/382"
+  "url": "https://dndcharcreator.herokuapp/api/features/382"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410483c"
   },
   "index": 378,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6485,28 +6485,28 @@
   "level": 3,
   "desc": ["You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.", "Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.", "You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.", "If your patron is the Archfey, your weapon might be a slender blade wrapped in leafy vines. If you serve the Fiend, your weapon could be an axe made of black metal and adorned with decorative flames. If your patron is the Great Old One, your weapon might be an ancient-­looking spear, with a gemstone embedded in its head, carved to look like a terrible unblinking eye."],
   "group": "Warlock Pact",
-  "url": "http://dnd5eapi.co/api/features/378"
+  "url": "https://dndcharcreator.herokuapp/api/features/378"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410483d"
   },
   "index": 384,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
   "name": "Ability Score Improvement 2",
   "level": 8,
   "desc": ["When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."],
-  "url": "http://dnd5eapi.co/api/features/384"
+  "url": "https://dndcharcreator.herokuapp/api/features/384"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410483e"
   },
   "index": 381,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6517,94 +6517,94 @@
     "choose": 1,
     "type": "feature",
     "from": [{
-      "url": "http://dnd5eapi.co/api/features/344",
+      "url": "https://dndcharcreator.herokuapp/api/features/344",
       "name": "Eldritch Invocation: Agonizing Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/345",
+      "url": "https://dndcharcreator.herokuapp/api/features/345",
       "name": "Eldritch Invocation: Armor of Shadows"
     }, {
-      "url": "http://dnd5eapi.co/api/features/346",
+      "url": "https://dndcharcreator.herokuapp/api/features/346",
       "name": "Eldritch Invocation: Beast Speech"
     }, {
-      "url": "http://dnd5eapi.co/api/features/347",
+      "url": "https://dndcharcreator.herokuapp/api/features/347",
       "name": "Eldritch Invocation: Beguiling Influence"
     }, {
-      "url": "http://dnd5eapi.co/api/features/348",
+      "url": "https://dndcharcreator.herokuapp/api/features/348",
       "name": "Eldritch Invocation: Book of Ancient Secrets"
     }, {
-      "url": "http://dnd5eapi.co/api/features/349",
+      "url": "https://dndcharcreator.herokuapp/api/features/349",
       "name": "Eldritch Invocation: Devil’s Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/350",
+      "url": "https://dndcharcreator.herokuapp/api/features/350",
       "name": "Eldritch Invocation: Eldritch Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/351",
+      "url": "https://dndcharcreator.herokuapp/api/features/351",
       "name": "Eldritch Invocation: Eldritch Spear"
     }, {
-      "url": "http://dnd5eapi.co/api/features/352",
+      "url": "https://dndcharcreator.herokuapp/api/features/352",
       "name": "Eldritch Invocation: Eyes of the Rune Keeper"
     }, {
-      "url": "http://dnd5eapi.co/api/features/353",
+      "url": "https://dndcharcreator.herokuapp/api/features/353",
       "name": "Eldritch Invocation: Fiendish Vigor"
     }, {
-      "url": "http://dnd5eapi.co/api/features/354",
+      "url": "https://dndcharcreator.herokuapp/api/features/354",
       "name": "Eldritch Invocation: Gaze of Two Minds"
     }, {
-      "url": "http://dnd5eapi.co/api/features/355",
+      "url": "https://dndcharcreator.herokuapp/api/features/355",
       "name": "Eldritch Invocation: Mask of Many Faces"
     }, {
-      "url": "http://dnd5eapi.co/api/features/356",
+      "url": "https://dndcharcreator.herokuapp/api/features/356",
       "name": "Eldritch Invocation: Misty Visions"
     }, {
-      "url": "http://dnd5eapi.co/api/features/357",
+      "url": "https://dndcharcreator.herokuapp/api/features/357",
       "name": "Eldritch Invocation: Repelling Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/358",
+      "url": "https://dndcharcreator.herokuapp/api/features/358",
       "name": "Eldritch Invocation: Thief of Five Fates"
     }, {
-      "url": "http://dnd5eapi.co/api/features/359",
+      "url": "https://dndcharcreator.herokuapp/api/features/359",
       "name": "Eldritch Invocation: Voice of the Chain Master"
     }]
   },
-  "url": "http://dnd5eapi.co/api/features/381"
+  "url": "https://dndcharcreator.herokuapp/api/features/381"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410483f"
   },
   "index": 386,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {
-    "url": "http://dnd5eapi.co/api/subclasses/11",
+    "url": "https://dndcharcreator.herokuapp/api/subclasses/11",
     "name": "Fiend"
   },
   "name": "Fiendish Resilience",
   "level": 10,
   "desc": ["Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance."],
-  "url": "http://dnd5eapi.co/api/features/386"
+  "url": "https://dndcharcreator.herokuapp/api/features/386"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104840"
   },
   "index": 387,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
   "name": "Mystic Arcanum (6th level)",
   "level": 11,
   "desc": ["At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th- level spell from the warlock spell list as this arcanum.", "You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.", "At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th- level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."],
-  "url": "http://dnd5eapi.co/api/features/387"
+  "url": "https://dndcharcreator.herokuapp/api/features/387"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104841"
   },
   "index": 385,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6615,91 +6615,91 @@
     "choose": 1,
     "type": "feature",
     "from": [{
-      "url": "http://dnd5eapi.co/api/features/344",
+      "url": "https://dndcharcreator.herokuapp/api/features/344",
       "name": "Eldritch Invocation: Agonizing Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/345",
+      "url": "https://dndcharcreator.herokuapp/api/features/345",
       "name": "Eldritch Invocation: Armor of Shadows"
     }, {
-      "url": "http://dnd5eapi.co/api/features/346",
+      "url": "https://dndcharcreator.herokuapp/api/features/346",
       "name": "Eldritch Invocation: Beast Speech"
     }, {
-      "url": "http://dnd5eapi.co/api/features/347",
+      "url": "https://dndcharcreator.herokuapp/api/features/347",
       "name": "Eldritch Invocation: Beguiling Influence"
     }, {
-      "url": "http://dnd5eapi.co/api/features/348",
+      "url": "https://dndcharcreator.herokuapp/api/features/348",
       "name": "Eldritch Invocation: Book of Ancient Secrets"
     }, {
-      "url": "http://dnd5eapi.co/api/features/349",
+      "url": "https://dndcharcreator.herokuapp/api/features/349",
       "name": "Eldritch Invocation: Devil’s Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/350",
+      "url": "https://dndcharcreator.herokuapp/api/features/350",
       "name": "Eldritch Invocation: Eldritch Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/351",
+      "url": "https://dndcharcreator.herokuapp/api/features/351",
       "name": "Eldritch Invocation: Eldritch Spear"
     }, {
-      "url": "http://dnd5eapi.co/api/features/352",
+      "url": "https://dndcharcreator.herokuapp/api/features/352",
       "name": "Eldritch Invocation: Eyes of the Rune Keeper"
     }, {
-      "url": "http://dnd5eapi.co/api/features/353",
+      "url": "https://dndcharcreator.herokuapp/api/features/353",
       "name": "Eldritch Invocation: Fiendish Vigor"
     }, {
-      "url": "http://dnd5eapi.co/api/features/354",
+      "url": "https://dndcharcreator.herokuapp/api/features/354",
       "name": "Eldritch Invocation: Gaze of Two Minds"
     }, {
-      "url": "http://dnd5eapi.co/api/features/355",
+      "url": "https://dndcharcreator.herokuapp/api/features/355",
       "name": "Eldritch Invocation: Mask of Many Faces"
     }, {
-      "url": "http://dnd5eapi.co/api/features/356",
+      "url": "https://dndcharcreator.herokuapp/api/features/356",
       "name": "Eldritch Invocation: Misty Visions"
     }, {
-      "url": "http://dnd5eapi.co/api/features/357",
+      "url": "https://dndcharcreator.herokuapp/api/features/357",
       "name": "Eldritch Invocation: Repelling Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/358",
+      "url": "https://dndcharcreator.herokuapp/api/features/358",
       "name": "Eldritch Invocation: Thief of Five Fates"
     }, {
-      "url": "http://dnd5eapi.co/api/features/359",
+      "url": "https://dndcharcreator.herokuapp/api/features/359",
       "name": "Eldritch Invocation: Voice of the Chain Master"
     }]
   },
-  "url": "http://dnd5eapi.co/api/features/385"
+  "url": "https://dndcharcreator.herokuapp/api/features/385"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104842"
   },
   "index": 388,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
   "name": "Ability Score Improvement 3",
   "level": 12,
   "desc": ["When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."],
-  "url": "http://dnd5eapi.co/api/features/388"
+  "url": "https://dndcharcreator.herokuapp/api/features/388"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104843"
   },
   "index": 390,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
   "name": "Mystic Arcanum (7th level)",
   "level": 13,
   "desc": ["At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th- level spell from the warlock spell list as this arcanum.", "You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.", "At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th- level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."],
-  "url": "http://dnd5eapi.co/api/features/390"
+  "url": "https://dndcharcreator.herokuapp/api/features/390"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104844"
   },
   "index": 383,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6710,80 +6710,80 @@
     "choose": 1,
     "type": "feature",
     "from": [{
-      "url": "http://dnd5eapi.co/api/features/344",
+      "url": "https://dndcharcreator.herokuapp/api/features/344",
       "name": "Eldritch Invocation: Agonizing Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/345",
+      "url": "https://dndcharcreator.herokuapp/api/features/345",
       "name": "Eldritch Invocation: Armor of Shadows"
     }, {
-      "url": "http://dnd5eapi.co/api/features/346",
+      "url": "https://dndcharcreator.herokuapp/api/features/346",
       "name": "Eldritch Invocation: Beast Speech"
     }, {
-      "url": "http://dnd5eapi.co/api/features/347",
+      "url": "https://dndcharcreator.herokuapp/api/features/347",
       "name": "Eldritch Invocation: Beguiling Influence"
     }, {
-      "url": "http://dnd5eapi.co/api/features/348",
+      "url": "https://dndcharcreator.herokuapp/api/features/348",
       "name": "Eldritch Invocation: Book of Ancient Secrets"
     }, {
-      "url": "http://dnd5eapi.co/api/features/349",
+      "url": "https://dndcharcreator.herokuapp/api/features/349",
       "name": "Eldritch Invocation: Devil’s Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/350",
+      "url": "https://dndcharcreator.herokuapp/api/features/350",
       "name": "Eldritch Invocation: Eldritch Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/351",
+      "url": "https://dndcharcreator.herokuapp/api/features/351",
       "name": "Eldritch Invocation: Eldritch Spear"
     }, {
-      "url": "http://dnd5eapi.co/api/features/352",
+      "url": "https://dndcharcreator.herokuapp/api/features/352",
       "name": "Eldritch Invocation: Eyes of the Rune Keeper"
     }, {
-      "url": "http://dnd5eapi.co/api/features/353",
+      "url": "https://dndcharcreator.herokuapp/api/features/353",
       "name": "Eldritch Invocation: Fiendish Vigor"
     }, {
-      "url": "http://dnd5eapi.co/api/features/354",
+      "url": "https://dndcharcreator.herokuapp/api/features/354",
       "name": "Eldritch Invocation: Gaze of Two Minds"
     }, {
-      "url": "http://dnd5eapi.co/api/features/355",
+      "url": "https://dndcharcreator.herokuapp/api/features/355",
       "name": "Eldritch Invocation: Mask of Many Faces"
     }, {
-      "url": "http://dnd5eapi.co/api/features/356",
+      "url": "https://dndcharcreator.herokuapp/api/features/356",
       "name": "Eldritch Invocation: Misty Visions"
     }, {
-      "url": "http://dnd5eapi.co/api/features/357",
+      "url": "https://dndcharcreator.herokuapp/api/features/357",
       "name": "Eldritch Invocation: Repelling Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/358",
+      "url": "https://dndcharcreator.herokuapp/api/features/358",
       "name": "Eldritch Invocation: Thief of Five Fates"
     }, {
-      "url": "http://dnd5eapi.co/api/features/359",
+      "url": "https://dndcharcreator.herokuapp/api/features/359",
       "name": "Eldritch Invocation: Voice of the Chain Master"
     }]
   },
-  "url": "http://dnd5eapi.co/api/features/383"
+  "url": "https://dndcharcreator.herokuapp/api/features/383"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104845"
   },
   "index": 391,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {
-    "url": "http://dnd5eapi.co/api/subclasses/11",
+    "url": "https://dndcharcreator.herokuapp/api/subclasses/11",
     "name": "Fiend"
   },
   "name": "Hurl Through Hell",
   "level": 14,
   "desc": ["Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.", "At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.", "Once you use this feature, you can’t use it again until you finish a long rest."],
-  "url": "http://dnd5eapi.co/api/features/391"
+  "url": "https://dndcharcreator.herokuapp/api/features/391"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104846"
   },
   "index": 389,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6794,77 +6794,77 @@
     "choose": 1,
     "type": "feature",
     "from": [{
-      "url": "http://dnd5eapi.co/api/features/344",
+      "url": "https://dndcharcreator.herokuapp/api/features/344",
       "name": "Eldritch Invocation: Agonizing Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/345",
+      "url": "https://dndcharcreator.herokuapp/api/features/345",
       "name": "Eldritch Invocation: Armor of Shadows"
     }, {
-      "url": "http://dnd5eapi.co/api/features/346",
+      "url": "https://dndcharcreator.herokuapp/api/features/346",
       "name": "Eldritch Invocation: Beast Speech"
     }, {
-      "url": "http://dnd5eapi.co/api/features/347",
+      "url": "https://dndcharcreator.herokuapp/api/features/347",
       "name": "Eldritch Invocation: Beguiling Influence"
     }, {
-      "url": "http://dnd5eapi.co/api/features/348",
+      "url": "https://dndcharcreator.herokuapp/api/features/348",
       "name": "Eldritch Invocation: Book of Ancient Secrets"
     }, {
-      "url": "http://dnd5eapi.co/api/features/349",
+      "url": "https://dndcharcreator.herokuapp/api/features/349",
       "name": "Eldritch Invocation: Devil’s Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/350",
+      "url": "https://dndcharcreator.herokuapp/api/features/350",
       "name": "Eldritch Invocation: Eldritch Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/351",
+      "url": "https://dndcharcreator.herokuapp/api/features/351",
       "name": "Eldritch Invocation: Eldritch Spear"
     }, {
-      "url": "http://dnd5eapi.co/api/features/352",
+      "url": "https://dndcharcreator.herokuapp/api/features/352",
       "name": "Eldritch Invocation: Eyes of the Rune Keeper"
     }, {
-      "url": "http://dnd5eapi.co/api/features/353",
+      "url": "https://dndcharcreator.herokuapp/api/features/353",
       "name": "Eldritch Invocation: Fiendish Vigor"
     }, {
-      "url": "http://dnd5eapi.co/api/features/354",
+      "url": "https://dndcharcreator.herokuapp/api/features/354",
       "name": "Eldritch Invocation: Gaze of Two Minds"
     }, {
-      "url": "http://dnd5eapi.co/api/features/355",
+      "url": "https://dndcharcreator.herokuapp/api/features/355",
       "name": "Eldritch Invocation: Mask of Many Faces"
     }, {
-      "url": "http://dnd5eapi.co/api/features/356",
+      "url": "https://dndcharcreator.herokuapp/api/features/356",
       "name": "Eldritch Invocation: Misty Visions"
     }, {
-      "url": "http://dnd5eapi.co/api/features/357",
+      "url": "https://dndcharcreator.herokuapp/api/features/357",
       "name": "Eldritch Invocation: Repelling Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/358",
+      "url": "https://dndcharcreator.herokuapp/api/features/358",
       "name": "Eldritch Invocation: Thief of Five Fates"
     }, {
-      "url": "http://dnd5eapi.co/api/features/359",
+      "url": "https://dndcharcreator.herokuapp/api/features/359",
       "name": "Eldritch Invocation: Voice of the Chain Master"
     }]
   },
-  "url": "http://dnd5eapi.co/api/features/389"
+  "url": "https://dndcharcreator.herokuapp/api/features/389"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104847"
   },
   "index": 392,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
   "name": "Mystic Arcanum (8th level)",
   "level": 15,
   "desc": ["At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th- level spell from the warlock spell list as this arcanum.", "You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.", "At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th- level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."],
-  "url": "http://dnd5eapi.co/api/features/392"
+  "url": "https://dndcharcreator.herokuapp/api/features/392"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104848"
   },
   "index": 393,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6875,119 +6875,119 @@
     "choose": 1,
     "type": "feature",
     "from": [{
-      "url": "http://dnd5eapi.co/api/features/344",
+      "url": "https://dndcharcreator.herokuapp/api/features/344",
       "name": "Eldritch Invocation: Agonizing Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/345",
+      "url": "https://dndcharcreator.herokuapp/api/features/345",
       "name": "Eldritch Invocation: Armor of Shadows"
     }, {
-      "url": "http://dnd5eapi.co/api/features/346",
+      "url": "https://dndcharcreator.herokuapp/api/features/346",
       "name": "Eldritch Invocation: Beast Speech"
     }, {
-      "url": "http://dnd5eapi.co/api/features/347",
+      "url": "https://dndcharcreator.herokuapp/api/features/347",
       "name": "Eldritch Invocation: Beguiling Influence"
     }, {
-      "url": "http://dnd5eapi.co/api/features/348",
+      "url": "https://dndcharcreator.herokuapp/api/features/348",
       "name": "Eldritch Invocation: Book of Ancient Secrets"
     }, {
-      "url": "http://dnd5eapi.co/api/features/349",
+      "url": "https://dndcharcreator.herokuapp/api/features/349",
       "name": "Eldritch Invocation: Devil’s Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/350",
+      "url": "https://dndcharcreator.herokuapp/api/features/350",
       "name": "Eldritch Invocation: Eldritch Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/351",
+      "url": "https://dndcharcreator.herokuapp/api/features/351",
       "name": "Eldritch Invocation: Eldritch Spear"
     }, {
-      "url": "http://dnd5eapi.co/api/features/352",
+      "url": "https://dndcharcreator.herokuapp/api/features/352",
       "name": "Eldritch Invocation: Eyes of the Rune Keeper"
     }, {
-      "url": "http://dnd5eapi.co/api/features/353",
+      "url": "https://dndcharcreator.herokuapp/api/features/353",
       "name": "Eldritch Invocation: Fiendish Vigor"
     }, {
-      "url": "http://dnd5eapi.co/api/features/354",
+      "url": "https://dndcharcreator.herokuapp/api/features/354",
       "name": "Eldritch Invocation: Gaze of Two Minds"
     }, {
-      "url": "http://dnd5eapi.co/api/features/355",
+      "url": "https://dndcharcreator.herokuapp/api/features/355",
       "name": "Eldritch Invocation: Mask of Many Faces"
     }, {
-      "url": "http://dnd5eapi.co/api/features/356",
+      "url": "https://dndcharcreator.herokuapp/api/features/356",
       "name": "Eldritch Invocation: Misty Visions"
     }, {
-      "url": "http://dnd5eapi.co/api/features/357",
+      "url": "https://dndcharcreator.herokuapp/api/features/357",
       "name": "Eldritch Invocation: Repelling Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/358",
+      "url": "https://dndcharcreator.herokuapp/api/features/358",
       "name": "Eldritch Invocation: Thief of Five Fates"
     }, {
-      "url": "http://dnd5eapi.co/api/features/359",
+      "url": "https://dndcharcreator.herokuapp/api/features/359",
       "name": "Eldritch Invocation: Voice of the Chain Master"
     }]
   },
-  "url": "http://dnd5eapi.co/api/features/393"
+  "url": "https://dndcharcreator.herokuapp/api/features/393"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104849"
   },
   "index": 395,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
   "name": "Mystic Arcanum (9th level)",
   "level": 17,
   "desc": ["At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th- level spell from the warlock spell list as this arcanum.", "You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.", "At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th- level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."],
-  "url": "http://dnd5eapi.co/api/features/395"
+  "url": "https://dndcharcreator.herokuapp/api/features/395"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410484a"
   },
   "index": 397,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
   "name": "Ability Score Improvement 6",
   "level": 19,
   "desc": ["When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."],
-  "url": "http://dnd5eapi.co/api/features/397"
+  "url": "https://dndcharcreator.herokuapp/api/features/397"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410484b"
   },
   "index": 394,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
   "name": "Ability Score Improvement 5",
   "level": 16,
   "desc": ["When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."],
-  "url": "http://dnd5eapi.co/api/features/394"
+  "url": "https://dndcharcreator.herokuapp/api/features/394"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410484c"
   },
   "index": 398,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
   "name": "Eldritch Master",
   "level": 20,
   "desc": ["At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature.", "Once you regain spell slots with this feature, you must finish a long rest before you can do so again."],
-  "url": "http://dnd5eapi.co/api/features/398"
+  "url": "https://dndcharcreator.herokuapp/api/features/398"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410484d"
   },
   "index": 396,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -6998,92 +6998,92 @@
     "choose": 1,
     "type": "feature",
     "from": [{
-      "url": "http://dnd5eapi.co/api/features/344",
+      "url": "https://dndcharcreator.herokuapp/api/features/344",
       "name": "Eldritch Invocation: Agonizing Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/345",
+      "url": "https://dndcharcreator.herokuapp/api/features/345",
       "name": "Eldritch Invocation: Armor of Shadows"
     }, {
-      "url": "http://dnd5eapi.co/api/features/346",
+      "url": "https://dndcharcreator.herokuapp/api/features/346",
       "name": "Eldritch Invocation: Beast Speech"
     }, {
-      "url": "http://dnd5eapi.co/api/features/347",
+      "url": "https://dndcharcreator.herokuapp/api/features/347",
       "name": "Eldritch Invocation: Beguiling Influence"
     }, {
-      "url": "http://dnd5eapi.co/api/features/348",
+      "url": "https://dndcharcreator.herokuapp/api/features/348",
       "name": "Eldritch Invocation: Book of Ancient Secrets"
     }, {
-      "url": "http://dnd5eapi.co/api/features/349",
+      "url": "https://dndcharcreator.herokuapp/api/features/349",
       "name": "Eldritch Invocation: Devil’s Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/350",
+      "url": "https://dndcharcreator.herokuapp/api/features/350",
       "name": "Eldritch Invocation: Eldritch Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/351",
+      "url": "https://dndcharcreator.herokuapp/api/features/351",
       "name": "Eldritch Invocation: Eldritch Spear"
     }, {
-      "url": "http://dnd5eapi.co/api/features/352",
+      "url": "https://dndcharcreator.herokuapp/api/features/352",
       "name": "Eldritch Invocation: Eyes of the Rune Keeper"
     }, {
-      "url": "http://dnd5eapi.co/api/features/353",
+      "url": "https://dndcharcreator.herokuapp/api/features/353",
       "name": "Eldritch Invocation: Fiendish Vigor"
     }, {
-      "url": "http://dnd5eapi.co/api/features/354",
+      "url": "https://dndcharcreator.herokuapp/api/features/354",
       "name": "Eldritch Invocation: Gaze of Two Minds"
     }, {
-      "url": "http://dnd5eapi.co/api/features/355",
+      "url": "https://dndcharcreator.herokuapp/api/features/355",
       "name": "Eldritch Invocation: Mask of Many Faces"
     }, {
-      "url": "http://dnd5eapi.co/api/features/356",
+      "url": "https://dndcharcreator.herokuapp/api/features/356",
       "name": "Eldritch Invocation: Misty Visions"
     }, {
-      "url": "http://dnd5eapi.co/api/features/357",
+      "url": "https://dndcharcreator.herokuapp/api/features/357",
       "name": "Eldritch Invocation: Repelling Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/358",
+      "url": "https://dndcharcreator.herokuapp/api/features/358",
       "name": "Eldritch Invocation: Thief of Five Fates"
     }, {
-      "url": "http://dnd5eapi.co/api/features/359",
+      "url": "https://dndcharcreator.herokuapp/api/features/359",
       "name": "Eldritch Invocation: Voice of the Chain Master"
     }]
   },
-  "url": "http://dnd5eapi.co/api/features/396"
+  "url": "https://dndcharcreator.herokuapp/api/features/396"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410484e"
   },
   "index": 400,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {},
   "name": "Spellcasting",
   "level": 1,
   "desc": ["As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power."],
-  "reference": "http://dnd5eapi.co/api/spellcasting/wizard",
-  "url": "http://dnd5eapi.co/api/features/400"
+  "reference": "https://dndcharcreator.herokuapp/api/spellcasting/wizard",
+  "url": "https://dndcharcreator.herokuapp/api/features/400"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410484f"
   },
   "index": 401,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {},
   "name": "Arcane Recovery",
   "level": 1,
   "desc": ["You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.", "For example, if you’re a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots."],
-  "url": "http://dnd5eapi.co/api/features/401"
+  "url": "https://dndcharcreator.herokuapp/api/features/401"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104850"
   },
   "index": 399,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/11",
+    "url": "https://dndcharcreator.herokuapp/api/classes/11",
     "name": "Warlock"
   },
   "subclass": {},
@@ -7094,253 +7094,253 @@
     "choose": 1,
     "type": "feature",
     "from": [{
-      "url": "http://dnd5eapi.co/api/features/344",
+      "url": "https://dndcharcreator.herokuapp/api/features/344",
       "name": "Eldritch Invocation: Agonizing Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/345",
+      "url": "https://dndcharcreator.herokuapp/api/features/345",
       "name": "Eldritch Invocation: Armor of Shadows"
     }, {
-      "url": "http://dnd5eapi.co/api/features/346",
+      "url": "https://dndcharcreator.herokuapp/api/features/346",
       "name": "Eldritch Invocation: Beast Speech"
     }, {
-      "url": "http://dnd5eapi.co/api/features/347",
+      "url": "https://dndcharcreator.herokuapp/api/features/347",
       "name": "Eldritch Invocation: Beguiling Influence"
     }, {
-      "url": "http://dnd5eapi.co/api/features/348",
+      "url": "https://dndcharcreator.herokuapp/api/features/348",
       "name": "Eldritch Invocation: Book of Ancient Secrets"
     }, {
-      "url": "http://dnd5eapi.co/api/features/349",
+      "url": "https://dndcharcreator.herokuapp/api/features/349",
       "name": "Eldritch Invocation: Devil’s Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/350",
+      "url": "https://dndcharcreator.herokuapp/api/features/350",
       "name": "Eldritch Invocation: Eldritch Sight"
     }, {
-      "url": "http://dnd5eapi.co/api/features/351",
+      "url": "https://dndcharcreator.herokuapp/api/features/351",
       "name": "Eldritch Invocation: Eldritch Spear"
     }, {
-      "url": "http://dnd5eapi.co/api/features/352",
+      "url": "https://dndcharcreator.herokuapp/api/features/352",
       "name": "Eldritch Invocation: Eyes of the Rune Keeper"
     }, {
-      "url": "http://dnd5eapi.co/api/features/353",
+      "url": "https://dndcharcreator.herokuapp/api/features/353",
       "name": "Eldritch Invocation: Fiendish Vigor"
     }, {
-      "url": "http://dnd5eapi.co/api/features/354",
+      "url": "https://dndcharcreator.herokuapp/api/features/354",
       "name": "Eldritch Invocation: Gaze of Two Minds"
     }, {
-      "url": "http://dnd5eapi.co/api/features/355",
+      "url": "https://dndcharcreator.herokuapp/api/features/355",
       "name": "Eldritch Invocation: Mask of Many Faces"
     }, {
-      "url": "http://dnd5eapi.co/api/features/356",
+      "url": "https://dndcharcreator.herokuapp/api/features/356",
       "name": "Eldritch Invocation: Misty Visions"
     }, {
-      "url": "http://dnd5eapi.co/api/features/357",
+      "url": "https://dndcharcreator.herokuapp/api/features/357",
       "name": "Eldritch Invocation: Repelling Blast"
     }, {
-      "url": "http://dnd5eapi.co/api/features/358",
+      "url": "https://dndcharcreator.herokuapp/api/features/358",
       "name": "Eldritch Invocation: Thief of Five Fates"
     }, {
-      "url": "http://dnd5eapi.co/api/features/359",
+      "url": "https://dndcharcreator.herokuapp/api/features/359",
       "name": "Eldritch Invocation: Voice of the Chain Master"
     }]
   },
-  "url": "http://dnd5eapi.co/api/features/399"
+  "url": "https://dndcharcreator.herokuapp/api/features/399"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104851"
   },
   "index": 402,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {},
   "name": "Arcane Tradition",
   "level": 2,
   "desc": ["When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.", "Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."],
-  "url": "http://dnd5eapi.co/api/features/402"
+  "url": "https://dndcharcreator.herokuapp/api/features/402"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104852"
   },
   "index": 404,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {
-    "url": "http://dnd5eapi.co/api/subclasses/12",
+    "url": "https://dndcharcreator.herokuapp/api/subclasses/12",
     "name": "Evocation"
   },
   "name": "Sculpt Spells",
   "level": 2,
   "desc": ["Beginning at 2nd level, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell’s level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."],
-  "url": "http://dnd5eapi.co/api/features/404"
+  "url": "https://dndcharcreator.herokuapp/api/features/404"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104853"
   },
   "index": 403,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {
-    "url": "http://dnd5eapi.co/api/subclasses/12",
+    "url": "https://dndcharcreator.herokuapp/api/subclasses/12",
     "name": "Evocation"
   },
   "name": "Evocation Savant",
   "level": 2,
   "desc": ["Beginning when you select this school at 2nd level, the gold and time you must spend to copy an evocation spell into your spellbook is halved."],
-  "url": "http://dnd5eapi.co/api/features/403"
+  "url": "https://dndcharcreator.herokuapp/api/features/403"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104854"
   },
   "index": 405,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {},
   "name": "Ability Score Improvement 1",
   "level": 4,
   "desc": ["When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."],
-  "url": "http://dnd5eapi.co/api/features/405"
+  "url": "https://dndcharcreator.herokuapp/api/features/405"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104855"
   },
   "index": 406,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {
-    "url": "http://dnd5eapi.co/api/subclasses/12",
+    "url": "https://dndcharcreator.herokuapp/api/subclasses/12",
     "name": "Evocation"
   },
   "name": "Potent Cantrip",
   "level": 6,
   "desc": ["Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip’s damage (if any) but suffers no additional effect from the cantrip."],
-  "url": "http://dnd5eapi.co/api/features/406"
+  "url": "https://dndcharcreator.herokuapp/api/features/406"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104856"
   },
   "index": 407,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {},
   "name": "Ability Score Improvement 2",
   "level": 8,
   "desc": ["When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."],
-  "url": "http://dnd5eapi.co/api/features/407"
+  "url": "https://dndcharcreator.herokuapp/api/features/407"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104857"
   },
   "index": 409,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {
-    "url": "http://dnd5eapi.co/api/subclasses/12",
+    "url": "https://dndcharcreator.herokuapp/api/subclasses/12",
     "name": "Evocation"
   },
   "name": "Empowered Evocation",
   "level": 10,
   "desc": ["Beginning at 10th level, you can add your Intelligence modifier to one damage roll of any wizard evocation spell you cast."],
-  "url": "http://dnd5eapi.co/api/features/409"
+  "url": "https://dndcharcreator.herokuapp/api/features/409"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104858"
   },
   "index": 410,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {},
   "name": "Ability Score Improvement 3",
   "level": 12,
   "desc": ["When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."],
-  "url": "http://dnd5eapi.co/api/features/410"
+  "url": "https://dndcharcreator.herokuapp/api/features/410"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff4104859"
   },
   "index": 412,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {
-    "url": "http://dnd5eapi.co/api/subclasses/12",
+    "url": "https://dndcharcreator.herokuapp/api/subclasses/12",
     "name": "Evocation"
   },
   "name": "Overchannel",
   "level": 14,
   "desc": ["Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell.", "The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity."],
-  "url": "http://dnd5eapi.co/api/features/412"
+  "url": "https://dndcharcreator.herokuapp/api/features/412"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410485a"
   },
   "index": 415,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {},
   "name": "Ability Score Improvement 5",
   "level": 19,
   "desc": ["When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."],
-  "url": "http://dnd5eapi.co/api/features/415"
+  "url": "https://dndcharcreator.herokuapp/api/features/415"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410485b"
   },
   "index": 413,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {},
   "name": "Ability Score Improvement 4",
   "level": 16,
   "desc": ["When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."],
-  "url": "http://dnd5eapi.co/api/features/413"
+  "url": "https://dndcharcreator.herokuapp/api/features/413"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410485c"
   },
   "index": 416,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {},
   "name": "Signature Spell",
   "level": 20,
   "desc": ["When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don’t count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can’t do so again until you finish a short or long rest.", "If you want to cast either spell at a higher level, you must expend a spell slot as normal."],
-  "url": "http://dnd5eapi.co/api/features/416"
+  "url": "https://dndcharcreator.herokuapp/api/features/416"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410485d"
   },
   "index": 414,
   "class": {
-    "url": "http://dnd5eapi.co/api/classes/12",
+    "url": "https://dndcharcreator.herokuapp/api/classes/12",
     "name": "Wizard"
   },
   "subclass": {},
   "name": "Spell Mastery",
   "level": 18,
   "desc": ["At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.", "By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels."],
-  "url": "http://dnd5eapi.co/api/features/414"
+  "url": "https://dndcharcreator.herokuapp/api/features/414"
 } {
   "_id": {
     "$oid": "5a9cdd1026c967cff410485e"
