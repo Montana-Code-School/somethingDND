@@ -8,6 +8,7 @@ class App extends Component {
     super(props);
     this.state = {
       race: [],
+      classtype: [],
       fetching: true
     };
   }
@@ -35,13 +36,16 @@ class App extends Component {
   }
 
   render() {
-    return (
+    if(this.state.race.length === 0) {
+        return (<p>loading</p>);
+    } else {
+     return (
       <div className="App">
-        {this.state.race.map((race) =>
-          <p> {race.name} </p>
-        )}
-      </div>
-    );
+        <p>{this.state.race[0].name}</p>
+        <p>{this.state.race[0].subraces[1].name}</p>
+        </div>
+      );
+    }
   }
 }
 
