@@ -1347,13 +1347,13 @@
     "type": "equipment",
     "from": [{
       "item": {
-        "url": "https://dndcharcreator.herokuapp/api/equipment/39",
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/39",
         "name": "Leather"
       },
       "quantity": 1
     }, {
       "item": {
-        "url": "https://dndcharcreator.herokuapp/api/equipment/36",
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/36",
         "name": "Longbow"
       },
       "quantity": 1
