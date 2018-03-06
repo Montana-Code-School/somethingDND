@@ -88,6 +88,15 @@ if (cluster.isMaster) {
             })
         })
 
+        router.route("/race/:index")
+          .get(({params}, res) => {
+            Race.find({index: params.index}, (err, race) => {
+              if(err)
+                res.send(err);
+              res.json(race);
+            });
+          })
+
         router.route("/subrace")
           .get((req, res) => {
             console.log('Its Alive!');
