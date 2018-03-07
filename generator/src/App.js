@@ -1,48 +1,38 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import BuildButton from './BuildButton.js';
-import _ from 'lodash';
-import requestApi from "./Utilities/request.js"
+//import BuildButton from './components/BuildButton.js';
+import ClassType from './components/ClassType.js';
+import Race from './components/Race.js';
+import Proficiency from './components/Proficiency.js';
+//import _ from 'lodash';
+//import requestApi from "./Utilities/request.js"
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       race: false,
+      subrace: false,
       classtype: false,
+      proficiency: false,
       fetching: true
     };
+    this.update = this.update.bind(this);
   }
 
-  componentWillMount() {
-    requestApi("/api/race")()
-    .then((raceArray) =>{
-      console.log(raceArray)
-      this.setState({
-        race: raceArray,
-        fetching: false
-      });
-    })
-
-    requestApi("/api/class")()
-    .then((classArray) =>{
-      console.log(classArray)
-      this.setState({
-        classtype: classArray,
-        fetching: false
-      })
-    })
+  update(upTarget, upValue){
+    let temp = {}
+    temp[upTarget] = upValue
+    this.setState(temp)
   }
 
   render() {
      return (
       <div className="App">
-        <p>{this.state.race ? this.state.race[0].name : 'loading'}</p>
-        <p>{this.state.race ? this.state.race[0].subraces[0].name : 'loading'}</p>
-        <p>{this.state.classtype ? this.state.classtype[0].name : 'loading'}</p>
-        <p>{this.state.classtype ? this.state.classtype[0].subclasses[0].name : 'loading'}</p>
-        </div>
+        <Race raceProp={this.state.race} update={this.update} subraceProp={this.state.subrace}/>
+        <ClassType classProp={this.state.classtype} update={this.update}/>
+        <Proficiency proficiencyProp={this.state.proficiency} update={this.update}/>
+      </div>
       );
   }
 }
