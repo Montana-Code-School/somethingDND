@@ -1,47 +1,40 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import BuildButton from './BuildButton.js';
+//import BuildButton from './components/BuildButton.js';
+import ClassType from './components/ClassType.js';
+import Race from './components/Race.js';
+import Proficiency from './components/Proficiency.js';
+//import _ from 'lodash';
+//import requestApi from "./Utilities/request.js"
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      race: [],
+      race: false,
+      subrace: false,
+      classtype: false,
+      proficiency: false,
       fetching: true
     };
+    this.update = this.update.bind(this);
   }
 
-  componentDidMount() {
-    fetch('/api/race')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`status ${response.status}`);
-        }
-        return response.json();
-      })
-      .then(json => {
-        console.log(json)
-        this.setState({
-          race: json,
-          fetching: false
-        });
-      }).catch(e => {
-        this.setState({
-          race: `API call failed: ${e}`,
-          fetching: false
-        });
-      })
+  update(upTarget, upValue){
+    let temp = {}
+    temp[upTarget] = upValue
+    this.setState(temp)
   }
 
   render() {
-    return (
+    console.log(this.state, "Right Here!")
+     return (
       <div className="App">
-        {this.state.race.map((race) =>
-          <p> {race.name} </p>
-        )}
+        <Race raceProp={this.state.race} update={this.update} subraceProp={this.state.subrace}/>
+        <ClassType classProp={this.state.classtype} update={this.update}/>
+        <Proficiency raceProp={this.state.race} proficiencyProp={this.state.proficiency} update={this.update}/>
       </div>
-    );
+      );
   }
 }
 

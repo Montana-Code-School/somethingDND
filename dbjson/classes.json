@@ -815,31 +815,31 @@
     "choose": 1,
     "type": "proficiencies",
     "from": [{
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/81",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/81",
       "name": "Bagpipes"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/82",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/82",
       "name": "Drum"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/83",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/83",
       "name": "Dulcimer"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/84",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/84",
       "name": "Flute"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/85",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/85",
       "name": "Lute"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/86",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/86",
       "name": "Lyre"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/87",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/87",
       "name": "Horn"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/88",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/88",
       "name": "Pan flute"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/89",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/89",
       "name": "Shawm"
     }, {
       "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/90",
@@ -849,19 +849,19 @@
     "choose": 2,
     "type": "proficiencies",
     "from": [{
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/105",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/105",
       "name": "Acrobatics"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/108",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/108",
       "name": "Athletics"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/110",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/110",
       "name": "History"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/111",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/111",
       "name": "Insight"
     }, {
-      "url": "https://dndcharcreator.herokuapp/api/proficiencies/119",
+      "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/119",
       "name": "Religion"
     }, {
       "url": "https://dndcharcreator.herokuapp.com/api/proficiencies/121",

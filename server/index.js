@@ -26,6 +26,7 @@ const SubRace = require('../generator/src/models/SubRace.js');
 const Test = require('../generator/src/models/Test.js');
 const Trait = require('../generator/src/models/Trait.js');
 const WeaponProperty = require('../generator/src/models/WeaponProperty.js');
+const Character = require('../generator/src/models/Character.js')
 
 const router = express.Router();
 const request = require('request');
@@ -87,6 +88,33 @@ if (cluster.isMaster) {
             res.json(races);
             })
         })
+
+        router.route("/race/:index/subrace")
+          .get(({params}, res) => {
+            let character = new Character();
+            //race: name
+            //speed size languages
+            // traits, subraces, starting_proficiencies
+            // starting_proficiency_options, ability_bonuses
+            Race.findOne({index: 1}, (err, race) => {
+               character.race = race.name;
+               character.speed = race.speed;
+               character.size = race.size;
+               character.traits = race.traits;
+               character.languages = race.languages;
+               character.starting_proficiencies = race.starting_proficiencies;
+               character.starting_proficiency_options = race.starting_proficiency_options;
+               character.ability_bonuses = race.ability_bonuses;
+              console.log(race.name, "first race");
+                SubRace.findOne({index: 1}, (err, subrace) => {
+                  character.subrace = subrace.name;
+                  character.save(res.json(character));
+                  console.log(character, "Hes the one Neo")
+                })
+              })
+
+              // res.json({message: "just a regular ol message"})
+          })
 
         router.route("/subrace")
           .get((req, res) => {
