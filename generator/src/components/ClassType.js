@@ -7,7 +7,7 @@ export default class ClassType extends Component {
   componentWillMount() {
     requestApi("/api/class")()
     .then((classArray) =>{
-      console.log(classArray)
+      //console.log(classArray)
       this.props.update("classtype", classArray)
     })
   }
