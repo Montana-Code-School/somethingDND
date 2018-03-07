@@ -8,10 +8,24 @@ const CharacterSchema = new Schema(
   speed: Number,
   size: String,
   languages: Array,
+  sub_languages: Array,
   traits: Array,
+  racial_traits: Array,
   starting_proficiency_options: Array,
   ability_bonuses: Array,
+  sub_ability_bonuses: Array,
   starting_proficiencies: Array,
+  sub_starting_proficiencies: Array,
+  className: String,
+  subclasses: String,
+  hit_die: Number,
+  proficiency_choices: Array,
+  proficiencies: Array,
+  saving_throws: Array,
+  starting_equipment: Object,
+  class_levels: Object,
+  features: Array,
+
 }
 )
 module.exports = mongoose.model('Character', CharacterSchema);

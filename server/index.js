@@ -92,10 +92,7 @@ if (cluster.isMaster) {
         router.route("/race/:index/subrace")
           .get(({params}, res) => {
             let character = new Character();
-            //race: name
-            //speed size languages
-            // traits, subraces, starting_proficiencies
-            // starting_proficiency_options, ability_bonuses
+
             Race.findOne({index: 1}, (err, race) => {
                character.race = race.name;
                character.speed = race.speed;
@@ -105,15 +102,31 @@ if (cluster.isMaster) {
                character.starting_proficiencies = race.starting_proficiencies;
                character.starting_proficiency_options = race.starting_proficiency_options;
                character.ability_bonuses = race.ability_bonuses;
-              console.log(race.name, "first race");
+
                 SubRace.findOne({index: 1}, (err, subrace) => {
                   character.subrace = subrace.name;
-                  character.save(res.json(character));
-                  console.log(character, "Hes the one Neo")
+                  character.sub_ability_bonuses = subrace.ability_bonuses;
+                  character.sub_languages = subrace.languages;
+                  character.sub_starting_proficiencies = subrace.starting_proficiencies;
+                  character.racial_traits = subrace.racial_traits;
                 })
               })
 
-              // res.json({message: "just a regular ol message"})
+              ClassType.findOne({index: 5}, (err, classes) => {
+                character.className = classes.name;
+                character.hit_die = classes.hit_die;
+                character.proficiency_choices = classes.proficiency_choices;
+                character.proficiencies = classes.proficiencies;
+                character.saving_throws = classes.saving_throws;
+                character.starting_equipment = classes.starting_equipment;
+                character.class_levels = classes.class_levels;
+
+                  SubClass.findOne({index: 5}, (err, subclasses) =>{
+                    character.subclasses = subclasses.name;
+                    character.features = subclasses.features;
+                    character.save(res.json(character));
+              })
+            })
           })
 
         router.route("/subrace")
@@ -126,19 +139,19 @@ if (cluster.isMaster) {
 
               res.json(subraces);
               })
-          })
-
-          router.route("/class")
-            .get((req, res) => {
-              console.log('Its Alive!');
-              ClassType.find((err, classtypes) => {
-                console.log(classtypes)
-              if (err)
-                res.send(err);
-
-                res.json(classtypes);
-                })
             })
+
+          // router.route("/classes/:index")
+          //   .get((req, res) => {
+          //     Character();
+          //     //name of class, hit_die, proficiency_choices, proficiencies, saving_throws, starting_equipment
+          //     //class_levels, subclasses
+          //     ClassType.findOne({index: 1}, (err, classes) => {
+          //       character.className = classes.name;
+          //       character.subclasses = classes.subclasses;
+          //       character.save(res.json(character));
+          //       })
+          //   })
 
           router.route("/subclass")
             .get((req, res) => {
