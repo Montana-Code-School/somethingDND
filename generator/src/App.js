@@ -27,11 +27,12 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.state, "Right Here!")
      return (
       <div className="App">
         <Race raceProp={this.state.race} update={this.update} subraceProp={this.state.subrace}/>
         <ClassType classProp={this.state.classtype} update={this.update}/>
-        <Proficiency proficiencyProp={this.state.proficiency} update={this.update}/>
+        <Proficiency raceProp={this.state.race} proficiencyProp={this.state.proficiency} update={this.update}/>
       </div>
       );
   }
