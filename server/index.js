@@ -96,18 +96,24 @@ if (cluster.isMaster) {
             //speed size languages
             // traits, subraces, starting_proficiencies
             // starting_proficiency_options, ability_bonuses
-            Race.findOne({index: params.index}, (err, race) => {
+            Race.findOne({index: 1}, (err, race) => {
                character.race = race.name;
                character.speed = race.speed;
-               character.save();
+               character.size = race.size;
+               character.traits = race.traits;
+               character.languages = race.languages;
+               character.starting_proficiencies = race.starting_proficiencies;
+               character.starting_proficiency_options = race.starting_proficiency_options;
+               character.ability_bonuses = race.ability_bonuses;
               console.log(race.name, "first race");
                 SubRace.findOne({index: 1}, (err, subrace) => {
                   character.subrace = subrace.name;
-                  character.save();
-                  console.log(character)
+                  character.save(res.json(character));
+                  console.log(character, "Hes the one Neo")
                 })
               })
-              res.json({message: "just a regular ol message"})
+
+              // res.json({message: "just a regular ol message"})
           })
 
         router.route("/subrace")
