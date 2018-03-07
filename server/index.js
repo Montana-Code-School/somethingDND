@@ -27,6 +27,7 @@ const Test = require('../generator/src/models/Test.js');
 const Trait = require('../generator/src/models/Trait.js');
 const WeaponProperty = require('../generator/src/models/WeaponProperty.js');
 const Character = require('../generator/src/models/Character.js')
+const RandomNum = require('./generator/src/Utilities/random.js')
 
 const router = express.Router();
 const request = require('request');
@@ -92,7 +93,7 @@ if (cluster.isMaster) {
         router.route("/race/:index/subrace")
           .get(({params}, res) => {
             let character = new Character();
-
+            //max:9 races
             Race.findOne({index: 1}, (err, race) => {
                character.race = race.name;
                character.speed = race.speed;
@@ -102,7 +103,7 @@ if (cluster.isMaster) {
                character.starting_proficiencies = race.starting_proficiencies;
                character.starting_proficiency_options = race.starting_proficiency_options;
                character.ability_bonuses = race.ability_bonuses;
-
+               //max 6(8) subclasses
                 SubRace.findOne({index: 1}, (err, subrace) => {
                   character.subrace = subrace.name;
                   character.sub_ability_bonuses = subrace.ability_bonuses;
@@ -111,8 +112,8 @@ if (cluster.isMaster) {
                   character.racial_traits = subrace.racial_traits;
                 })
               })
-
-              ClassType.findOne({index: 5}, (err, classes) => {
+              //max 12 classes
+              ClassType.findOne({index: 1}, (err, classes) => {
                 character.className = classes.name;
                 character.hit_die = classes.hit_die;
                 character.proficiency_choices = classes.proficiency_choices;
@@ -120,8 +121,8 @@ if (cluster.isMaster) {
                 character.saving_throws = classes.saving_throws;
                 character.starting_equipment = classes.starting_equipment;
                 character.class_levels = classes.class_levels;
-
-                  SubClass.findOne({index: 5}, (err, subclasses) =>{
+                // max 12 subclasses
+                  SubClass.findOne({index: 1}, (err, subclasses) =>{
                     character.subclasses = subclasses.name;
                     character.features = subclasses.features;
                     character.save(res.json(character));
