@@ -27,7 +27,7 @@ const Test = require('../generator/src/models/Test.js');
 const Trait = require('../generator/src/models/Trait.js');
 const WeaponProperty = require('../generator/src/models/WeaponProperty.js');
 const Character = require('../generator/src/models/Character.js')
-const RandomNum = require('./generator/src/Utilities/random.js')
+//const RandomNum = require('./generator/src/Utilities/random.js')
 
 const router = express.Router();
 const request = require('request');
@@ -56,126 +56,52 @@ if (cluster.isMaster) {
   app.use(bodyParser.urlencoded({
     extended: true
   }));
-
-  router.route("/abilityscore")
-    .get((req, res) => {
-      console.log('Its Alive!');
-      AbilityScore.find((err, abilityscores) => {
-        console.log(abilityscores)
-      if (err)
-        res.send(err);
-
-        res.json(abilityscores);
-        })
-    })
-
-    router.route("/abilityscore/:index")
-      .get(({params}, res) => {
-        AbilityScore.find({index: params.index}, (err, abilityscore) => {
-          if(err)
-            res.send(err);
-          res.json(abilityscore);
-        });
-      })
-
-      router.route("/race")
-        .get((req, res) => {
-          console.log('Its Alive!');
-          Race.find((err, races) => {
-            console.log(races)
-          if (err)
-            res.send(err);
-
-            res.json(races);
-            })
-        })
-
-        router.route("/race/:index/subrace")
+              //this is the masta route that calls our entire character
+        router.route("/character")
           .get(({params}, res) => {
             let character = new Character();
             //max:9 races
             Race.findOne({index: 1}, (err, race) => {
-               character.race = race.name;
-               character.speed = race.speed;
-               character.size = race.size;
-               character.traits = race.traits;
-               character.languages = race.languages;
-               character.starting_proficiencies = race.starting_proficiencies;
-               character.starting_proficiency_options = race.starting_proficiency_options;
-               character.ability_bonuses = race.ability_bonuses;
-               //max 6(8) subclasses
-                SubRace.findOne({index: 1}, (err, subrace) => {
-                  character.subrace = subrace.name;
-                  character.sub_ability_bonuses = subrace.ability_bonuses;
-                  character.sub_languages = subrace.languages;
-                  character.sub_starting_proficiencies = subrace.starting_proficiencies;
-                  character.racial_traits = subrace.racial_traits;
-                })
-              })
+              character.race = race.name;
+              character.speed = race.speed;
+              character.size = race.size;
+              character.traits = race.traits;
+              character.languages = race.languages;
+              character.starting_proficiencies = race.starting_proficiencies;
+              character.starting_proficiency_options = race.starting_proficiency_options;
+              character.ability_bonuses = race.ability_bonuses;
+            })
+             //max 6(8) subclasses
+            SubRace.findOne({index: 1}, (err, subrace) => {
+              character.subrace = subrace.name;
+              character.sub_ability_bonuses = subrace.ability_bonuses;
+              character.sub_languages = subrace.languages;
+              character.sub_starting_proficiencies = subrace.starting_proficiencies;
+              character.racial_traits = subrace.racial_traits;
+            })
               //max 12 classes
-              ClassType.findOne({index: 1}, (err, classes) => {
-                character.className = classes.name;
-                character.hit_die = classes.hit_die;
-                character.proficiency_choices = classes.proficiency_choices;
-                character.proficiencies = classes.proficiencies;
-                character.saving_throws = classes.saving_throws;
-                character.starting_equipment = classes.starting_equipment;
-                character.class_levels = classes.class_levels;
-                // max 12 subclasses
-                  SubClass.findOne({index: 1}, (err, subclasses) =>{
-                    character.subclasses = subclasses.name;
-                    character.features = subclasses.features;
-                    character.save(res.json(character));
-              })
+            ClassType.findOne({index: 1}, (err, classes) => {
+              character.className = classes.name;
+              character.hit_die = classes.hit_die;
+              character.proficiency_choices = classes.proficiency_choices;
+              character.proficiencies = classes.proficiencies;
+              character.saving_throws = classes.saving_throws;
+              character.starting_equipment = classes.starting_equipment;
+              character.class_levels = classes.class_levels;
+            })
+              // max 12 subclasses
+            SubClass.findOne({index: 1}, (err, subclasses) => {
+              character.subclasses = subclasses.name;
+              character.features = subclasses.features;
+            })
+            StartingEquipment.findOne({index: 1}, (err, startingequipment) => {
+              character.starting_equipment = startingequipment.starting_equipment[0].item.name;
+              character.save(res.json(character));
             })
           })
 
-        router.route("/subrace")
-          .get((req, res) => {
-            console.log('Its Alive!');
-            SubRace.find((err, subraces) => {
-              console.log(subraces)
-            if (err)
-              res.send(err);
-
-              res.json(subraces);
-              })
-            })
-
-          // router.route("/classes/:index")
-          //   .get((req, res) => {
-          //     Character();
-          //     //name of class, hit_die, proficiency_choices, proficiencies, saving_throws, starting_equipment
-          //     //class_levels, subclasses
-          //     ClassType.findOne({index: 1}, (err, classes) => {
-          //       character.className = classes.name;
-          //       character.subclasses = classes.subclasses;
-          //       character.save(res.json(character));
-          //       })
-          //   })
-
-          router.route("/subclass")
-            .get((req, res) => {
-              console.log('Its Alive!');
-              SubClass.find((err, subclasses) => {
-                console.log(subclasses)
-              if (err)
-                res.send(err);
-
-                res.json(subclasses);
-                })
-            })
-      // router.route("/race/:index")
-      //   .get(({params}, res) => {
-      //     Race.find({index: params.index}, (err, race) => {
-      //       if(err)
-      //         res.send(err);
-      //       res.json(race);
-      //     });
-      //   })
-
   // Priority serve any static files.
-   app.use(express.static(path.resolve(__dirname, '../generator/build')));
+  app.use(express.static(path.resolve(__dirname, '../generator/build')));
   //
   // // Answer API requests.
   app.get('/api', function (req, res) {

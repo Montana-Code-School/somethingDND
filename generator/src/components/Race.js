@@ -7,8 +7,8 @@ export default class Race extends Component {
   componentWillMount() {
     requestApi("/api/race/1")()
     .then((raceArray) =>{
-      console.log(raceArray[0])
-      this.props.update("race", raceArray[0]);
+      console.log(raceArray)
+      this.props.update("race", raceArray);
     })
   }
 

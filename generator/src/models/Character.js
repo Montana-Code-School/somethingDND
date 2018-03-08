@@ -22,7 +22,7 @@ const CharacterSchema = new Schema(
   proficiency_choices: Array,
   proficiencies: Array,
   saving_throws: Array,
-  starting_equipment: Object,
+  starting_equipment: Array,
   class_levels: Object,
   features: Array,
 
