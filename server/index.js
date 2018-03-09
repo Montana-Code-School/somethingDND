@@ -27,27 +27,23 @@ const Test = require('../generator/src/models/Test.js');
 const Trait = require('../generator/src/models/Trait.js');
 const WeaponProperty = require('../generator/src/models/WeaponProperty.js');
 const Character = require('../generator/src/models/Character.js')
-//const RandomNum = require('./generator/src/Utilities/random.js')
-
+const RandomNum = require('../generator/src/Utilities/random.js')
 const router = express.Router();
 const request = require('request');
 const PORT = process.env.PORT || 5000;
 const db = process.env.MONGODB_URI || 'mongodb://localhost/DnD'
 mongoose.connection.openUri(db);
-// const ourConnect = mongoose.createConnection('mongodb://heroku_fw6bf6l1:kpl68f0vcqgnn6vjo0on0c0jg1@ds151528.mlab.com:51528/heroku_fw6bf6l1');
 
-// Multi-process to utilize all CPU cores.
 if (cluster.isMaster) {
   console.error(`Node cluster master ${process.pid} is running`);
 
-  // Fork workers.
   for (let i = 0; i < numCPUs; i++) {
     cluster.fork();
-  }
+}
 
-  cluster.on('exit', (worker, code, signal) => {
-    console.error(`Node cluster worker ${worker.process.pid} exited: code ${code}, signal ${signal}`);
-  });
+cluster.on('exit', (worker, code, signal) => {
+  console.error(`Node cluster worker ${worker.process.pid} exited: code ${code}, signal ${signal}`);
+});
 
 } else {
 
@@ -56,54 +52,53 @@ if (cluster.isMaster) {
   app.use(bodyParser.urlencoded({
     extended: true
   }));
-              //this is the masta route that calls our entire character
-        router.route("/character")
-          .get(({params}, res) => {
-            let character = new Character();
-            //max:9 races
-            Race.findOne({index: 1}, (err, race) => {
-              character.race = race.name;
-              character.speed = race.speed;
-              character.size = race.size;
-              character.traits = race.traits;
-              character.languages = race.languages;
-              character.starting_proficiencies = race.starting_proficiencies;
-              character.starting_proficiency_options = race.starting_proficiency_options;
-              character.ability_bonuses = race.ability_bonuses;
-            })
-             //max 6(8) subclasses
-            SubRace.findOne({index: 1}, (err, subrace) => {
-              character.subrace = subrace.name;
-              character.sub_ability_bonuses = subrace.ability_bonuses;
-              character.sub_languages = subrace.languages;
-              character.sub_starting_proficiencies = subrace.starting_proficiencies;
-              character.racial_traits = subrace.racial_traits;
-            })
-              //max 12 classes
-            ClassType.findOne({index: 1}, (err, classes) => {
-              character.className = classes.name;
-              character.hit_die = classes.hit_die;
-              character.proficiency_choices = classes.proficiency_choices;
-              character.proficiencies = classes.proficiencies;
-              character.saving_throws = classes.saving_throws;
-              character.starting_equipment = classes.starting_equipment;
-              character.class_levels = classes.class_levels;
-            })
-              // max 12 subclasses
-            SubClass.findOne({index: 1}, (err, subclasses) => {
-              character.subclasses = subclasses.name;
-              character.features = subclasses.features;
-            })
-            StartingEquipment.findOne({index: 1}, (err, startingequipment) => {
-              character.starting_equipment = startingequipment.starting_equipment[0].item.name;
-              character.save(res.json(character));
-            })
+            //this is the masta route that calls our entire character
+      router.route("/character")
+        .get(({params}, res) => {
+          let character = new Character();
+          //max:9 races
+          randomRace = RandomNum.getRandomInt(1,9);
+          Race.findOne({index: randomRace}, (err, race) => {
+            character.race = race.name;
+            character.speed = race.speed;
+            character.size = race.size;
+            character.traits = race.traits;
+            character.languages = race.languages;
+            character.starting_proficiencies = race.starting_proficiencies;
+            character.starting_proficiency_options = race.starting_proficiency_options;
+            character.ability_bonuses = race.ability_bonuses;
           })
+           //max 6(8) subraces
+          SubRace.findOne({index: randomSubRace}, (err, subrace) => {
+            character.subrace = subrace.name;
+            character.sub_ability_bonuses = subrace.ability_bonuses;
+            character.sub_starting_proficiencies = subrace.starting_proficiencies;
+            character.racial_traits = subrace.racial_traits;
+          })
+            //max 12 classes
+            randomClass = RandomNum.getRandomInt(1,12);
+          ClassType.findOne({index: randomClass}, (err, classes) => {
+            character.className = classes.name;
+            character.hit_die = classes.hit_die;
+            character.proficiency_choices = classes.proficiency_choices;
+            character.proficiencies = classes.proficiencies;
+            character.saving_throws = classes.saving_throws;
+            character.starting_equipment = classes.starting_equipment;
+            character.class_levels = classes.class_levels;
+          })
+            // max 12 subclasses
+          SubClass.findOne({index: 1}, (err, subclasses) => {
+            character.subclasses = subclasses.name;
+            character.features = subclasses.features;
+          })
+          StartingEquipment.findOne({index: 1}, (err, startingequipment) => {
+            character.starting_equipment = startingequipment.starting_equipment[0].item.name;
+            character.save(res.json(character));
+          })
+        })
 
-  // Priority serve any static files.
   app.use(express.static(path.resolve(__dirname, '../generator/build')));
-  //
-  // // Answer API requests.
+
   app.get('/api', function (req, res) {
     res.set('Content-Type', 'application/json');
     res.send('{"message":"Hello from the custom server!"}');
@@ -111,11 +106,9 @@ if (cluster.isMaster) {
 
   app.use('/api', router);
 
-  // All remaining requests return the React app, so it can handle routing.
   app.get('*', function(request, response) {
     response.sendFile(path.resolve(__dirname, '../generator/build', 'index.html'));
   });
-
 
   app.listen(PORT, function () {
     console.error(`Node cluster worker ${process.pid}: listening on port ${PORT}`);
