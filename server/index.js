@@ -27,7 +27,7 @@ const Test = require('../generator/src/models/Test.js');
 const Trait = require('../generator/src/models/Trait.js');
 const WeaponProperty = require('../generator/src/models/WeaponProperty.js');
 const Character = require('../generator/src/models/Character.js')
-const RandomNum = require('../generator/src/Utilities/random.js')
+const {RandomCharSet, charSetHelpers} = require('../generator/src/Utilities/RandomCharSet.js')
 const router = express.Router();
 const request = require('request');
 const PORT = process.env.PORT || 5000;
@@ -56,9 +56,9 @@ cluster.on('exit', (worker, code, signal) => {
       router.route("/character")
         .get(({params}, res) => {
           let character = new Character();
+          const charSetter = charSetHelpers.getRandomSet();
           //max:9 races
-          randomRace = RandomNum.getRandomInt(1,9);
-          Race.findOne({index: randomRace}, (err, race) => {
+          Race.findOne({index: charSetter.raceNum}, (err, race) => {
             character.race = race.name;
             character.speed = race.speed;
             character.size = race.size;
@@ -69,15 +69,16 @@ cluster.on('exit', (worker, code, signal) => {
             character.ability_bonuses = race.ability_bonuses;
           })
            //max 6(8) subraces
-          SubRace.findOne({index: randomSubRace}, (err, subrace) => {
+          // if(charSetter.subRaceNum !== 0) {
+          SubRace.findOne({index: 1}, (err, subrace) => {
             character.subrace = subrace.name;
             character.sub_ability_bonuses = subrace.ability_bonuses;
             character.sub_starting_proficiencies = subrace.starting_proficiencies;
             character.racial_traits = subrace.racial_traits;
           })
+        // }
             //max 12 classes
-            randomClass = RandomNum.getRandomInt(1,12);
-          ClassType.findOne({index: randomClass}, (err, classes) => {
+          ClassType.findOne({index: 1}, (err, classes) => {
             character.className = classes.name;
             character.hit_die = classes.hit_die;
             character.proficiency_choices = classes.proficiency_choices;
