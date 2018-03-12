@@ -2,21 +2,19 @@ import React, { Component } from 'react';
 //import _ from 'lodash';
 import requestApi from "../Utilities/request.js"
 
-export default class ClassType extends Component {
+export default class Character extends Component {
 
   componentWillMount() {
-    requestApi("/api/class")()
-    .then((classArray) =>{
-      //console.log(classArray)
-      this.props.update("classtype", classArray)
+    requestApi("/api/character")()
+    .then((characterArray) =>{
+      console.log(characterArray)
     })
   }
 
 render() {
    return (
      <div id= "ClassType">
-      <p>{this.props.classProp ? this.props.classProp[0].name : 'Coming Soon!'}</p>
-      <p>{this.props.classProp ? this.props.classProp[0].subclasses[0].name : 'Coming Soon!'}</p>
+      <p>{this.props.characterProp}</p>
      </div>
    )}
  }

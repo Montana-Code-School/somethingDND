@@ -75,7 +75,15 @@ class RandomCharSet {
      subClassNum : 0,
      raceNum : 0,
      subRaceNum : 0,
-     profNum : 0
+     profNum : 0,
+   },
+
+   checkIsUndefined : (arr) => {
+     if(arr === undefined) {
+       return true;
+     } else {
+       return false;
+     }
    }
  }
 

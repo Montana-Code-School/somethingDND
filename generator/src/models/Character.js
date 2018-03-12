@@ -7,7 +7,6 @@ const CharacterSchema = new Schema({
   speed: Number,
   size: String,
   languages: Array,
-  sub_languages: Array,
   traits: Array,
   racial_traits: Array,
   starting_proficiency_options: Array,

@@ -62,10 +62,18 @@ cluster.on('exit', (worker, code, signal) => {
             character.race = race.name;
             character.speed = race.speed;
             character.size = race.size;
-            character.traits = race.traits;
-            character.languages = race.languages;
-            character.starting_proficiencies = race.starting_proficiencies;
-            character.starting_proficiency_options = race.starting_proficiency_options;
+            character.traits = race.traits.map((v) => {
+              return v.name;
+            });
+            character.languages = race.languages.map((v) => {
+              return v.name;
+            });
+            character.starting_proficiencies = race.starting_proficiencies.map((v) => {
+              return v.name;
+            });
+            character.starting_proficiency_options = race.starting_proficiency_options.from.map((v) => {
+              return v.name;
+            });
             character.ability_bonuses = race.ability_bonuses;
           })
            //max 6(8) subraces
@@ -73,7 +81,9 @@ cluster.on('exit', (worker, code, signal) => {
           SubRace.findOne({index: charSetter.subRaceNum}, (err, subrace) => {
             character.subrace = subrace.name;
             character.sub_ability_bonuses = subrace.ability_bonuses;
-            character.sub_starting_proficiencies = subrace.starting_proficiencies;
+            character.sub_starting_proficiencies = charSetHelpers.checkIsUndefined(subrace.starting_proficiencies) ? [] : subrace.starting_proficiencies.map((v) => {
+              return v.name;
+            });
             character.racial_traits = subrace.racial_traits;
           })
         }
@@ -82,8 +92,12 @@ cluster.on('exit', (worker, code, signal) => {
             character.className = classes.name;
             character.hit_die = classes.hit_die;
             character.proficiency_choices = [classes.proficiency_choices[0].from[0].name, classes.proficiency_choices[0].from[1].name];
-            character.proficiencies = classes.proficiencies;
-            character.saving_throws = classes.saving_throws;
+            character.proficiencies = classes.proficiencies.map((v) => {
+              return v.name;
+            });
+            character.saving_throws = classes.saving_throws.map((v) => {
+              return v.name;
+            });
             character.starting_equipment = classes.starting_equipment;
           })
             // max 12 subclasses
