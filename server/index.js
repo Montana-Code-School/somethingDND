@@ -69,26 +69,25 @@ cluster.on('exit', (worker, code, signal) => {
             character.ability_bonuses = race.ability_bonuses;
           })
            //max 6(8) subraces
-          // if(charSetter.subRaceNum !== 0) {
-          SubRace.findOne({index: 1}, (err, subrace) => {
+          if(charSetter.subRaceNum !== 0) {
+          SubRace.findOne({index: charSetter.subRaceNum}, (err, subrace) => {
             character.subrace = subrace.name;
             character.sub_ability_bonuses = subrace.ability_bonuses;
             character.sub_starting_proficiencies = subrace.starting_proficiencies;
             character.racial_traits = subrace.racial_traits;
           })
-        // }
+        }
             //max 12 classes
-          ClassType.findOne({index: 1}, (err, classes) => {
+          ClassType.findOne({index: charSetter.classNum}, (err, classes) => {
             character.className = classes.name;
             character.hit_die = classes.hit_die;
-            character.proficiency_choices = classes.proficiency_choices;
+            character.proficiency_choices = [classes.proficiency_choices[0].from[0].name, classes.proficiency_choices[0].from[1].name];
             character.proficiencies = classes.proficiencies;
             character.saving_throws = classes.saving_throws;
             character.starting_equipment = classes.starting_equipment;
-            character.class_levels = classes.class_levels;
           })
             // max 12 subclasses
-          SubClass.findOne({index: 1}, (err, subclasses) => {
+          SubClass.findOne({index: charSetter.subClassNum}, (err, subclasses) => {
             character.subclasses = subclasses.name;
             character.features = subclasses.features;
           })

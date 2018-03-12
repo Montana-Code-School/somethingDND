@@ -15,8 +15,8 @@ export default class ClassType extends Component {
 render() {
    return (
      <div id= "ClassType">
-      <p>{this.props.classProp ? this.props.classProp[0].name : 'loading'}</p>
-      <p>{this.props.classProp ? this.props.classProp[0].subclasses[0].name : 'loading'}</p>
+      <p>{this.props.classProp ? this.props.classProp[0].name : 'Coming Soon!'}</p>
+      <p>{this.props.classProp ? this.props.classProp[0].subclasses[0].name : 'Coming Soon!'}</p>
      </div>
    )}
  }

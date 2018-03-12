@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const CharacterSchema = new Schema(
-{
+const CharacterSchema = new Schema({
   race: String,
   subrace: String,
   speed: Number,
@@ -25,7 +24,5 @@ const CharacterSchema = new Schema(
   starting_equipment: Array,
   class_levels: Object,
   features: Array,
-
-}
-)
+})
 module.exports = mongoose.model('Character', CharacterSchema);

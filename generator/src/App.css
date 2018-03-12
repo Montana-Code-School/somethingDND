@@ -6,4 +6,9 @@ p {
 
 body {
   background-color: black;
+  background-image: url("https://i.pinimg.com/originals/1f/33/9e/1f339e3230aff390c991e6bb6010c977.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }

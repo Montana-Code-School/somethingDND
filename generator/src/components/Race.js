@@ -15,8 +15,8 @@ export default class Race extends Component {
 render() {
     return (
       <div id= "Race">
-        <p>{this.props.raceProp ? this.props.raceProp.name : 'loading'}</p>
-        <p>{this.props.raceProp ? this.props.raceProp.subraces[1].name : 'loading'}</p>
+        <p>{this.props.raceProp ? this.props.raceProp.name : 'Coming Soon!'}</p>
+        <p>{this.props.raceProp ? this.props.raceProp.subraces[1].name : 'Coming Soon!'}</p>
       </div>
     )}
   }
