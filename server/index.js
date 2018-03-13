@@ -84,7 +84,9 @@ cluster.on('exit', (worker, code, signal) => {
             character.sub_starting_proficiencies = charSetHelpers.checkIsUndefined(subrace.starting_proficiencies) ? [] : subrace.starting_proficiencies.map((v) => {
               return v.name;
             });
-            character.racial_traits = subrace.racial_traits;
+            character.racial_traits = charSetHelpers.checkIsUndefined(subrace.racial_traits) ? [] : subrace.racial_traits.map((v) => {
+              return v.name;
+            });
           })
         }
             //max 12 classes
@@ -103,10 +105,14 @@ cluster.on('exit', (worker, code, signal) => {
             // max 12 subclasses
           SubClass.findOne({index: charSetter.subClassNum}, (err, subclasses) => {
             character.subclasses = subclasses.name;
-            character.features = subclasses.features;
+            character.features = charSetHelpers.checkIsUndefined(subclasses.features) ? [] : subclasses.features.map((v) => {
+              return v.name;
+            });
           })
-          StartingEquipment.findOne({index: 1}, (err, startingequipment) => {
-            character.starting_equipment = startingequipment.starting_equipment[0].item.name;
+          StartingEquipment.findOne({index: 1}, (err, startingequipments) => {
+            character.starting_equipment = [startingequipments.starting_equipment.map((v) => {
+              return v.item.name;
+            }), startingequipments.choice_1[1].from[9].item.name, startingequipments.choice_2[1].from[13].item.name];
             character.save(res.json(character));
           })
         })
