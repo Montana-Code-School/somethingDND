@@ -32,9 +32,8 @@ const router = express.Router();
 const request = require('request');
 const PORT = process.env.PORT || 5000;
 const db = process.env.MONGODB_URI || 'mongodb://heroku_fw6bf6l1:kpl68f0vcqgnn6vjo0on0c0jg1@ds151528.mlab.com:51528/heroku_fw6bf6l1'
-//remember to switch back to local after heroku push
 mongoose.connection.openUri(db);
-
+//localhost/DnD
 if (cluster.isMaster) {
   console.error(`Node cluster master ${process.pid} is running`);
 
@@ -112,7 +111,7 @@ cluster.on('exit', (worker, code, signal) => {
               return v.name;
             });
           })
-          StartingEquipment.findOne({index: 1}, (err, startingequipment) => {
+          StartingEquipment.findOne({index: 1}, (err, startingequipments) => {
             character.starting_equipment = [startingequipment.starting_equipment.map((v) => {
               return v.item.name;
             }), startingequipments.choice_1[1].from[9].item.name, startingequipments.choice_2[1].from[13].item.name];

@@ -1,4 +1,4 @@
-[{
+{
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d0c"
   },
@@ -227,7 +227,7 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/2"
-}, {
+} {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d0d"
   },
@@ -473,7 +473,7 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/1"
-}, {
+} {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d0e"
   },
@@ -706,7 +706,7 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/3"
-}, {
+} {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d0f"
   },
@@ -844,7 +844,7 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/6"
-}, {
+} {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d10"
   },
@@ -1071,7 +1071,7 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/4"
-}, {
+} {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d11"
   },
@@ -1210,7 +1210,7 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/8"
-}, {
+} {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d12"
   },
@@ -1319,7 +1319,7 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/9"
-}, {
+} {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d13"
   },
@@ -1708,7 +1708,7 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/5"
-}, {
+} {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d14"
   },
@@ -2165,7 +2165,7 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/7"
-}, {
+} {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d15"
   },
@@ -2269,7 +2269,7 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/12"
-}, {
+} {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d16"
   },
@@ -2458,7 +2458,7 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/10"
-}, {
+} {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d17"
   },
@@ -2742,4 +2742,4 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/11"
-}]
+}
