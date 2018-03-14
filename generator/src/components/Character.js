@@ -59,11 +59,8 @@ export default class Character extends Component {
         speed : goodStuff.speed,
         starting_equipment : goodStuff.starting_equipment,
         starting_proficiencies : goodStuff.starting_proficiencies,
-        starting_proficiency_options : goodStuff.starting_proficiency_options,
         sub_ability_bonuses : goodStuff.sub_ability_bonuses,
-        sub_starting_proficiencies : goodStuff.sub_starting_proficiencies,
         subclass : goodStuff.subclasses,
-        traits : goodStuff.traits,
         })
       })
       .catch(err => console.error(err))
@@ -97,14 +94,11 @@ render() {
         <li>Features: {this.state.features.join(', ') ? this.state.features.join(', ') : "None"}</li>
         <li>Proficiencies: {this.state.proficiencies.join(', ')}</li>
         <li>Proficiency Choices: {this.state.proficiency_choices.join('  ')}</li>
-        <li>Traits: {this.state.racial_traits ? this.state.racial_traits : "None"}</li>
+        <li>Racial Traits: {this.state.racial_traits ? this.state.racial_traits : "None"}</li>
         <li>Size: {this.state.size}</li>
         <li>Speed: {this.state.speed}</li>
         <li>Starting Equipment: {this.state.starting_equipment.join('  ')}</li>
         <li>Starting Proficiencies: {this.state.starting_proficiencies}</li>
-        <li>Proficiency Options: {this.state.starting_proficiency_options}</li>
-        <li>Subrace starting proficiencies: {this.state.sub_starting_proficiencies}</li>
-        <li>Traits: {this.state.traits.join(', ')}</li>
         </ul>
       </div>
     )

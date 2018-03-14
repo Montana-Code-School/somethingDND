@@ -1,12 +1,11 @@
 class RandomCharSet {
-  constructor(classNum, subClassNum, raceNum, subRaceNum, profNum, startprofNum, substartprofNum) {
+  constructor(classNum, subClassNum, raceNum, subRaceNum, profNum, equipNum) {
     this.classNum = classNum;
     this.subClassNum = subClassNum;
     this.raceNum = raceNum;
     this.subRaceNum = subRaceNum;
     this.profNum = profNum;
-    this.startprofNum = startprofNum;
-    this.substartprofNum = substartprofNum;
+    this.equipNum = equipNum
   }
 }
 
@@ -61,6 +60,18 @@ class RandomCharSet {
      }
      return profNum;
    },
+   equipSelector : (classes) =>{
+     let equipNum = 0
+     let equipNumTwo = 0
+     switch(classes){
+       case 1:
+       equipNum = charSetHelpers.getRandomInt(0, 17);
+       equipNumTwo = charSetHelpers.getRandomInt(0,13)
+       break;
+     }
+   },
+
+
    setRandom : () => {
      charSetHelpers.charSet.raceNum = charSetHelpers.getRandomInt(1,9);
      charSetHelpers.charSet.subRaceNum = charSetHelpers.filterSetSubrace(charSetHelpers.charSet.raceNum);
@@ -68,7 +79,8 @@ class RandomCharSet {
      charSetHelpers.charSet.subClassNum = charSetHelpers.charSet.classNum;
      charSetHelpers.charSet.profNum = charSetHelpers.profSelector(charSetHelpers.charSet.classNum);
      charSetHelpers.charSet.startprofNum = charSetHelpers.charSet.raceNum;
-     charSetHelpers.charSet.substartprofNum = charSetHelpers.filterSetSubrace(charSetHelpers.charSet.raceNum.substartprofNum)
+     charSetHelpers.charSet.substartprofNum = charSetHelpers.filterSetSubrace(charSetHelpers.charSet.raceNum.substartprofNum);
+     charSetHelpers.charSet.equipNum = charSetHelpers.equipSelector(charSetHelpers.charSet.classNum);
    },
    getRandomSet : () => {
      charSetHelpers.setRandom();
@@ -80,8 +92,7 @@ class RandomCharSet {
      raceNum : 0,
      subRaceNum : 0,
      profNum : 0,
-     startprofNum : 0,
-     substartprofNum : 0
+     equipNum : 0,
    },
 
    checkIsUndefined : (arr) => {
