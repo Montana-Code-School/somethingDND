@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import _ from 'lodash';
-import requestApi from "../Utilities/request.js";
-import axios from 'axios';
+// import requestApi from "../Utilities/request.js";
+// import axios from 'axios';
 
 export default class Character extends Component {
   constructor() {
