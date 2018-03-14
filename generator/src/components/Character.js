@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import _ from 'lodash';
-import requestApi from "../Utilities/request.js";
-import axios from 'axios';
+// import requestApi from "../Utilities/request.js";
+// import axios from 'axios';
 
 export default class Character extends Component {
   constructor() {
@@ -70,7 +70,7 @@ export default class Character extends Component {
     }
 
     callToCharacter = async () => {
-      const charApi = "http://localhost:5000/api/character";
+      const charApi = "/api/character";
       const response = await fetch(charApi);
       const body = await response.json();
 
