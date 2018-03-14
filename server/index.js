@@ -111,10 +111,11 @@ cluster.on('exit', (worker, code, signal) => {
               return v.name;
             });
           })
-          StartingEquipment.findOne({index: charSetter.equipNum}, (err, startingequipments) => {
+          StartingEquipment.findOne({index: charSetter.classNum}, (err, startingequipments) => {
+            console.log(charSetter.classNum,   startingequipments.starting_equipment);
             character.starting_equipment = [startingequipments.starting_equipment.map((v) => {
               return v.item.name;
-            }), startingequipments.choice_1[1].from[charSetter.equipNum].item.name, startingequipments.choice_2[1].from[charSetter.equipNum].item.name];
+            }), startingequipments.choice_1[1].from[equipNum].item.name, startingequipments.choice_2[0].from[equipNumTwo].item.name];
             character.save(res.json(character));
           })
         })
