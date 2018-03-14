@@ -70,7 +70,7 @@ export default class Character extends Component {
     }
 
     callToCharacter = async () => {
-      const charApi = "http://localhost:5000/api/character";
+      const charApi = "/api/character";
       const response = await fetch(charApi);
       const body = await response.json();
 

@@ -31,7 +31,8 @@ const {RandomCharSet, charSetHelpers} = require('../generator/src/Utilities/Rand
 const router = express.Router();
 const request = require('request');
 const PORT = process.env.PORT || 5000;
-const db = process.env.MONGODB_URI || 'mongodb://localhost/DnD'
+const db = process.env.MONGODB_URI || 'mongodb://heroku_fw6bf6l1:kpl68f0vcqgnn6vjo0on0c0jg1@ds151528.mlab.com:51528/heroku_fw6bf6l1'
+//remember to switch back to local after heroku push
 mongoose.connection.openUri(db);
 
 if (cluster.isMaster) {
