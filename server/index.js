@@ -112,7 +112,7 @@ cluster.on('exit', (worker, code, signal) => {
             });
           })
           StartingEquipment.findOne({index: 1}, (err, startingequipments) => {
-            character.starting_equipment = [startingequipment.starting_equipment.map((v) => {
+            character.starting_equipment = [startingequipments.starting_equipment.map((v) => {
               return v.item.name;
             }), startingequipments.choice_1[1].from[9].item.name, startingequipments.choice_2[1].from[13].item.name];
             character.save(res.json(character));
