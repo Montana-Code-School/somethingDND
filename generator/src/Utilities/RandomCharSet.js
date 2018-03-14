@@ -1,10 +1,12 @@
 class RandomCharSet {
-  constructor(classNum, subClassNum, raceNum, subRaceNum, profNum) {
+  constructor(classNum, subClassNum, raceNum, subRaceNum, profNum, startprofNum, substartprofNum) {
     this.classNum = classNum;
     this.subClassNum = subClassNum;
     this.raceNum = raceNum;
     this.subRaceNum = subRaceNum;
     this.profNum = profNum;
+    this.startprofNum = startprofNum;
+    this.substartprofNum = substartprofNum;
   }
 }
 
@@ -65,6 +67,8 @@ class RandomCharSet {
      charSetHelpers.charSet.classNum = charSetHelpers.getRandomInt(1,12);
      charSetHelpers.charSet.subClassNum = charSetHelpers.charSet.classNum;
      charSetHelpers.charSet.profNum = charSetHelpers.profSelector(charSetHelpers.charSet.classNum);
+     charSetHelpers.charSet.startprofNum = charSetHelpers.charSet.raceNum;
+     charSetHelpers.charSet.substartprofNum = charSetHelpers.filterSetSubrace(charSetHelpers.charSet.raceNum.substartprofNum)
    },
    getRandomSet : () => {
      charSetHelpers.setRandom();
@@ -76,6 +80,8 @@ class RandomCharSet {
      raceNum : 0,
      subRaceNum : 0,
      profNum : 0,
+     startprofNum : 0,
+     substartprofNum : 0
    },
 
    checkIsUndefined : (arr) => {

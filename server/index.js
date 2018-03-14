@@ -81,8 +81,10 @@ cluster.on('exit', (worker, code, signal) => {
           SubRace.findOne({index: charSetter.subRaceNum}, (err, subrace) => {
             character.subrace = subrace.name;
             character.sub_ability_bonuses = subrace.ability_bonuses;
-            character.sub_starting_proficiencies = charSetHelpers.checkIsUndefined(subrace.starting_proficiencies) ? [] : subrace.starting_proficiencies.map((v) => {
+            character.sub_starting_proficiencies = subrace.sub_starting_proficiencies
+            character.sub_starting_proficiencies = charSetHelpers.checkIsUndefined(subrace.sub_starting_proficiencies) ? [] : subrace.starting_proficiencies.map((v) => {
               return v.name;
+
             });
             character.racial_traits = charSetHelpers.checkIsUndefined(subrace.racial_traits) ? [] : subrace.racial_traits.map((v) => {
               return v.name;
