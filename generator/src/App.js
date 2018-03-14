@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 //import BuildButton from './components/BuildButton.js';
-import Character from './components/ClassType.js';
+import Character from './components/Character.js';
 // import Race from './components/Race.js';
 // import Proficiency from './components/Proficiency.js';
 //import _ from 'lodash';
@@ -27,7 +27,7 @@ class App extends Component {
     console.log(this.state, "Right Here!")
      return (
       <div className="App">
-        <Character characterProp={this.state.character} />
+        <Character />
       </div>
       );
   }

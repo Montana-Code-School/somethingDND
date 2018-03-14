@@ -1,0 +1,74 @@
+{
+  "languages": [{
+    "name": "Common"
+  }, {
+    "name": "Draconic"
+  }],
+  "sub_languages": [],
+  "traits": [{
+    "name": "Draconic Anscestry",
+  }, {
+    "name": "Breath Weapon",
+  }, {
+    "name": "Damage Resistance (Dragonborn)",
+  }],
+  "racial_traits": [{
+    "name": "Dwarven Toughness"
+  }],
+  "starting_proficiency_options": [{
+    "from": []
+  }],
+  "ability_bonuses": [2, 0, 0, 0, 0, 1],
+  "sub_ability_bonuses": [0, 0, 0, 0, 1, 0],
+  "starting_proficiencies": [],
+  "proficiency_choices": [{
+    "choose": 2,
+    "type": "proficiencies",
+    "from": [{
+      "name": "Skill: Animal Handling"
+    }, {
+      "name": "Skill: Athletics"
+    }, {
+      "name": "Skill: Intimidation"
+    }, {
+      "name": "Skill: Nature"
+    }, {
+      "name": "Skill: Perception"
+    }, {
+      "name": "Skill: Survival"
+    }]
+  }],
+  "proficiencies": [{
+    "name": "Light armor",
+  }, {
+    "name": "Medium armor",
+  }, {
+    "name": "Shields",
+  }, {
+    "name": "Simple weapons",
+  }, {
+    "name": "Martial weapons",
+  }],
+  "saving_throws": [{
+    "name": "STR",
+  }, {
+    "name": "CON",
+  }],
+  "starting_equipment": ["Explorer's Pack"],
+  "features": [{
+    "name": "Primal Path",
+  }, {
+    "name": "Frenzy",
+  }],
+  "race": "Dragonborn",
+  "speed": 30,
+  "size": "Medium",
+  "className": "Barbarian",
+  "hit_die": 12,
+  "class_levels": {
+    "class": "Barbarian"
+  },
+  "subrace": "Hill Dwarf",
+  "subclasses": "Berserker",
+  "__v": 0
+}
