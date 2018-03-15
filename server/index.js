@@ -115,7 +115,7 @@ cluster.on('exit', (worker, code, signal) => {
             console.log(charSetter.classNum,   startingequipments.starting_equipment);
             character.starting_equipment = [startingequipments.starting_equipment.map((v) => {
               return v.item.name;
-            }), startingequipments.choice_1[1].from[equipNum].item.name, startingequipments.choice_2[0].from[equipNumTwo].item.name];
+            }), startingequipments.choice_1[0].from[0].item.name, startingequipments.choice_2[0].from[0].item.name];
             character.save(res.json(character));
           })
         })
