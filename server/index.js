@@ -4,6 +4,7 @@ const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+// ^^ Node Packages
 const AbilityScore = require('../generator/src/models/AbilityScore.js');
 const ClassType = require('../generator/src/models/Class.js');
 const Condition = require('../generator/src/models/Condition.js');
@@ -27,7 +28,9 @@ const Test = require('../generator/src/models/Test.js');
 const Trait = require('../generator/src/models/Trait.js');
 const WeaponProperty = require('../generator/src/models/WeaponProperty.js');
 const Character = require('../generator/src/models/Character.js')
+// ^^ Import Schemas
 const {RandomCharSet, charSetHelpers} = require('../generator/src/Utilities/RandomCharSet.js')
+// ^^ Helper Functions
 const router = express.Router();
 const request = require('request');
 const PORT = process.env.PORT || 5000;

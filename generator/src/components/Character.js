@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import blockBuilder from '../Utilities/StatGenerator.js'
+
 //import _ from 'lodash';
 // import requestApi from "../Utilities/request.js";
 // import axios from 'axios';
@@ -27,7 +29,7 @@ export default class Character extends Component {
       sub_starting_proficiencies : [],
       subclass : [],
       traits : [],
-
+      stat_block : []
     }
 
     // onClick(e) {
@@ -37,10 +39,10 @@ export default class Character extends Component {
 
   componentWillMount() {
     this.callToCharacter()
-    .then((res) => {
-      var obj = res;
-      var arr = Object.keys(obj).map(function(k) {return [obj[k]];
-  });
+      .then((res) => {
+        var obj = res;
+        var arr = Object.keys(obj).map(function(k) {return [obj[k]];
+      });
       console.log(arr[0][0])
       var goodStuff = arr[0][0];
       this.setState({
@@ -61,8 +63,9 @@ export default class Character extends Component {
         starting_proficiencies : goodStuff.starting_proficiencies,
         sub_ability_bonuses : goodStuff.sub_ability_bonuses,
         subclass : goodStuff.subclasses,
-        })
+        stat_block : blockBuilder
       })
+    })
       .catch(err => console.error(err))
     }
 
@@ -71,15 +74,11 @@ export default class Character extends Component {
       const response = await fetch(charApi);
       const body = await response.json();
 
-    if (response.status !== 200) throw Error(body.message);
+      if (response.status !== 200) throw Error(body.message);
+      return { body }
+    }
 
-    return {
-      body,
-     }
-   }
-
-
-render() {
+  render() {
     return (
       <div id= "character">
       <ul>
@@ -99,6 +98,7 @@ render() {
         <li>Speed: {this.state.speed}</li>
         <li>Starting Equipment: {this.state.starting_equipment.join('  ')}</li>
         <li>Starting Proficiencies: {this.state.starting_proficiencies}</li>
+        <li>Stat Block: {this.state.blockBuilder} </li>
         </ul>
       </div>
     )

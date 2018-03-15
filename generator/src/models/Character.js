@@ -23,5 +23,6 @@ const CharacterSchema = new Schema({
   starting_equipment: Array,
   class_levels: Object,
   features: Array,
+  stat_block: Array,
 })
 module.exports = mongoose.model('Character', CharacterSchema);
