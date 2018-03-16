@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 //import BuildButton from './components/BuildButton.js';
 import Character from './components/Character.js';
-// import Race from './components/Race.js';
-// import Proficiency from './components/Proficiency.js';
-//import _ from 'lodash';
-//import requestApi from "./Utilities/request.js"
+import StatGenerator from './Utilities/StatGenerator'
+
 
 class App extends Component {
   constructor(props) {
@@ -28,6 +26,7 @@ class App extends Component {
      return (
       <div className="App">
         <Character />
+        <StatGenerator />
       </div>
       );
   }

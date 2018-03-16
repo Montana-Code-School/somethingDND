@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import blockBuilder from '../Utilities/StatGenerator.js'
 
+
 //import _ from 'lodash';
 // import requestApi from "../Utilities/request.js";
 // import axios from 'axios';
@@ -65,6 +66,7 @@ export default class Character extends Component {
         subclass : goodStuff.subclasses,
         stat_block : blockBuilder
       })
+
     })
       .catch(err => console.error(err))
     }
@@ -98,7 +100,6 @@ export default class Character extends Component {
         <li>Speed: {this.state.speed}</li>
         <li>Starting Equipment: {this.state.starting_equipment.join('  ')}</li>
         <li>Starting Proficiencies: {this.state.starting_proficiencies}</li>
-        <li>Stat Block: {this.state.blockBuilder} </li>
         </ul>
       </div>
     )
