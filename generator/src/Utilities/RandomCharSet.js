@@ -68,67 +68,68 @@ class RandomCharSet {
          equipNumFive = 0;
 
      switch(classes){
-       case 1 :
-       equipNum = charSetHelpers.getRandomInt(0, 17);
-       equipNumTwo = charSetHelpers.getRandomInt(0, 13)
+       case 1 : //Barbarian
+       equipNum = charSetHelpers.getRandomInt(0, 17); //choice_1[1].from[equipNum]
+       equipNumTwo = charSetHelpers.getRandomInt(0, 13) //choice_2[1].from[equipNumTwo]
+       let barbChoice1 = choice_1[1].from[equipNum];
        break;
-       case 2 :
-       equipNum = charSetHelpers.getRandomInt(0, 15);
-       equipNumTwo = charSetHelpers.getRandomInt(0, 1);
-       equipNumThree = charSetHelpers.getRandomInt(0, 9) //choice_3[1].from[0,9]
+       case 2 : //Bard
+       equipNum = charSetHelpers.getRandomInt(0, 15); //choice_1[0].from[equipNum]
+       equipNumTwo = charSetHelpers.getRandomInt(0, 1); //choice_2[equipNumTwo].from[0]
+       equipNumThree = charSetHelpers.getRandomInt(0, 9) //choice_3[1].from[equipNumThree]
        break;
-       case 3 :
+       case 3 : //Cleric
        equipNum = charSetHelpers.getRandomInt(0, 0);//choice_1[0].from[equipNum]
        equipNumTwo = charSetHelpers.getRandomInt(0, 1)//choice_2[equipNumTwo].from[0]
        equipNumThree = charSetHelpers.getRandomInt(0, 13);//choice_3[1].from[equipNumThree]
        equipNumFour = charSetHelpers.getRandomInt(0, 1);//choice_4[equipNumFour].from[0]
        equipNumFive = charSetHelpers.getRandomInt(0, 2);//choice_5[0].from[equipNumFive]
        break;
-       case 4 :
+       case 4 : //Druid
        equipNum = charSetHelpers.getRandomInt(0, 14);//choice_1[0].from[equipNum]
        equipNumTwo = charSetHelpers.getRandomInt(0, 10)//choice_2[0].from[equipNumTwo]
        equipNumThree = charSetHelpers.getRandomInt(0, 3);//choice_3[0].from[equipNumThree]
        break;
-       case 5 :
+       case 5 : //Fighter
        equipNum = charSetHelpers.getRandomInt(0, 0);//choice_1[0].from[equipNum]
        equipNumTwo = charSetHelpers.getRandomInt(0, 23)//choice_2[0].from[equipNumTwo]
        equipNumThree = charSetHelpers.getRandomInt(0, 1)//choice_3[equipNumThree].from[0]
        equipNumFour = charSetHelpers.getRandomInt(0, 1)//choice_4[equipNumFour].from[0]
        equipNumFive = charSetHelpers.getRandomInt(0, 22)//choice_5[0].from[equipNumFive]
        break;
-       case 6 :
+       case 6 : //Monk
        equipNum = charSetHelpers.getRandomInt(0, 14);//choice_1[0].from[equipNum]
        equipNumTwo = charSetHelpers.getRandomInt(0, 1)//choice_2[equipNumTwo].from[0]
        break;
-       case 7 :
+       case 7 : //Paladin
        equipNum = charSetHelpers.getRandomInt(0, 22);//choice_1[1].from[equipNum]
        equipNumTwo = charSetHelpers.getRandomInt(0, 13)//choice_2[1].from[equipNumTwo]
        equipNumThree = charSetHelpers.getRandomInt(0, 1)//choice_3[equpNumThree].from[0]
        equipNumFour = charSetHelpers.getRandomInt(0, 2)//choice_4[equipNumFour].from[0]
        equipNumFive = charSetHelpers.getRandomInt(0, 22)//choice_5[0].from[equipNumFive]
        break;
-       case 8 :
+       case 8 : //Ranger
        equipNum = charSetHelpers.getRandomInt(0, 1);//choice_1[equipNum].from[0]
        equipNumTwo = charSetHelpers.getRandomInt(0, 10)//choice_2[0].from[equipNumTwo]
        equipNumThree = charSetHelpers.getRandomInt(0, 1)//choice_3[equipNumThree].from[0]
        break;
-       case 9 :
+       case 9 : //Rogue
        equipNum = charSetHelpers.getRandomInt(0, 1);//choice_1[equipNum].from[0]
        equipNumTwo = charSetHelpers.getRandomInt(0, 0)//choice_2[equipNumTwo].from[0] removed arrows and made rogue get both from 1
        equipNumThree = charSetHelpers.getRandomInt(0, 2)//choice_3[equipNumThree].from[0]
        break;
-       case 10 :
+       case 10 : //Sorcerer
        equipNum = charSetHelpers.getRandomInt(0, 13);//choice_1[1].from[equipNum]
        equipNumTwo = charSetHelpers.getRandomInt(0, 4)//choice_2[1].from[equipNumTwo]
        equipNumThree = charSetHelpers.getRandomInt(0, 1)//choice_3[equipNumThree].from[0]
        break;
-       case 11 :
+       case 11 : //Warlock
        equipNum = charSetHelpers.getRandomInt(0, 13);//choice_1[1].from[equipNum]
        equipNumTwo = charSetHelpers.getRandomInt(0, 4)//choice_2[1].from[equipNumTwo]
        equipNumThree = charSetHelpers.getRandomInt(0, 1)//choice_3[equipNumThree].from[0]
        equipNumFour = charSetHelpers.getRandomInt(0, 13)//choice_4[0].from[equipNumFour]
        break;
-       case 12 :
+       case 12 : //Wizard
        equipNum = charSetHelpers.getRandomInt(0, 1);//choice_1[0].from[equipNum]
        equipNumTwo = charSetHelpers.getRandomInt(0, 4)//choice_2[0].from[equipNumTwo]
        equipNumThree = charSetHelpers.getRandomInt(0, 1)//choice_3[equipNumThree].from[0]
@@ -136,7 +137,7 @@ class RandomCharSet {
        default :
        console.error("Default case for equipment selector")
      }
-     return {equipNum, equipNumTwo}
+     return {equipNum, equipNumTwo, equipNumthree, equipNumFour, equipNumFive}
    },
 
 
