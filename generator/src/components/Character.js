@@ -30,7 +30,6 @@ export default class Character extends Component {
       sub_starting_proficiencies : [],
       subclass : [],
       traits : [],
-      stat_block : []
     }
 
     // onClick(e) {
@@ -64,7 +63,6 @@ export default class Character extends Component {
         starting_proficiencies : goodStuff.starting_proficiencies,
         sub_ability_bonuses : goodStuff.sub_ability_bonuses,
         subclass : goodStuff.subclasses,
-        stat_block : blockBuilder
       })
 
     })
