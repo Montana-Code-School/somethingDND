@@ -140,7 +140,6 @@ class RandomCharSet {
      return {equipNum, equipNumTwo, equipNumThree, equipNumFour, equipNumFive}
    },
 
-
    setRandom : () => {
      charSetHelpers.charSet.raceNum = charSetHelpers.getRandomInt(1,9);
      charSetHelpers.charSet.subRaceNum = charSetHelpers.filterSetSubrace(charSetHelpers.charSet.raceNum);
@@ -163,7 +162,6 @@ class RandomCharSet {
      profNum : 0,
      equipNum : 0,
    },
-
    checkIsUndefined : (arr) => {
      if(arr === undefined) {
        return true;
