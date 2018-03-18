@@ -137,7 +137,7 @@ class RandomCharSet {
        default :
        console.error("Default case for equipment selector")
      }
-     return {equipNum, equipNumTwo, equipNumthree, equipNumFour, equipNumFive}
+     return {equipNum, equipNumTwo, equipNumThree, equipNumFour, equipNumFive}
    },
 
 
