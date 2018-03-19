@@ -75,6 +75,22 @@ componentDidMount() {
 
 render () {
   return (
-    <p>Your Stat Block: {this.state.block.join('  ')}</p>
+    <div>
+      <p>Your Stat Block:</p>
+        <ul>
+          <li>{this.state.block[0]}</li>
+          <li>{this.state.block[1]}</li>
+          <li>{this.state.block[2]}</li>
+          <li>{this.state.block[3]}</li>
+          <li>{this.state.block[4]}</li>
+          <li>{this.state.block[5]}</li>
+        </ul>
+    </div>
   )}
 };
+
+// const gotBlock = {
+//   getBlock : () => {
+//     return this.state.block;
+//   }
+// }
