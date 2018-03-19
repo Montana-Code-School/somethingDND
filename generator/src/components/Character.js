@@ -39,10 +39,6 @@ export default class Character extends Component {
      }
 
   componentDidMount() {
-
-    //this.setState({statblock : blockBuilder.getBlock()});
-    //console.log(StatGenerator.blockBuilder());
-
     this.callToCharacter()
       .then((res) => {
         var obj = res;
@@ -82,6 +78,7 @@ export default class Character extends Component {
       if (response.status !== 200) throw Error(body.message);
       return { body }
     }
+
 
   render() {
     return (
