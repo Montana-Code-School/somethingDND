@@ -132,9 +132,9 @@ cluster.on('exit', (worker, code, signal) => {
 
   app.use('/api', router);
 
-  app.get('*', function(request, response) {
-    response.sendFile(path.resolve(__dirname, '../generator/build', 'index.html'));
-  });
+  // app.get('*', function(request, response) {
+  //   response.sendFile(path.resolve(__dirname, '../generator/build', 'index.html'));
+  // });
 
   app.listen(PORT, function () {
     console.error(`Node cluster worker ${process.pid}: listening on port ${PORT}`);

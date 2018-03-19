@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import blockBuilder from '../Utilities/StatGenerator.js'
+import StatGenerator from '../Utilities/StatGenerator.js'
 
 
 //import _ from 'lodash';
@@ -30,6 +30,7 @@ export default class Character extends Component {
       sub_starting_proficiencies : [],
       subclass : [],
       traits : [],
+      statblock : [],
     }
 
     // onClick(e) {
@@ -82,11 +83,19 @@ export default class Character extends Component {
   render() {
     return (
       <div id= "character">
+      <h1>{this.state.subrace ? this.state.subrace : this.state.race} {this.state.className}</h1>
+      <h2>Subclass: {this.state.subclass} <br /> Speed: {this.state.speed}</h2>
+      <div id= "statBonus">
+        <ul id="statBonusList">
+          <li className="stats">STR: {this.state.ability_bonuses[0] + (isNaN(this.state.sub_ability_bonuses[0]) ? 0 : this.state.sub_ability_bonuses[0])}</li>
+          <li className="stats">DEX: {this.state.ability_bonuses[1] + (isNaN(this.state.sub_ability_bonuses[1]) ? 0 : this.state.sub_ability_bonuses[1])}</li>
+          <li className="stats">CON: {this.state.ability_bonuses[2] + (isNaN(this.state.sub_ability_bonuses[2]) ? 0 : this.state.sub_ability_bonuses[2])}</li>
+          <li className="stats">INT: {this.state.ability_bonuses[3] + (isNaN(this.state.sub_ability_bonuses[3]) ? 0 : this.state.sub_ability_bonuses[3])}</li>
+          <li className="stats">WIS: {this.state.ability_bonuses[4] + (isNaN(this.state.sub_ability_bonuses[4]) ? 0 : this.state.sub_ability_bonuses[4])}</li>
+          <li className="stats">CHA: {this.state.ability_bonuses[5] + (isNaN(this.state.sub_ability_bonuses[5]) ? 0 : this.state.sub_ability_bonuses[5])}</li>
+        </ul>
+      </div>
       <ul>
-        <li>Race: {this.state.race}</li>
-        <li>Subrace: {this.state.subrace ? this.state.subrace : "None"}</li>
-        <li>Class: {this.state.className}</li>
-        <li>Subclass: {this.state.subclass}</li>
         <li>Saving Throws: {this.state.saving_throws.join(', ')}</li>
         <li>Ability Bonuses: {this.state.ability_bonuses}</li>
         <li>Subrace Ability Bonuses: {this.state.sub_ability_bonuses}</li>
@@ -97,8 +106,8 @@ export default class Character extends Component {
         <li>Racial Traits: {this.state.racial_traits ? this.state.racial_traits : "None"}</li>
         <li>Size: {this.state.size}</li>
         <li>Speed: {this.state.speed}</li>
-        <li>Starting Equipment: {this.state.starting_equipment.join('  ')}</li>
-        <li>Starting Proficiencies: {this.state.starting_proficiencies}</li>
+        <li>Starting Equipment: {this.state.starting_equipment.join(',  ')}</li>
+        <li>Starting Proficiencies: {this.state.starting_proficiencies.join(', ')}</li>
         </ul>
       </div>
     )

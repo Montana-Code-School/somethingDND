@@ -15,6 +15,28 @@ body {
 
 ul {
   text-align: center;
-  padding-top: 15%;
   font-size: 15px;
+  list-style-type: none;
+}
+h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#statBonus{
+  text-align: center;
+  margin: auto;
+}
+
+.stats {
+  border-style: solid;
+  border-width: medium;
+  border-color: #98FB98;
+  width: 60px;
+  padding: 10px;
+  margin: 5px;
 }
