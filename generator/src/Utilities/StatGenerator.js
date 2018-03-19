@@ -4,7 +4,7 @@ export default class StatGenerator extends Component {
     constructor() {
       super()
       this.state = {
-        block : [],
+        block : []
       }
     }
 
@@ -66,25 +66,18 @@ blockBuilder() {
   return emptyRay;
 }
 
-componentDidMount() {
+buttonClick() {
   let stateObject = {
     block : this.blockBuilder(),
   }
   this.setState(stateObject)
+  this.props.getStatsFromStatGenerator(stateObject);
 }
 
 render () {
   return (
     <div>
-      <p>Your Stat Block:</p>
-        <ul>
-          <li>{this.state.block[0]}</li>
-          <li>{this.state.block[1]}</li>
-          <li>{this.state.block[2]}</li>
-          <li>{this.state.block[3]}</li>
-          <li>{this.state.block[4]}</li>
-          <li>{this.state.block[5]}</li>
-        </ul>
+      <button onClick={this.buttonClick.bind(this)}>New Stat Block</button>
     </div>
   )}
 };

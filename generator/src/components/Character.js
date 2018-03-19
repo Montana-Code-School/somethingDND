@@ -7,8 +7,8 @@ import StatGenerator from '../Utilities/StatGenerator.js'
 // import axios from 'axios';
 
 export default class Character extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
       languages : [],
       race : [],
@@ -38,16 +38,18 @@ export default class Character extends Component {
     //
      }
 
-  componentDidMount() {
+  async buttonClick() {
 
     //this.setState({statblock : blockBuilder.getBlock()});
     //console.log(StatGenerator.blockBuilder());
 
-    this.callToCharacter()
+  await this.callToCharacter()
       .then((res) => {
         var obj = res;
         var arr = Object.keys(obj).map(function(k) {return [obj[k]];
       });
+      console.log(this.props.block);
+      console.log("promise resolved in call to character");
       console.log(arr[0][0])
       var goodStuff = arr[0][0];
       this.setState({
@@ -69,7 +71,6 @@ export default class Character extends Component {
         sub_ability_bonuses : goodStuff.sub_ability_bonuses,
         subclass : goodStuff.subclasses,
       })
-
     })
       .catch(err => console.error(err))
     }
@@ -78,7 +79,6 @@ export default class Character extends Component {
       const charApi = "/api/character";
       const response = await fetch(charApi);
       const body = await response.json();
-
       if (response.status !== 200) throw Error(body.message);
       return { body }
     }
@@ -86,16 +86,17 @@ export default class Character extends Component {
   render() {
     return (
       <div id= "character">
+      <button onClick = {this.buttonClick.bind(this)}>Generate Character</button>
       <h1>{this.state.subrace ? this.state.subrace : this.state.race} {this.state.className}</h1>
       <h2>Subclass: {this.state.subclass} <br /> Speed: {this.state.speed}</h2>
       <div id= "statBonus">
         <ul id="statBonusList">
-          <li className="stats">STR: {this.state.ability_bonuses[0] + (isNaN(this.state.sub_ability_bonuses[0]) ? 0 : this.state.sub_ability_bonuses[0])}</li>
-          <li className="stats">DEX: {this.state.ability_bonuses[1] + (isNaN(this.state.sub_ability_bonuses[1]) ? 0 : this.state.sub_ability_bonuses[1])}</li>
-          <li className="stats">CON: {this.state.ability_bonuses[2] + (isNaN(this.state.sub_ability_bonuses[2]) ? 0 : this.state.sub_ability_bonuses[2])}</li>
-          <li className="stats">INT: {this.state.ability_bonuses[3] + (isNaN(this.state.sub_ability_bonuses[3]) ? 0 : this.state.sub_ability_bonuses[3])}</li>
-          <li className="stats">WIS: {this.state.ability_bonuses[4] + (isNaN(this.state.sub_ability_bonuses[4]) ? 0 : this.state.sub_ability_bonuses[4])}</li>
-          <li className="stats">CHA: {this.state.ability_bonuses[5] + (isNaN(this.state.sub_ability_bonuses[5]) ? 0 : this.state.sub_ability_bonuses[5])}</li>
+          <li className="stats">STR: {this.state.ability_bonuses[0] + (isNaN(this.state.sub_ability_bonuses[0]) ? 0 : this.state.sub_ability_bonuses[0]) + this.props.block[0]}</li>
+          <li className="stats">DEX: {this.state.ability_bonuses[1] + (isNaN(this.state.sub_ability_bonuses[1]) ? 0 : this.state.sub_ability_bonuses[1]) + this.props.block[1]}</li>
+          <li className="stats">CON: {this.state.ability_bonuses[2] + (isNaN(this.state.sub_ability_bonuses[2]) ? 0 : this.state.sub_ability_bonuses[2]) + this.props.block[2]}</li>
+          <li className="stats">INT: {this.state.ability_bonuses[3] + (isNaN(this.state.sub_ability_bonuses[3]) ? 0 : this.state.sub_ability_bonuses[3]) + this.props.block[3]}</li>
+          <li className="stats">WIS: {this.state.ability_bonuses[4] + (isNaN(this.state.sub_ability_bonuses[4]) ? 0 : this.state.sub_ability_bonuses[4]) + this.props.block[4]}</li>
+          <li className="stats">CHA: {this.state.ability_bonuses[5] + (isNaN(this.state.sub_ability_bonuses[5]) ? 0 : this.state.sub_ability_bonuses[5]) + this.props.block[5]}</li>
         </ul>
       </div>
       <ul>

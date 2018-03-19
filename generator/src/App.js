@@ -9,10 +9,12 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      character: false,
-      fetching: true
+      character : false,
+      fetching : true,
+      block : []
     };
     this.update = this.update.bind(this);
+    this.getStatsFromStatGenerator = this.getStatsFromStatGenerator.bind(this);
   }
 
   update(upTarget, upValue){
@@ -21,12 +23,16 @@ class App extends Component {
     this.setState(temp)
   }
 
+  getStatsFromStatGenerator(stats) {
+    this.setState(stats)
+  }
+
   render() {
     console.log(this.state, "Right Here!")
      return (
       <div className="App">
-        <Character />
-        <StatGenerator />
+        <Character block={this.state.block}/>
+        <StatGenerator getStatsFromStatGenerator={this.getStatsFromStatGenerator} />
       </div>
       );
   }
