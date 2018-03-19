@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import StatGenerator from '../Utilities/StatGenerator.js'
+import { Grid } from 'react-bootstrap'
 
 
 //import _ from 'lodash';
@@ -39,6 +40,10 @@ export default class Character extends Component {
      }
 
   async buttonClick() {
+
+    //this.setState({statblock : blockBuilder.getBlock()});
+    //console.log(StatGenerator.blockBuilder());
+
   await this.callToCharacter()
       .then((res) => {
         var obj = res;
@@ -79,14 +84,13 @@ export default class Character extends Component {
       return { body }
     }
 
-
   render() {
     return (
-      <div id= "character">
+      <Grid id= "character" fluid>
       <button onClick = {this.buttonClick.bind(this)}>Generate Character</button>
       <h1>{this.state.subrace ? this.state.subrace : this.state.race} {this.state.className}</h1>
-      <h2>Subclass: {this.state.subclass} <br /> Speed: {this.state.speed}</h2>
-      <div id= "statBonus">
+      <h2>Subclass: {this.state.subclass} <br /> Speed: {this.state.speed} <br /> Hit Die: {this.state.hit_die}</h2>
+      <Grid id= "statBonus" fluid>
         <ul id="statBonusList">
           <li className="stats">STR: {this.state.ability_bonuses[0] + (isNaN(this.state.sub_ability_bonuses[0]) ? 0 : this.state.sub_ability_bonuses[0]) + this.props.block[0]}</li>
           <li className="stats">DEX: {this.state.ability_bonuses[1] + (isNaN(this.state.sub_ability_bonuses[1]) ? 0 : this.state.sub_ability_bonuses[1]) + this.props.block[1]}</li>
@@ -95,22 +99,21 @@ export default class Character extends Component {
           <li className="stats">WIS: {this.state.ability_bonuses[4] + (isNaN(this.state.sub_ability_bonuses[4]) ? 0 : this.state.sub_ability_bonuses[4]) + this.props.block[4]}</li>
           <li className="stats">CHA: {this.state.ability_bonuses[5] + (isNaN(this.state.sub_ability_bonuses[5]) ? 0 : this.state.sub_ability_bonuses[5]) + this.props.block[5]}</li>
         </ul>
-      </div>
+      </Grid>
       <ul>
         <li>Saving Throws: {this.state.saving_throws.join(', ')}</li>
-        <li>Ability Bonuses: {this.state.ability_bonuses}</li>
-        <li>Subrace Ability Bonuses: {this.state.sub_ability_bonuses}</li>
-        <li>Languages: {this.state.languages.join(', ')}</li>
-        <li>Features: {this.state.features.join(', ') ? this.state.features.join(', ') : "None"}</li>
-        <li>Proficiencies: {this.state.proficiencies.join(', ')}</li>
-        <li>Proficiency Choices: {this.state.proficiency_choices.join('  ')}</li>
-        <li>Racial Traits: {this.state.racial_traits ? this.state.racial_traits : "None"}</li>
+        <li>Features: {this.state.features.join(', ') ? this.state.features.join(', ') : "None"} </li>
+        <li>Racial Traits: {this.state.racial_traits ? this.state.racial_traits : "None"} </li>
         <li>Size: {this.state.size}</li>
-        <li>Speed: {this.state.speed}</li>
         <li>Starting Equipment: {this.state.starting_equipment.join(',  ')}</li>
-        <li>Starting Proficiencies: {this.state.starting_proficiencies.join(', ')}</li>
         </ul>
-      </div>
+        <div id="langProf">
+        <p>Languages: {this.state.languages.join(', ')} </p>
+        <p>Starting Proficiencies: {this.state.starting_proficiencies.join(', ')} </p>
+        <p>Proficiencies: {this.state.proficiencies.join(', ')} </p>
+        <p>Proficiency Choices: {this.state.proficiency_choices.join('  ')} </p>
+        </div>
+      </Grid>
     )
   }
 }

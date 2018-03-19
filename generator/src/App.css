@@ -1,12 +1,7 @@
-p {
-  text-align: center;
-  color: green;
-  font-size: 26px;
-}
+
 
 body {
   background-color: black;
-  background-image: url("https://i.pinimg.com/originals/1f/33/9e/1f339e3230aff390c991e6bb6010c977.png");
   background-position: top;
   background-repeat: no-repeat;
   height: 100%;
@@ -27,17 +22,50 @@ h2 {
   padding-top: 10px;
 }
 
+#character {
+  background-image: url("https://i.pinimg.com/originals/1f/33/9e/1f339e3230aff390c991e6bb6010c977.png");
+  background-position: top;
+  background-repeat: no-repeat;
+ -webkit-background-size: 70%;
+ -moz-background-size: 70%;
+ -o-background-size: 70%;
+ background-size: 70%;
+ height: 200vh;
+ width: 100%;
+ position: relative;
+}
+
+
+
 #statBonus{
   text-align: center;
   margin: auto;
   width: 40%;
+  top: 100px;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .stats {
   border-style: solid;
   border-width: medium;
   border-color: #98FB98;
-  width: 60px;
+  width: 90px;
   padding: 10px;
   margin: 5px;
+}
+
+#langProf {
+  text-align: left;
+  padding-left: 32%;
+}
+
+#statButton {
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  right: 0;
+  left: 28px;
+  height: 25px;
 }

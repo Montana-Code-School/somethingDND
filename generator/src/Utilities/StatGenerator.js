@@ -77,7 +77,7 @@ buttonClick() {
 render () {
   return (
     <div>
-      <button onClick={this.buttonClick.bind(this)}>New Stat Block</button>
+      <button id="statButton" onClick={this.buttonClick.bind(this)}>New Stat Block</button>
     </div>
   )}
 };
