@@ -6,7 +6,7 @@
     "node": "8.9.x"
   },
   "scripts": {
-    "start": "node server",
+    "start": "node server.js",
     "heroku-postbuild": "cd generator/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
     "devstart": "./node_modules/nodemon/bin/nodemon.js server"
   },
@@ -17,6 +17,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
     "express": "^4.14.1",
     "lodash": "^4.17.5",
     "mongodb": "^3.0.3",
