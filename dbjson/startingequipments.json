@@ -22,117 +22,102 @@
   }],
   "choices_to_make": 3,
   "choice_1": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
-        "name": "Club"
-      },
-      "quantity": 1
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
+      "name": "Club"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
-        "name": "Dagger"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
+      "name": "Dagger"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/3",
-        "name": "Greatclub"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/3",
+      "name": "Greatclub"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/4",
-        "name": "Handaxe"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/4",
+      "name": "Handaxe"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/5",
-        "name": "Javelin"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/5",
+      "name": "Javelin"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/6",
-        "name": "Light hammer"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/6",
+      "name": "Light hammer"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/7",
-        "name": "Mace"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/7",
+      "name": "Mace"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
-        "name": "Quarterstaff"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
+      "name": "Quarterstaff"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/9",
-        "name": "Sickle"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/9",
+      "name": "Sickle"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/10",
-        "name": "Spear"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/10",
+      "name": "Spear"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/11",
-        "name": "Light Crossbow"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/11",
+      "name": "Light Crossbow"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/12",
-        "name": "Dart"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/12",
+      "name": "Dart"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/13",
-        "name": "Shortbow"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/13",
+      "name": "Shortbow"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/14",
-        "name": "Sling"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/26",
-        "name": "Rapier"
-      },
-      "quantity": 1
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/14",
+      "name": "Sling"
     },
-    {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/22",
-        "name": "Longsword"
-      },
-      "quantity": 1
-    }
-  ],
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/26",
+      "name": "Rapier"
+    },
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/22",
+      "name": "Longsword"
+    },
+    "quantity": 1
+  }],
   "choice_2": [{
     "choose": 1,
     "type": "equipment",
@@ -476,6 +461,459 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/1"
+} {
+  "_id": {
+    "$oid": "5a9ce1d126c967cff4104d10"
+  },
+  "index": 4,
+  "class": {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
+    "name": "Druid"
+  },
+  "starting_equipment": [{
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/39",
+      "name": "Leather Armor"
+    },
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/158",
+      "name": "Explorer's Pack"
+    },
+    "quantity": 1
+  }],
+  "choices_to_make": 3,
+  "choice_1": [{
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
+        "name": "Club"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/50",
+        "name": "Shield"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
+        "name": "Dagger"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/3",
+        "name": "Greatclub"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/4",
+        "name": "Handaxe"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/5",
+        "name": "Javelin"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/6",
+        "name": "Light hammer"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/7",
+        "name": "Mace"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
+        "name": "Quarterstaff"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/9",
+        "name": "Sickle"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/10",
+        "name": "Spear"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/11",
+        "name": "Light Crossbow"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/12",
+        "name": "Dart"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/13",
+        "name": "Shortbow"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/14",
+        "name": "Sling"
+      },
+      "quantity": 1
+    }]
+  }],
+  "choice_2": [{
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
+        "name": "Club"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/27",
+        "name": "Scimitar"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
+        "name": "Dagger"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/3",
+        "name": "Greatclub"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/4",
+        "name": "Handaxe"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/5",
+        "name": "Javelin"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/6",
+        "name": "Light hammer"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/7",
+        "name": "Mace"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
+        "name": "Quarterstaff"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/9",
+        "name": "Sickle"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/10",
+        "name": "Spear"
+      },
+      "quantity": 1
+    }]
+  }],
+  "choice_3": [{
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/89",
+        "name": "Sprig of mistletoe"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/90",
+        "name": "Totem"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/91",
+        "name": "Wooden staff"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/92",
+        "name": "Yew wand"
+      },
+      "quantity": 1
+    }]
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/4"
+} {
+  "_id": {
+    "$oid": "5a9ce1d126c967cff4104d12"
+  },
+  "index": 9,
+  "class": {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/9",
+    "name": "Rogue"
+  },
+  "starting_equipment": [{
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/39",
+      "name": "Leather Armor"
+    },
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
+      "name": "Dagger"
+    },
+    "quantity": 2
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/191",
+      "name": "Thieves’ tools"
+    },
+    "quantity": 1
+  }],
+  "choices_to_make": 3,
+  "choice_1": [{
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/26",
+        "name": "Rapier"
+      },
+      "quantity": 1
+    }]
+  }, {
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/28",
+        "name": "Shortsword"
+      },
+      "quantity": 1
+    }]
+  }],
+  "choice_2": [{
+    "choose": 2,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/13",
+        "name": "Shortbow, Shortsword"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/28",
+        "name": "Shortsword"
+      },
+      "quantity": 1
+    }]
+  }],
+  "choice_3": [{
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/154",
+        "name": "Burglar's Pack"
+      },
+      "quantity": 1
+    }]
+  }, {
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/156",
+        "name": "Dungeoneer's Pack"
+      },
+      "quantity": 1
+    }]
+  }, {
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/158",
+        "name": "Explorer's Pack"
+      },
+      "quantity": 1
+    }]
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/9"
+} {
+  "_id": {
+    "$oid": "5a9ce1d126c967cff4104d11"
+  },
+  "index": 8,
+  "class": {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
+    "name": "Ranger"
+  },
+  "starting_equipment": [{
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/36",
+      "name": "Longbow"
+    },
+    "quantity": 1
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/54",
+      "name": "Arrow"
+    },
+    "quantity": 20
+  }],
+  "choices_to_make": 3,
+  "choice_1": [{
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/43",
+        "name": "Scale Mail"
+      },
+      "quantity": 1
+    }]
+  }, {
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "name": "Leather Armor"
+      },
+      "quantity": 1
+    }]
+  }],
+  "choice_2": [{
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "name": "Short Swords"
+      },
+      "quantity": 2
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
+        "name": "Club"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
+        "name": "Dagger"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/3",
+        "name": "Greatclub"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/4",
+        "name": "Handaxe"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/5",
+        "name": "Javelin"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/6",
+        "name": "Light hammer"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/7",
+        "name": "Mace"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
+        "name": "Quarterstaff"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/9",
+        "name": "Sickle"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/10",
+        "name": "Spear"
+      },
+      "quantity": 1
+    }]
+  }],
+  "choice_3": [{
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/156",
+        "name": "Dungeoneer's Pack"
+      },
+      "quantity": 1
+    }]
+  }, {
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/158",
+        "name": "Explorer's Pack"
+      },
+      "quantity": 1
+    }]
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/8"
 } {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d0e"
@@ -845,25 +1283,135 @@
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/6"
 } {
   "_id": {
-    "$oid": "5a9ce1d126c967cff4104d10"
+    "$oid": "5a9ce1d126c967cff4104d15"
   },
-  "index": 4,
+  "index": 12,
   "class": {
-    "url": "https://dndcharcreator.herokuapp.com/api/classes/4",
-    "name": "Druid"
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
+    "name": "Wizard"
   },
   "starting_equipment": [{
     "item": {
-      "url": "https://dndcharcreator.herokuapp.com/api/equipment/39",
-      "name": "Leather Armor"
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/145",
+      "name": "Spellbook"
     },
     "quantity": 1
   }, {
     "item": {
-      "url": "https://dndcharcreator.herokuapp.com/api/equipment/158",
-      "name": "Explorer's Pack"
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/87",
+      "name": "Component pouch"
     },
-    "quantity": 1
+    "quantity": 2
+  }],
+  "choices_to_make": 4,
+  "choice_1": [{
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
+        "name": "Dagger"
+      },
+      "quantity": 1
+    }]
+  }, {
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
+        "name": "Quarterstaff"
+      },
+      "quantity": 1
+    }]
+  }],
+  "choice_2": [{
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/87",
+        "name": "Component pouch"
+      },
+      "quantity": 2
+    }]
+  }, {
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/60",
+        "name": "Crystal"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/61",
+        "name": "Orb"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/62",
+        "name": "Rod"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/63",
+        "name": "Staff"
+      },
+      "quantity": 1
+    }, {
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/64",
+        "name": "Wand"
+      },
+      "quantity": 1
+    }]
+  }],
+  "choice_3": [{
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/160",
+        "name": "Scholar's Pack"
+      },
+      "quantity": 1
+    }]
+  }, {
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "name": "Explorer's Pack"
+      },
+      "quantity": 1
+    }]
+  }],
+  "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/12"
+} {
+  "_id": {
+    "$oid": "5a9ce1d126c967cff4104d16"
+  },
+  "index": 10,
+  "class": {
+    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
+    "name": "Sorcerer"
+  },
+  "starting_equipment": [{
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
+      "name": "Dagger"
+    },
+    "quantity": 2
+  }, {
+    "item": {
+      "url": "https://dndcharcreator.herokuapp.com/api/equipment/87",
+      "name": "Component pouch"
+    },
+    "quantity": 2
   }],
   "choices_to_make": 3,
   "choice_1": [{
@@ -871,14 +1419,24 @@
     "type": "equipment",
     "from": [{
       "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
-        "name": "Club"
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/11",
+        "name": "Light Crossbow"
       },
       "quantity": 1
     }, {
       "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/50",
-        "name": "Shield"
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/56",
+        "name": "Crossbow bolt"
+      },
+      "quantity": 20
+    }]
+  }, {
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
+      "item": {
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
+        "name": "Club"
       },
       "quantity": 1
     }, {
@@ -966,211 +1524,42 @@
     "type": "equipment",
     "from": [{
       "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
-        "name": "Club"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/27",
-        "name": "Scimitar"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
-        "name": "Dagger"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/3",
-        "name": "Greatclub"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/4",
-        "name": "Handaxe"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/5",
-        "name": "Javelin"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/6",
-        "name": "Light hammer"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/7",
-        "name": "Mace"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
-        "name": "Quarterstaff"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/9",
-        "name": "Sickle"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/10",
-        "name": "Spear"
-      },
-      "quantity": 1
-    }]
-  }],
-  "choice_3": [{
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/89",
-        "name": "Sprig of mistletoe"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/90",
-        "name": "Totem"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/91",
-        "name": "Wooden staff"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/92",
-        "name": "Yew wand"
-      },
-      "quantity": 1
-    }]
-  }],
-  "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/4"
-} {
-  "_id": {
-    "$oid": "5a9ce1d126c967cff4104d11"
-  },
-  "index": 8,
-  "class": {
-    "url": "https://dndcharcreator.herokuapp.com/api/classes/8",
-    "name": "Ranger"
-  },
-  "starting_equipment": [{
-    "item": {
-      "url": "https://dndcharcreator.herokuapp.com/api/equipment/36",
-      "name": "Longbow"
-    },
-    "quantity": 1
-  }, {
-    "item": {
-      "url": "https://dndcharcreator.herokuapp.com/api/equipment/54",
-      "name": "Arrow"
-    },
-    "quantity": 20
-  }],
-  "choices_to_make": 3,
-  "choice_1": [{
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/43",
-        "name": "Scale Mail"
-      },
-      "quantity": 1
-    }]
-  }, {
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "name": "Leather Armor"
-      },
-      "quantity": 1
-    }]
-  }],
-  "choice_2": [{
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "name": "Short Swords"
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/87",
+        "name": "Component pouch"
       },
       "quantity": 2
-    }, {
+    }]
+  }, {
+    "choose": 1,
+    "type": "equipment",
+    "from": [{
       "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
-        "name": "Club"
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/60",
+        "name": "Crystal"
       },
       "quantity": 1
     }, {
       "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
-        "name": "Dagger"
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/61",
+        "name": "Orb"
       },
       "quantity": 1
     }, {
       "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/3",
-        "name": "Greatclub"
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/62",
+        "name": "Rod"
       },
       "quantity": 1
     }, {
       "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/4",
-        "name": "Handaxe"
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/63",
+        "name": "Staff"
       },
       "quantity": 1
     }, {
       "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/5",
-        "name": "Javelin"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/6",
-        "name": "Light hammer"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/7",
-        "name": "Mace"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
-        "name": "Quarterstaff"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/9",
-        "name": "Sickle"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/10",
-        "name": "Spear"
+        "url": "https://dndcharcreator.herokuapp.com/api/equipment/64",
+        "name": "Wand"
       },
       "quantity": 1
     }]
@@ -1196,106 +1585,7 @@
       "quantity": 1
     }]
   }],
-  "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/8"
-} {
-  "_id": {
-    "$oid": "5a9ce1d126c967cff4104d12"
-  },
-  "index": 9,
-  "class": {
-    "url": "https://dndcharcreator.herokuapp.com/api/classes/9",
-    "name": "Rogue"
-  },
-  "starting_equipment": [{
-    "item": {
-      "url": "https://dndcharcreator.herokuapp.com/api/equipment/39",
-      "name": "Leather Armor"
-    },
-    "quantity": 1
-  }, {
-    "item": {
-      "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
-      "name": "Dagger"
-    },
-    "quantity": 2
-  }, {
-    "item": {
-      "url": "https://dndcharcreator.herokuapp.com/api/equipment/191",
-      "name": "Thieves’ tools"
-    },
-    "quantity": 1
-  }],
-  "choices_to_make": 3,
-  "choice_1": [{
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/26",
-        "name": "Rapier"
-      },
-      "quantity": 1
-    }]
-  }, {
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/28",
-        "name": "Shortsword"
-      },
-      "quantity": 1
-    }]
-  }],
-  "choice_2": [{
-    "choose": 2,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/13",
-        "name": "Shortbow, Shortsword"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/28",
-        "name": "Shortsword"
-      },
-      "quantity": 1
-    }]
-  }],
-  "choice_3": [{
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/154",
-        "name": "Burglar's Pack"
-      },
-      "quantity": 1
-    }]
-  }, {
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/156",
-        "name": "Dungeoneer's Pack"
-      },
-      "quantity": 1
-    }]
-  }, {
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/158",
-        "name": "Explorer's Pack"
-      },
-      "quantity": 1
-    }]
-  }],
-  "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/9"
+  "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/10"
 } {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d13"
@@ -2138,311 +2428,6 @@
     }]
   }],
   "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/7"
-} {
-  "_id": {
-    "$oid": "5a9ce1d126c967cff4104d15"
-  },
-  "index": 12,
-  "class": {
-    "url": "https://dndcharcreator.herokuapp.com/api/classes/12",
-    "name": "Wizard"
-  },
-  "starting_equipment": [{
-    "item": {
-      "url": "https://dndcharcreator.herokuapp.com/api/equipment/145",
-      "name": "Spellbook"
-    },
-    "quantity": 1
-  }, {
-    "item": {
-      "url": "https://dndcharcreator.herokuapp.com/api/equipment/87",
-      "name": "Component pouch"
-    },
-    "quantity": 2
-  }],
-  "choices_to_make": 4,
-  "choice_1": [{
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
-        "name": "Dagger"
-      },
-      "quantity": 1
-    }]
-  }, {
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
-        "name": "Quarterstaff"
-      },
-      "quantity": 1
-    }]
-  }],
-  "choice_2": [{
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/87",
-        "name": "Component pouch"
-      },
-      "quantity": 2
-    }]
-  }, {
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/60",
-        "name": "Crystal"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/61",
-        "name": "Orb"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/62",
-        "name": "Rod"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/63",
-        "name": "Staff"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/64",
-        "name": "Wand"
-      },
-      "quantity": 1
-    }]
-  }],
-  "choice_3": [{
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/160",
-        "name": "Scholar's Pack"
-      },
-      "quantity": 1
-    }]
-  }, {
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "name": "Explorer's Pack"
-      },
-      "quantity": 1
-    }]
-  }],
-  "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/12"
-} {
-  "_id": {
-    "$oid": "5a9ce1d126c967cff4104d16"
-  },
-  "index": 10,
-  "class": {
-    "url": "https://dndcharcreator.herokuapp.com/api/classes/10",
-    "name": "Sorcerer"
-  },
-  "starting_equipment": [{
-    "item": {
-      "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
-      "name": "Dagger"
-    },
-    "quantity": 2
-  }, {
-    "item": {
-      "url": "https://dndcharcreator.herokuapp.com/api/equipment/87",
-      "name": "Component pouch"
-    },
-    "quantity": 2
-  }],
-  "choices_to_make": 3,
-  "choice_1": [{
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/11",
-        "name": "Light Crossbow"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/56",
-        "name": "Crossbow bolt"
-      },
-      "quantity": 20
-    }]
-  }, {
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/1",
-        "name": "Club"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/2",
-        "name": "Dagger"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/3",
-        "name": "Greatclub"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/4",
-        "name": "Handaxe"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/5",
-        "name": "Javelin"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/6",
-        "name": "Light hammer"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/7",
-        "name": "Mace"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/8",
-        "name": "Quarterstaff"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/9",
-        "name": "Sickle"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/10",
-        "name": "Spear"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/11",
-        "name": "Light Crossbow"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/12",
-        "name": "Dart"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/13",
-        "name": "Shortbow"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/14",
-        "name": "Sling"
-      },
-      "quantity": 1
-    }]
-  }],
-  "choice_2": [{
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/87",
-        "name": "Component pouch"
-      },
-      "quantity": 2
-    }]
-  }, {
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/60",
-        "name": "Crystal"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/61",
-        "name": "Orb"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/62",
-        "name": "Rod"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/63",
-        "name": "Staff"
-      },
-      "quantity": 1
-    }, {
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/64",
-        "name": "Wand"
-      },
-      "quantity": 1
-    }]
-  }],
-  "choice_3": [{
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/156",
-        "name": "Dungeoneer's Pack"
-      },
-      "quantity": 1
-    }]
-  }, {
-    "choose": 1,
-    "type": "equipment",
-    "from": [{
-      "item": {
-        "url": "https://dndcharcreator.herokuapp.com/api/equipment/158",
-        "name": "Explorer's Pack"
-      },
-      "quantity": 1
-    }]
-  }],
-  "url": "https://dndcharcreator.herokuapp.com/api/startingequipment/10"
 } {
   "_id": {
     "$oid": "5a9ce1d126c967cff4104d17"

@@ -136,9 +136,9 @@ class RandomCharSet {
        default :
        console.error("Default case for equipment selector")
      }
+
      return {equipNum, equipNumTwo}
    },
-
 
    setRandom : () => {
      charSetHelpers.charSet.raceNum = charSetHelpers.getRandomInt(1,9);
@@ -162,7 +162,6 @@ class RandomCharSet {
      profNum : 0,
      equipNum : 0,
    },
-
    checkIsUndefined : (arr) => {
      if(arr === undefined) {
        return true;
