@@ -73,7 +73,13 @@ buttonClick() {
   this.setState(stateObject)
   this.props.getStatsFromStatGenerator(stateObject);
 }
-
+componentWillMount(){
+  let stateObject = {
+    block : this.blockBuilder(),
+  }
+  this.setState(stateObject)
+  this.props.getStatsFromStatGenerator(stateObject);
+}
 render () {
   return (
     <div>

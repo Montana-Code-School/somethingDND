@@ -30,10 +30,12 @@ class App extends Component {
   render() {
     console.log(this.state, "Right Here!")
      return (
+       <container id="container">
       <div className="App">
         <Character block={this.state.block}/>
         <StatGenerator getStatsFromStatGenerator={this.getStatsFromStatGenerator} />
       </div>
+      </container>
       );
   }
 }

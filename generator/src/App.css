@@ -1,71 +1,123 @@
-
-
 body {
-  background-color: black;
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
+ background-image: url("./components/old_table_background.jpg");
+
+ background-color: black;
+ background-position: top;
+ background-repeat: no-repeat;
+ height: 100%;
+ width: 100%;
 }
 
 ul {
-  text-align: center;
-  font-size: 15px;
-  list-style-type: none;
-}
-h1 {
-  text-align: center;
-  padding-top: 30px;
-}
-h2 {
-  text-align: center;
-  padding-top: 10px;
+ text-align: center;
+ font-size: 25px;
+ list-style-type: none;
 }
 
 #character {
-  background-image: url("https://i.pinimg.com/originals/1f/33/9e/1f339e3230aff390c991e6bb6010c977.png");
-  background-position: top;
-  background-repeat: no-repeat;
- -webkit-background-size: 70%;
- -moz-background-size: 70%;
- -o-background-size: 70%;
- background-size: 70%;
- height: 200vh;
- width: 100%;
+ background-image: url("./components/scroll.png");
+ background-position: top;
+ background-repeat: no-repeat;
+-webkit-background-size: 70%;
+-moz-background-size: 70%;
+-o-background-size: 70%;
+background-size: 100%;
+height: 200vh;
+width: 70%;
+position: relative;
+font-size: 20px;
+margin: 0 auto;
+}
+
+#characterButton{
+ position: relative;
+ top: 200px;
+ bottom: 0px;
+ right: 0;
+ left: 283px;
+ height: 25px;
+ padding-bottom: 35px;
+
+}
+
+#statBonus{
+ text-align: center;
+ margin: auto;
+ width: 55%;
+ top: 200px;
+ bottom: 0;
+ right: 0;
+ left: 0;
  position: relative;
 }
 
-
-
-#statBonus{
-  text-align: center;
-  margin: auto;
-  width: 40%;
-  top: 100px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-
 .stats {
-  border-style: solid;
-  border-width: medium;
-  border-color: #98FB98;
-  width: 90px;
-  padding: 10px;
-  margin: 5px;
+ border-style: double;
+ border-width: medium;
+ border-color: black;
+ width: 90px;
+ padding: 10px;
+ margin: 5px;
+}
+#class{
+ border-style: none;
+ position: relative;
+ text-align: left;
+ padding-left: 32%;
+ width: 500px;
+ padding: 1px;
+ margin: 25px;
+ left: 785px;
+ top: 40px;
+
+}
+#equipment{
+ position: absolute;
+ text-align: left;
+ padding-left: 32%;
+ width: 300px;
+ border: 5px solid black;
+ padding: 25px;
+ margin: 25px;
+ left: 700px;
+ top: 400px;
 }
 
 #langProf {
-  text-align: left;
-  padding-left: 32%;
+ position: absolute;
+ text-align: left;
+ padding-left: 32%;
+ width: 450px;
+ border: 5px solid black;
+ padding: 25px;
+ margin: 25px;
+ left: 450px;
+ top: 860px;
 }
 
 #statButton {
+ position: absolute;
+ top: 300px;
+ bottom: 0px;
+ right: 0;
+ left: 283px;
+ height: 25px;
+}
+
+#features{
+ position: relative;
+ text-align: left;
+ padding-left: 32%;
+ width: 450px;
+ border: 5px solid black;
+ padding: 25px;
+ margin: 25px;
+ left: 1000px;
+ top: 700px;
+
+}
+#container {
+  width: 100%;
+  font-family: 'Tangerine', cursive;
   position: absolute;
-  top: 30px;
-  bottom: 0;
-  right: 0;
-  left: 28px;
-  height: 25px;
 }
