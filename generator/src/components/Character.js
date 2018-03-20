@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-bootstrap'
+import { Grid, Tooltip } from 'react-bootstrap'
 import { Row } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
 
@@ -88,13 +88,16 @@ export default class Character extends Component {
 
   render() {
     return (
-      <Grid id= "character" fluid>
+    <div id= "character">
      <button id="characterButton" onClick = {this.buttonClick.bind(this)}>Generate Character</button>
-     <div id="class">
+     <div id="title">
      <h1>{this.state.subrace ? this.state.subrace : this.state.race} {this.state.className}</h1>
      <h2>Subclass: {this.state.subclass} <br /> Speed: {this.state.speed} <br /> Hit Die: {this.state.hit_die}</h2>
      </div>
-     <Grid id= "statBonus" fluid>
+     <div id= "saveThrows">
+       <p>Saving Throws: {this.state.saving_throws.join(', ')}</p>
+    </div>
+     <div id= "statBonus">
        <ul id="statBonusList">
          <li className="stats">STR: {this.state.ability_bonuses[0] + (isNaN(this.state.sub_ability_bonuses[0]) ? 0 : this.state.sub_ability_bonuses[0]) + this.props.block[0]}</li>
          <li className="stats">DEX: {this.state.ability_bonuses[1] + (isNaN(this.state.sub_ability_bonuses[1]) ? 0 : this.state.sub_ability_bonuses[1]) + this.props.block[1]}</li>
@@ -103,12 +106,7 @@ export default class Character extends Component {
          <li className="stats">WIS: {this.state.ability_bonuses[4] + (isNaN(this.state.sub_ability_bonuses[4]) ? 0 : this.state.sub_ability_bonuses[4]) + this.props.block[4]}</li>
          <li className="stats">CHA: {this.state.ability_bonuses[5] + (isNaN(this.state.sub_ability_bonuses[5]) ? 0 : this.state.sub_ability_bonuses[5]) + this.props.block[5]}</li>
        </ul>
-     </Grid>
-     <div id= "features">
-       <p>Saving Throws: {this.state.saving_throws.join(', ')}</p>
-       <p>Features: {this.state.features.join(', ') ? this.state.features.join(', ') : "None"} </p>
-       <p>Racial Traits: {this.state.racial_traits.join(', ') ? this.state.racial_traits.join(', ') : "None"} </p>
-       </div>
+     </div>
        <div id= "equipment">
        <p>Starting Equipment: {this.state.starting_equipment.join(', ')}</p>
        </div>
@@ -117,8 +115,10 @@ export default class Character extends Component {
        <p>Starting Proficiencies: {this.state.starting_proficiencies.join(', ') ? this.state.starting_proficiencies.join(', ') : 'None'} </p>
        <p>Proficiencies: {this.state.proficiencies.join(', ')} </p>
        <p>Proficiency Choices: {this.state.proficiency_choices.join('  ')} </p>
+       <p>Features: {this.state.features.join(', ') ? this.state.features.join(', ') : "None"} </p>
+       <p>Racial Traits: {this.state.racial_traits.join(', ') ? this.state.racial_traits.join(', ') : "None"} </p>
        </div>
-     </Grid>
+     </div>
    )
  }
 }
