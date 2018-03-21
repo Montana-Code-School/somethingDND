@@ -1,123 +1,78 @@
 body {
- background-image: url("./components/old_table_background.jpg");
-
- background-color: black;
- background-position: top;
- background-repeat: no-repeat;
- height: 100%;
- width: 100%;
+  background-image: url("./components/old_table_background.jpg");
+  background-color: black;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
 
-ul {
- text-align: center;
- font-size: 25px;
- list-style-type: none;
+h1 {
+  font-size: 6.9vh;
+}
+
+h2 {
+  font-size: 3.0vh;
 }
 
 #character {
- background-image: url("./components/scroll.png");
- background-position: top;
- background-repeat: no-repeat;
--webkit-background-size: 70%;
--moz-background-size: 70%;
--o-background-size: 70%;
-background-size: 100%;
-height: 200vh;
-width: 70%;
-position: relative;
-font-size: 20px;
-margin: 0 auto;
+  background-image: url("./components/scroll.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  -webkit-background-size: 70%;
+  -moz-background-size: 70%;
+  -o-background-size: 70%;
+  background-size: 100%;
+  position: relative;
+  font-size: 20px;
+  margin: 0 auto;
 }
 
-#characterButton{
- position: relative;
- top: 200px;
- bottom: 0px;
- right: 0;
- left: 283px;
- height: 25px;
- padding-bottom: 35px;
-
+.statBlock {
+  border: 1px solid black;
+  border-radius: 2px;
+  font-size: 0.75em;
+  margin-left: 1.75rem;
 }
 
-#statBonus{
- text-align: center;
- margin: auto;
- width: 55%;
- top: 200px;
- bottom: 0;
- right: 0;
- left: 0;
- position: relative;
+#meh{
+  border-style: none;
+  position: relative;
+  text-align: left;
+  padding-left: 32%;
+  width: 500px;
+  height: 300px;
 }
 
-.stats {
- border-style: double;
- border-width: medium;
- border-color: black;
- width: 90px;
- padding: 10px;
- margin: 5px;
-}
-#class{
- border-style: none;
- position: relative;
- text-align: left;
- padding-left: 32%;
- width: 500px;
- padding: 1px;
- margin: 25px;
- left: 785px;
- top: 40px;
-
-}
 #equipment{
- position: absolute;
- text-align: left;
- padding-left: 32%;
- width: 300px;
- border: 5px solid black;
- padding: 25px;
- margin: 25px;
- left: 700px;
- top: 400px;
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+  padding: 25px;
 }
 
 #langProf {
- position: absolute;
- text-align: left;
- padding-left: 32%;
- width: 450px;
- border: 5px solid black;
- padding: 25px;
- margin: 25px;
- left: 450px;
- top: 860px;
+  position: absolute;
+  text-align: left;
+  padding-left: 32%;
+  width: 450px;
+  border: 5px solid black;
+  padding: 25px;
 }
 
-#statButton {
- position: absolute;
- top: 300px;
- bottom: 0px;
- right: 0;
- left: 283px;
- height: 25px;
+#features {
+  padding-left: 32%;
+  width: 450px;
+  border: 2px solid black;
 }
 
-#features{
- position: relative;
- text-align: left;
- padding-left: 32%;
- width: 450px;
- border: 5px solid black;
- padding: 25px;
- margin: 25px;
- left: 1000px;
- top: 700px;
-
-}
 #container {
   width: 100%;
   font-family: 'Tangerine', cursive;
   position: absolute;
+  border: 2px solid black;
+}
+
+#header {
+  color: black;
 }

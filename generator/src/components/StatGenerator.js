@@ -1,12 +1,17 @@
 import  React, { Component } from 'react'
+import {
+  Button,
+  Tooltip,
+  OverlayTrigger
+} from 'react-bootstrap';
 
 export default class StatGenerator extends Component {
-    constructor() {
-      super()
-      this.state = {
-        block : []
-      }
+  constructor() {
+    super()
+    this.state = {
+      block : []
     }
+  }
 
   statBlockGenerator() {
     let d6Roll1 = Math.floor(Math.random() * 6 + 1);
@@ -58,38 +63,37 @@ export default class StatGenerator extends Component {
     })
   }
 
-blockBuilder() {
-  let emptyRay = [];
-  while (emptyRay.length < 6) {
-    emptyRay.push(this.statBlockGenerator());
-  };
-  return emptyRay;
-}
+  blockBuilder() {
+    let emptyRay = [];
+    while (emptyRay.length < 6) {
+      emptyRay.push(this.statBlockGenerator());
+    };
+    return emptyRay;
+  }
 
-buttonClick() {
-  let stateObject = {
-    block : this.blockBuilder(),
+  buttonClick() {
+    this.props.getStatsFromStatGenerator(this.blockBuilder());
   }
-  this.setState(stateObject)
-  this.props.getStatsFromStatGenerator(stateObject);
-}
-componentWillMount(){
-  let stateObject = {
-    block : this.blockBuilder(),
+
+  componentWillMount(){
+    this.props.getStatsFromStatGenerator(this.blockBuilder());
   }
-  this.setState(stateObject)
-  this.props.getStatsFromStatGenerator(stateObject);
-}
-render () {
-  return (
-    <div>
-      <button id="statButton" onClick={this.buttonClick.bind(this)}>New Stat Block</button>
-    </div>
-  )}
+
+  render () {
+    const tooltip = (
+      <Tooltip id="tooltip">
+        <strong>Click to </strong> Generate Character.
+      </Tooltip>
+    );
+    return (
+      <div>
+        <OverlayTrigger placement="bottom" overlay={tooltip}>
+          <Button id="statButton"
+                bsStyle="default"
+                onClick = {this.buttonClick.bind(this)}>New Stat Block
+          </Button>
+        </OverlayTrigger>
+      </div>
+    )
+  }
 };
-
-// const gotBlock = {
-//   getBlock : () => {
-//     return this.state.block;
-//   }
-// }

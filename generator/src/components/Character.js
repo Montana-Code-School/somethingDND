@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-bootstrap'
-import { Row } from 'react-bootstrap'
-import { Col } from 'react-bootstrap'
-
-
-
-//import _ from 'lodash';
-// import requestApi from "../Utilities/request.js";
-// import axios from 'axios';
+import {
+  Grid,
+  Row,
+  Col,
+  PageHeader,
+  Button,
+  Tooltip,
+  OverlayTrigger
+} from 'react-bootstrap';
+import StatGenerator from './StatGenerator'
 
 export default class Character extends Component {
   constructor(props) {
@@ -33,27 +34,17 @@ export default class Character extends Component {
       sub_starting_proficiencies : [],
       subclass : [],
       traits : [],
-      statblock : [],
+      statblock : []
     }
-
-    // onClick(e) {
-    //   axios.get("http://localhost:5000/api/character")
-    //
-     }
+    this.getStatsFromStatGenerator = this.getStatsFromStatGenerator.bind(this);
+  }
 
   async buttonClick() {
-
-    //this.setState({statblock : blockBuilder.getBlock()});
-    //console.log(StatGenerator.blockBuilder());
-
-  await this.callToCharacter()
+    await this.callToCharacter()
       .then((res) => {
         var obj = res;
         var arr = Object.keys(obj).map(function(k) {return [obj[k]];
       });
-      console.log(this.props.block);
-      console.log("promise resolved in call to character");
-      console.log(arr[0][0])
       var goodStuff = arr[0][0];
       this.setState({
         languages : goodStuff.languages,
@@ -72,53 +63,91 @@ export default class Character extends Component {
         starting_equipment : goodStuff.starting_equipment,
         starting_proficiencies : goodStuff.starting_proficiencies,
         sub_ability_bonuses : goodStuff.sub_ability_bonuses,
-        subclass : goodStuff.subclasses,
+        subclass : goodStuff.subclasses
       })
+      this.props.update("character", true);
     })
-      .catch(err => console.error(err))
-    }
+    .catch(err => console.error(err))
+  }
 
-    callToCharacter = async () => {
-      const charApi = "/api/character";
-      const response = await fetch(charApi);
-      const body = await response.json();
-      if (response.status !== 200) throw Error(body.message);
-      return { body }
-    }
+  callToCharacter = async () => {
+    const charApi = "/api/character";
+    const response = await fetch(charApi);
+    const body = await response.json();
+    if (response.status !== 200) throw Error(body.message);
+    return { body }
+  }
+
+  getStatsFromStatGenerator(stats) {
+    this.props.update('block', stats)
+  }
 
   render() {
+    const tooltip = (
+      <Tooltip id="tooltip">
+        <strong>Click to </strong> Generate Character.
+      </Tooltip>
+    );
     return (
-      <Grid id= "character" fluid>
-     <button id="characterButton" onClick = {this.buttonClick.bind(this)}>Generate Character</button>
-     <div id="class">
-     <h1>{this.state.subrace ? this.state.subrace : this.state.race} {this.state.className}</h1>
-     <h2>Subclass: {this.state.subclass} <br /> Speed: {this.state.speed} <br /> Hit Die: {this.state.hit_die}</h2>
-     </div>
-     <Grid id= "statBonus" fluid>
-       <ul id="statBonusList">
-         <li className="stats">STR: {this.state.ability_bonuses[0] + (isNaN(this.state.sub_ability_bonuses[0]) ? 0 : this.state.sub_ability_bonuses[0]) + this.props.block[0]}</li>
-         <li className="stats">DEX: {this.state.ability_bonuses[1] + (isNaN(this.state.sub_ability_bonuses[1]) ? 0 : this.state.sub_ability_bonuses[1]) + this.props.block[1]}</li>
-         <li className="stats">CON: {this.state.ability_bonuses[2] + (isNaN(this.state.sub_ability_bonuses[2]) ? 0 : this.state.sub_ability_bonuses[2]) + this.props.block[2]}</li>
-         <li className="stats">INT: {this.state.ability_bonuses[3] + (isNaN(this.state.sub_ability_bonuses[3]) ? 0 : this.state.sub_ability_bonuses[3]) + this.props.block[3]}</li>
-         <li className="stats">WIS: {this.state.ability_bonuses[4] + (isNaN(this.state.sub_ability_bonuses[4]) ? 0 : this.state.sub_ability_bonuses[4]) + this.props.block[4]}</li>
-         <li className="stats">CHA: {this.state.ability_bonuses[5] + (isNaN(this.state.sub_ability_bonuses[5]) ? 0 : this.state.sub_ability_bonuses[5]) + this.props.block[5]}</li>
-       </ul>
-     </Grid>
-     <div id= "features">
-       <p>Saving Throws: {this.state.saving_throws.join(', ')}</p>
-       <p>Features: {this.state.features.join(', ') ? this.state.features.join(', ') : "None"} </p>
-       <p>Racial Traits: {this.state.racial_traits.join(', ') ? this.state.racial_traits.join(', ') : "None"} </p>
-       </div>
-       <div id= "equipment">
-       <p>Starting Equipment: {this.state.starting_equipment.join(', ')}</p>
-       </div>
-       <div id="langProf">
-       <p>Languages: {this.state.languages.join(', ')} </p>
-       <p>Starting Proficiencies: {this.state.starting_proficiencies.join(', ') ? this.state.starting_proficiencies.join(', ') : 'None'} </p>
-       <p>Proficiencies: {this.state.proficiencies.join(', ')} </p>
-       <p>Proficiency Choices: {this.state.proficiency_choices.join('  ')} </p>
-       </div>
-     </Grid>
+      <div>
+        <OverlayTrigger placement="bottom" overlay={tooltip}>
+          <Button id="characterButton"
+                bsStyle="default"
+                onClick = {this.buttonClick.bind(this)}>Generate Character
+          </Button>
+        </OverlayTrigger>
+        <StatGenerator getStatsFromStatGenerator={this.getStatsFromStatGenerator} />
+         <Grid style={{ display: 'flex', flexDirection: 'column' }} id="character" fluid>
+           <Col style={{ textAlign:'center', paddingTop:'4rem' }}>
+             {this.state.subrace ? this.state.subrace : this.state.race} {this.state.className}<br />
+             <small>Subclass: {this.state.subclass} <br /> Speed: {this.state.speed} <br /> Hit Die: {this.state.hit_die}</small>
+           </Col>
+           <div style={{ display: 'flex', flexFlow: 'row no-wrap'}}>
+             <div style={{ display: 'flex', flexDirection: 'column', flexWrap: 'wrap' }}>
+               <Col className="statBlock stats" md={2}>
+                  STR: {this.state.ability_bonuses[0] + (isNaN(this.state.sub_ability_bonuses[0]) ? 0 : this.state.sub_ability_bonuses[0]) + this.props.block[0]}
+               </Col>
+               <Col className="statBlock stats" md={2}>
+                  DEX: {this.state.ability_bonuses[1] + (isNaN(this.state.sub_ability_bonuses[1]) ? 0 : this.state.sub_ability_bonuses[1]) + this.props.block[1]}
+               </Col>
+               <Col className="statBlock stats" md={2}>
+                  CON: {this.state.ability_bonuses[2] + (isNaN(this.state.sub_ability_bonuses[2]) ? 0 : this.state.sub_ability_bonuses[2]) + this.props.block[2]}
+               </Col>
+               <Col className="statBlock stats" md={2}>
+                  INT: {this.state.ability_bonuses[3] + (isNaN(this.state.sub_ability_bonuses[3]) ? 0 : this.state.sub_ability_bonuses[3]) + this.props.block[3]}
+               </Col>
+               <Col className="statBlock stats" md={2}>
+                  WIS: {this.state.ability_bonuses[4] + (isNaN(this.state.sub_ability_bonuses[4]) ? 0 : this.state.sub_ability_bonuses[4]) + this.props.block[4]}
+               </Col>
+               <Col className="statBlock stats" md={2}>
+                  CHA: {this.state.ability_bonuses[5] + (isNaN(this.state.sub_ability_bonuses[5]) ? 0 : this.state.sub_ability_bonuses[5]) + this.props.block[5]}
+               </Col>
+             </div>
+             <div style={{ display: 'flex', flexDirection: 'column', flexWrap: 'no-wrap' }}>
+               <Col className="statBlock stats" sm={1}>
+                  Languages: {this.state.languages.join(', ')}
+               </Col>
+               <Col className="statBlock stats" sm={1}>
+                  <p>Starting Proficiencies: {this.state.starting_proficiencies.join(', ') ? this.state.starting_proficiencies.join(', ') : 'None'} </p>
+               </Col>
+               <Col className="statBlock stats" sm={1}>
+                  <p>Proficiencies: {this.state.proficiencies.join(', ')} </p>
+               </Col>
+               <Col className="statBlock stats" sm={1}>
+                  <p>Proficiencies: {this.state.proficiencies.join(', ')} </p>
+               </Col>
+             </div>
+           </div>
+
+            <Col className="statBlock stats" sm={1}>
+               <p>Proficiency Choices: {this.state.proficiency_choices.join('  ')} </p>
+            </Col>
+            <Col className="statBlock stats" sm={1}>
+               <p>Starting Equipment: {this.state.starting_equipment.join(', ')}</p>
+            </Col>
+        </Grid>
+
+      </div>
    )
  }
 }
