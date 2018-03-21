@@ -89,7 +89,8 @@ export default class Character extends Component {
   render() {
     return (
     <div id= "character">
-     <button id="characterButton" onClick = {this.buttonClick.bind(this)}>Generate Character</button>
+     <button id="characterButton" onClick = {this.buttonClick.bind(this)}> &#9876; Generate Character &#128737;
+</button>
      <div id="title">
      <h1>{this.state.subrace ? this.state.subrace : this.state.race} {this.state.className}</h1>
      <h2>Subclass: {this.state.subclass} <br /> Speed: {this.state.speed} <br /> Hit Die: {this.state.hit_die}</h2>

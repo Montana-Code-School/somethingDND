@@ -10,7 +10,7 @@ body {
 
 ul {
  text-align: center;
- font-size: 25px;
+ font-size: 20px;
  list-style-type: none;
 }
 
@@ -25,19 +25,34 @@ ul {
  height: 200vh;
  width: 70%;
  position: relative;
- font-size: 20px;
+ font-size: 30px;
  margin: 0 auto;
 }
 
 #characterButton {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ border-radius: 12px;
  position: relative;
- top: 200px;
+ top: 90px;
  bottom: 0px;
  right: 0;
- left: -200px;
+ left: -90px;
+ height: 30px;
+ padding-bottom: 40px;
+ padding-top: 5px;
+ font-size: 30px;
+}
+#statButton {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ border-radius: 12px;
+ position: absolute;
+ top: 1140px;
+ bottom: 0px;
+ right: 0;
+ left: 360px;
  height: 25px;
- padding-bottom: 35px;
-
+ padding-bottom: 2%;
+ font-size: 30px;
 }
 
 #statBonus {
@@ -45,78 +60,74 @@ ul {
  float: left;
  text-align: center;
  margin-left: 6%;
- position: relative;
+ position: absolute;
+ top: 20%;
+
 }
 
 .stats {
  border-style: double;
  border-width: medium;
  border-color: black;
- width: 90px;
+ width: 110px;
  padding: 10px;
  margin: 5px;
+ height: 110px;
+ font-size: 30px;
+
 }
 #title {
  border-style: none;
- position: relative;
- text-align: center;
- padding: 1px;
+ position: absolute;
+ text-align: left;
+ padding: 25px;
  float: center;
+ width: 500px;
+ right: 25%;
 
 }
 #equipment{
+ position: absolute;
  float: right;
  clear: right;
- margin-right: 6%;
+ right: 8%;
  text-align: left;
- border: 5px solid black;
+ border: 4px double black;
  padding: 25px;
  overflow: hidden;
  height: 150px;
- width: 800px;
+ width: 950px;
+ margin-top: 29.5%;
 }
 
 #langProf {
+ position: absolute;
  float: right;
  text-align: left;
- border: 5px solid black;
+ border: 4px double black;
  padding: 25px;
- width: 800px;
- margin-right: 6%;
+ width: 950px;
+ right: 8%;
  clear: right;
-}
-
-#statButton {
- position: absolute;
- top: 700px;
- bottom: 0px;
- right: 0;
- left: 283px;
- height: 25px;
+ margin-top: 49.3%;
+ height: 420px;
 }
 
 #saveThrows{
+ border: 4px double black;
  float: left;
  text-align: left;
- border: 1px solid black;
- padding: 4px;
- margin-left: 10%;
- width: 100px;
-
-
-
-
-
-
-
-
-
-
-
+ border-style: double;
+ padding-bottom: 5px;
+ margin-left: 9.35%;
+ width: 110px;
+ margin-top: 18.7%;
+ height: 185px;
 
 }
 #container {
   width: 100%;
   font-family: 'Tangerine', cursive;
   position: absolute;
+  font-size: 25px;
 }
