@@ -14,7 +14,6 @@ class App extends Component {
       block : []
     };
     this.update = this.update.bind(this);
-    this.getStatsFromStatGenerator = this.getStatsFromStatGenerator.bind(this);
   }
 
   update(upTarget, upValue){
@@ -23,21 +22,16 @@ class App extends Component {
     this.setState(temp)
   }
 
-  getStatsFromStatGenerator(stats) {
-    this.setState(stats)
-  }
-
   render() {
     console.log(this.state, "Right Here!")
      return (
        <container id="container">
-      <div className="App">
-        <Character block={this.state.block}/>
-        <StatGenerator getStatsFromStatGenerator={this.getStatsFromStatGenerator} />
-      </div>
+        <div className="App">
+         <Character update={this.update} block={this.state.block}/>
+        </div>
       </container>
-      );
-  }
-}
+     );
+   }
+ }
 
 export default App;

@@ -1,4 +1,9 @@
 import  React, { Component } from 'react'
+import {
+  Button,
+  Tooltip,
+  OverlayTrigger
+} from 'react-bootstrap'
 
 export default class StatGenerator extends Component {
     constructor() {
@@ -67,29 +72,27 @@ blockBuilder() {
 }
 
 buttonClick() {
-  let stateObject = {
-    block : this.blockBuilder(),
+this.props.getStatsFromStatGenerator(this.blockBuilder())
   }
-  this.setState(stateObject)
-  this.props.getStatsFromStatGenerator(stateObject);
-}
-componentWillMount(){
-  let stateObject = {
-    block : this.blockBuilder(),
+
+componentWillMount() {
+this.props.getStatsFromStatGenerator(this.blockBuilder())
   }
-  this.setState(stateObject)
-  this.props.getStatsFromStatGenerator(stateObject);
-}
+
 render () {
+  const tooltip = (
+    <Tooltip id="tooltip">
+      <strong>Click to </strong> Generate Stat Block.
+    </Tooltip>
+  );
   return (
     <div>
-      <button id="statButton" onClick={this.buttonClick.bind(this)}>New Stat Block</button>
+    <OverlayTrigger placement= "bottom" overlay={tooltip}>
+      <Button id="statButton"
+            bsStyle = "default"
+            onClick = {this.buttonClick.bind(this)}>New Stat Block
+            </Button>
+          </OverlayTrigger>
     </div>
   )}
 };
-
-// const gotBlock = {
-//   getBlock : () => {
-//     return this.state.block;
-//   }
-// }

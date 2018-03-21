@@ -1,6 +1,5 @@
 body {
  background-image: url("./components/old_table_background.jpg");
-
  background-color: black;
  background-position: top;
  background-repeat: no-repeat;
@@ -8,11 +7,11 @@ body {
  width: 100%;
 }
 
-ul {
+/* ul {
  text-align: center;
  font-size: 25px;
  list-style-type: none;
-}
+} */
 
 #character {
  background-image: url("./components/scroll.png");
@@ -29,7 +28,7 @@ ul {
  margin: 0 auto;
 }
 
-#characterButton {
+/* #characterButton {
  position: relative;
  top: 200px;
  bottom: 0px;
@@ -37,34 +36,34 @@ ul {
  left: -200px;
  height: 25px;
  padding-bottom: 35px;
+} */
 
-}
-
-#statBonus {
+/* #statBonus {
  clear: left;
  float: left;
  text-align: center;
  margin-left: 6%;
  position: relative;
-}
+} */
 
 .stats {
  border-style: double;
  border-width: medium;
  border-color: black;
- width: 90px;
+ width: 10rem;
  padding: 10px;
- margin: 5px;
+ margin-left: 10%;
 }
+
 #title {
  border-style: none;
  position: relative;
  text-align: center;
  padding: 1px;
  float: center;
-
 }
-#equipment{
+
+/* #equipment{
  float: right;
  clear: right;
  margin-right: 6%;
@@ -74,9 +73,9 @@ ul {
  overflow: hidden;
  height: 150px;
  width: 800px;
-}
+} */
 
-#langProf {
+/* #langProf {
  float: right;
  text-align: left;
  border: 5px solid black;
@@ -84,7 +83,7 @@ ul {
  width: 800px;
  margin-right: 6%;
  clear: right;
-}
+} */
 
 #statButton {
  position: absolute;
@@ -95,26 +94,15 @@ ul {
  height: 25px;
 }
 
-#saveThrows{
+#saveThrows {
  float: left;
  text-align: left;
  border: 1px solid black;
  padding: 4px;
  margin-left: 10%;
  width: 100px;
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
 #container {
   width: 100%;
   font-family: 'Tangerine', cursive;
