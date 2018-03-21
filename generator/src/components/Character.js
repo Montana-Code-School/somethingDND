@@ -3,12 +3,6 @@ import { Grid, Tooltip } from 'react-bootstrap'
 import { Row } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
 
-
-
-//import _ from 'lodash';
-// import requestApi from "../Utilities/request.js";
-// import axios from 'axios';
-
 export default class Character extends Component {
   constructor(props) {
     super(props)
@@ -35,16 +29,8 @@ export default class Character extends Component {
       traits : [],
       statblock : [],
     }
-
-    // onClick(e) {
-    //   axios.get("http://localhost:5000/api/character")
-    //
-     }
-
+  }
   async buttonClick() {
-
-    //this.setState({statblock : blockBuilder.getBlock()});
-    //console.log(StatGenerator.blockBuilder());
 
   await this.callToCharacter()
       .then((res) => {
@@ -99,7 +85,7 @@ export default class Character extends Component {
        <p>Saving Throws: {this.state.saving_throws.join(', ')}</p>
     </div>
      <div id= "statBonus">
-       <ul id="statBonusList">
+       <ul>
          <li className="stats">STR: {this.state.ability_bonuses[0] + (isNaN(this.state.sub_ability_bonuses[0]) ? 0 : this.state.sub_ability_bonuses[0]) + this.props.block[0]}</li>
          <li className="stats">DEX: {this.state.ability_bonuses[1] + (isNaN(this.state.sub_ability_bonuses[1]) ? 0 : this.state.sub_ability_bonuses[1]) + this.props.block[1]}</li>
          <li className="stats">CON: {this.state.ability_bonuses[2] + (isNaN(this.state.sub_ability_bonuses[2]) ? 0 : this.state.sub_ability_bonuses[2]) + this.props.block[2]}</li>

@@ -11,8 +11,6 @@ export default class BuildButton extends Component {
     };
   }
   buttonClick() {
-    
-
 }
   render() {
     return (

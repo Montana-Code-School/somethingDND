@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import _ from 'lodash';
 import requestApi from "../Utilities/request.js"
 
 export default class Character extends Component {

@@ -8,7 +8,6 @@ class RandomCharSet {
     this.equipNum = equipNum
   }
 }
-
   const charSetHelpers = {
    getRandomInt : (min, max) => {
      return Math.floor(Math.random() * (max - min + 1) + min);
