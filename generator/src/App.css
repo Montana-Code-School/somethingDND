@@ -36,7 +36,7 @@ ul {
  top: 90px;
  bottom: 0px;
  right: 0;
- left: -90px;
+ left: -190px;
  height: 30px;
  padding-bottom: 40px;
  padding-top: 5px;
@@ -46,10 +46,10 @@ ul {
  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
  border-radius: 12px;
  position: absolute;
- top: 1140px;
+ top: 150px;
  bottom: 0px;
  right: 0;
- left: 360px;
+ left: 430px;
  height: 25px;
  padding-bottom: 2%;
  font-size: 30px;
@@ -87,7 +87,7 @@ ul {
 
 }
 #equipment{
- position: absolute;
+ position: relative;
  float: right;
  clear: right;
  right: 8%;
@@ -101,7 +101,7 @@ ul {
 }
 
 #langProf {
- position: absolute;
+ position: relative;
  float: right;
  text-align: left;
  border: 4px double black;
@@ -109,7 +109,7 @@ ul {
  width: 950px;
  right: 8%;
  clear: right;
- margin-top: 49.3%;
+ margin-top: 8.6%;
  height: 420px;
 }
 
@@ -120,9 +120,9 @@ ul {
  border-style: double;
  padding-bottom: 5px;
  margin-left: 9.35%;
- width: 110px;
- margin-top: 19.1%;
- height: 185px;
+ width: 210px;
+ margin-top: 21.1%;
+ height: 125px;
 
 }
 #container {
