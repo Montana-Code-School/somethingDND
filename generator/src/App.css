@@ -23,21 +23,19 @@ ul {
  -o-background-size: 70%;
  background-size: 100%;
  height: 200vh;
- width: 70%;
+ width: 1000px;
  position: relative;
  font-size: 20px;
  margin: 0 auto;
 }
 
 #characterButton {
- position: relative;
- top: 200px;
- bottom: 0px;
- right: 0;
- left: -200px;
+ position: absolute;
+ top: 100px;
+ left: 75px;
  height: 25px;
  padding-bottom: 35px;
-
+ font-size: 20px;
 }
 
 #statBonus {
@@ -56,24 +54,27 @@ ul {
  padding: 10px;
  margin: 5px;
 }
+
 #title {
  border-style: none;
  position: relative;
  text-align: center;
- padding: 1px;
+ padding: 20px;
  float: center;
-
+ top: 20px;
 }
+
 #equipment{
  float: right;
  clear: right;
- margin-right: 6%;
+ margin-right: 10%;
  text-align: left;
  border: 5px solid black;
  padding: 25px;
  overflow: hidden;
  height: 150px;
- width: 800px;
+ width: 60%;
+ margin-bottom: 10px;
 }
 
 #langProf {
@@ -81,40 +82,34 @@ ul {
  text-align: left;
  border: 5px solid black;
  padding: 25px;
- width: 800px;
- margin-right: 6%;
+ width: 60%;
+ margin-right: 10%;
  clear: right;
+ margin-bottom: 10px;
 }
 
 #statButton {
  position: absolute;
- top: 700px;
+ top: 150px;
  bottom: 0px;
  right: 0;
- left: 283px;
+ left: 75px;
  height: 25px;
+ font-size: 20px;
+ padding-bottom: 35px;
 }
 
 #saveThrows{
- float: left;
+ float: right;
+ clear: right;
  text-align: left;
  border: 1px solid black;
  padding: 4px;
- margin-left: 10%;
- width: 100px;
-
-
-
-
-
-
-
-
-
-
-
-
+ margin-right: 10%;
+ margin-bottom: 10px;
+ width: 40%;
 }
+
 #container {
   width: 100%;
   font-family: 'Tangerine', cursive;
