@@ -46,7 +46,7 @@ ul {
  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
  border-radius: 12px;
  position: absolute;
- top: 150px;
+ top: 210px;
  bottom: 0px;
  right: 0;
  left: 430px;
@@ -61,7 +61,7 @@ ul {
  text-align: center;
  margin-left: 6%;
  position: absolute;
- top: 20%;
+ top: 22.3%;
 }
 
 .stats {
@@ -120,8 +120,8 @@ ul {
  padding-bottom: 5px;
  margin-left: 9.35%;
  width: 210px;
- margin-top: 21.1%;
- height: 125px;
+ margin-top: 22.1%;
+ height: 110px;
 }
 
 #container {
