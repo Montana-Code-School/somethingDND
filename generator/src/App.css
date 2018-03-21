@@ -1,17 +1,10 @@
 body {
  background-image: url("./components/old_table_background.jpg");
-
  background-color: black;
  background-position: top;
  background-repeat: no-repeat;
  height: 100%;
  width: 100%;
-}
-
-ul {
- text-align: center;
- font-size: 25px;
- list-style-type: none;
 }
 
 #character {
@@ -37,7 +30,6 @@ ul {
  left: -200px;
  height: 25px;
  padding-bottom: 35px;
-
 }
 
 #statBonus {
@@ -56,14 +48,15 @@ ul {
  padding: 10px;
  margin: 5px;
 }
+
 #title {
  border-style: none;
  position: relative;
  text-align: center;
  padding: 1px;
  float: center;
-
 }
+
 #equipment{
  float: right;
  clear: right;
@@ -102,21 +95,28 @@ ul {
  padding: 4px;
  margin-left: 10%;
  width: 100px;
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
 #container {
   width: 100%;
   font-family: 'Tangerine', cursive;
   position: absolute;
+}
+
+#hometitle {
+  color: silver;
+  font-size: 15rem;
+  text-align: center;
+  margin-top: 18%;
+}
+
+nav {
+  text-align: center;
+  border-style: groove;
+  font-size: 3rem;
+  background-color: black;
+}
+
+.links {
+  margin: 15px;
 }
