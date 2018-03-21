@@ -1,6 +1,5 @@
 body {
  background-image: url("./components/old_table_background.jpg");
-
  background-color: black;
  background-position: top;
  background-repeat: no-repeat;
@@ -42,6 +41,7 @@ ul {
  padding-top: 5px;
  font-size: 30px;
 }
+
 #statButton {
  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
  border-radius: 12px;
@@ -62,7 +62,6 @@ ul {
  margin-left: 6%;
  position: absolute;
  top: 20%;
-
 }
 
 .stats {
@@ -74,8 +73,8 @@ ul {
  margin: 5px;
  height: 110px;
  font-size: 30px;
-
 }
+
 #title {
  border-style: none;
  position: absolute;
@@ -84,9 +83,9 @@ ul {
  float: center;
  width: 500px;
  right: 25%;
-
 }
-#equipment{
+
+#equipment {
  position: relative;
  float: right;
  clear: right;
@@ -113,7 +112,7 @@ ul {
  height: 420px;
 }
 
-#saveThrows{
+#saveThrows {
  border: 4px double black;
  float: left;
  text-align: left;
@@ -123,11 +122,29 @@ ul {
  width: 210px;
  margin-top: 21.1%;
  height: 125px;
-
 }
+
 #container {
   width: 100%;
   font-family: 'Tangerine', cursive;
   position: absolute;
   font-size: 25px;
+}
+
+#hometitle {
+  color: silver;
+  font-size: 15rem;
+  text-align: center;
+  margin-top: 18%;
+}
+
+nav {
+  text-align: center;
+  border-style: groove;
+  font-size: 3rem;
+  background-color: black;
+}
+
+.links {
+  margin: 15px;
 }
