@@ -83,13 +83,9 @@ componentWillMount(){
 render () {
   return (
     <div>
-      <button id="statButton" onClick={this.buttonClick.bind(this)}>New Stat Block</button>
+      <button id="statButton" onClick={this.buttonClick.bind(this)}>&#9856;
+ New Stat Block &#9861;
+      </button>
     </div>
   )}
 };
-
-// const gotBlock = {
-//   getBlock : () => {
-//     return this.state.block;
-//   }
-// }
