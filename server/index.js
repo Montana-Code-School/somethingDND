@@ -123,6 +123,28 @@ cluster.on('exit', (worker, code, signal) => {
           })
         })
 
+        router.route('/spells')
+          .get((req, res) => {
+            console.log("it works");
+            Spell.find((err, spells) => {
+              console.log(err);
+              if (err)
+              res.send(err);
+              res.json(spells);
+            });
+          });
+
+          router.route('/monsters')
+            .get((req, res) => {
+              console.log("it works");
+              Monster.find((err, monsters) => {
+                console.log(err);
+                if (err)
+                res.send(err);
+                res.json(monsters);
+              });
+            });
+
   app.use(express.static(path.resolve(__dirname, '../generator/build')));
 
   app.get('/api', function (req, res) {

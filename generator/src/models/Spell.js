@@ -49,9 +49,6 @@ const SpellSchema = new Schema(
       "type": "Number"
     },
     "school": {
-      "url": {
-        "type": "String"
-      },
       "name": {
         "type": "String"
       }
@@ -65,9 +62,6 @@ const SpellSchema = new Schema(
       "type": [
         "Mixed"
       ]
-    },
-    "url": {
-      "type": "String"
     }
   }
 );
