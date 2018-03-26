@@ -55,7 +55,7 @@ cluster.on('exit', (worker, code, signal) => {
   app.use(bodyParser.urlencoded({
     extended: true
   }));
-            //this is the masta route that calls our entire character
+            //this is the master route that calls our entire character
       router.route("/character")
         .get(({params}, res) => {
           let character = new Character();
@@ -79,7 +79,7 @@ cluster.on('exit', (worker, code, signal) => {
             });
             character.ability_bonuses = race.ability_bonuses;
           })
-           //max 6(8) subraces
+           //max 6(8) subraces. (Gnomes are missing both of their subraces in the database)
           if(charSetter.subRaceNum !== 0) {
           SubRace.findOne({index: charSetter.subRaceNum}, (err, subrace) => {
             character.subrace = subrace.name;
@@ -131,10 +131,6 @@ cluster.on('exit', (worker, code, signal) => {
   });
 
   app.use('/api', router);
-
-  // app.get('*', function(request, response) {
-  //   response.sendFile(path.resolve(__dirname, '../generator/build', 'index.html'));
-  // });
 
   app.listen(PORT, function () {
     console.error(`Node cluster worker ${process.pid}: listening on port ${PORT}`);

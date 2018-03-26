@@ -1,14 +1,4 @@
 import React, {Component} from 'react';
-import {
-  Button,
-  Row,
-  Col,
-  Grid,
-  PageHeader,
-  Tooltip,
-  OverlayTrigger
-} from 'react-bootstrap'
-import StatGenerator from '../Utilities/StatGenerator'
 
 export default class Character extends Component {
   constructor(props) {
@@ -46,25 +36,25 @@ export default class Character extends Component {
       var arr = Object.keys(obj).map(function(k) {
         return [obj[k]];
       });
-      var goodStuff = arr[0][0];
+      var finalChar = arr[0][0];
       this.setState({
-        languages: goodStuff.languages,
-        race: goodStuff.race,
-        subrace: goodStuff.subrace,
-        hit_die: goodStuff.hit_die,
-        ability_bonuses: goodStuff.ability_bonuses,
-        className: goodStuff.className,
-        features: goodStuff.features,
-        proficiencies: goodStuff.proficiencies,
-        proficiency_choices: goodStuff.proficiency_choices,
-        racial_traits: goodStuff.racial_traits,
-        saving_throws: goodStuff.saving_throws,
-        size: goodStuff.size,
-        speed: goodStuff.speed,
-        starting_equipment: goodStuff.starting_equipment,
-        starting_proficiencies: goodStuff.starting_proficiencies,
-        sub_ability_bonuses: goodStuff.sub_ability_bonuses,
-        subclass: goodStuff.subclasses
+        languages: finalChar.languages,
+        race: finalChar.race,
+        subrace: finalChar.subrace,
+        hit_die: finalChar.hit_die,
+        ability_bonuses: finalChar.ability_bonuses,
+        className: finalChar.className,
+        features: finalChar.features,
+        proficiencies: finalChar.proficiencies,
+        proficiency_choices: finalChar.proficiency_choices,
+        racial_traits: finalChar.racial_traits,
+        saving_throws: finalChar.saving_throws,
+        size: finalChar.size,
+        speed: finalChar.speed,
+        starting_equipment: finalChar.starting_equipment,
+        starting_proficiencies: finalChar.starting_proficiencies,
+        sub_ability_bonuses: finalChar.sub_ability_bonuses,
+        subclass: finalChar.subclasses
       })
     }).catch(err => console.error(err))
   }
@@ -79,7 +69,6 @@ export default class Character extends Component {
   }
 
   getStatsFromStatGenerator(stats) {
-    console.log("Hello!")
   }
 
   render() {
