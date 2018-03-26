@@ -1,14 +1,4 @@
 import React, {Component} from 'react';
-import {
-  Button,
-  Row,
-  Col,
-  Grid,
-  PageHeader,
-  Tooltip,
-  OverlayTrigger
-} from 'react-bootstrap'
-import StatGenerator from '../Utilities/StatGenerator'
 
 export default class Character extends Component {
   constructor(props) {
@@ -87,11 +77,7 @@ export default class Character extends Component {
       <button id="characterButton" onClick={this.buttonClick.bind(this)}>
         &#9876; Generate Character &#128737;</button>
       <div id="title">
-        <h1>{
-            this.state.subrace
-              ? this.state.subrace
-              : this.state.race
-          }
+        <h1>{this.state.subrace ? this.state.subrace: this.state.race}
           {this.state.className}</h1>
         <h2>Subclass: {this.state.subclass}
           <br/>
