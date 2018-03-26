@@ -1,5 +1,5 @@
 body {
- background-image: url("./components/old_table_background.jpg");
+ background-image: url("./components/Backgrounds/old_table_background.jpg");
  background-color: black;
  background-position: top;
  background-repeat: no-repeat;
@@ -14,7 +14,7 @@ ul {
 }
 
 #character {
- background-image: url("./components/scroll.png");
+ background-image: url("./components/Backgrounds/scroll.png");
  background-position: top;
  background-repeat: no-repeat;
  -webkit-background-size: 70%;
